@@ -1,2 +1,5 @@
 # multifracas
-This is the multifracas website.
+
+Multilingual FraCaS testsuite.  View as a website on
+https://gu-clasp.github.io/multifracas/.
+
