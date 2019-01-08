@@ -1,0 +1,4607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fracas-problems SYSTEM "fracas-problems.dtd">
+<?xml-stylesheet type="text/xsl" href="fracas-problems-to-html.xsl"?>
+
+<fracas-problems>
+
+<comment class="intro">
+
+=================================================================================
+THE FRACAS TEXTUAL INFERENCE PROBLEM SET
+=================================================================================
+
+
+</comment>
+
+<comment class="section"> 2 PLURALS </comment>
+
+<comment>
+  A number of inferences pertaining to plurals are covered under the headings of
+  generalized quantifiers and elsewhere. Here we concentrate on conjoined NPs;
+  bare, existential and definite plurals; dependent plurals; and collective and
+  distributive readings and scope ambiguity.
+</comment>
+
+<comment class="subsection"> 2.1 Conjoined Noun Phrases </comment>
+
+<problem
+  id="081"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+      Ο Σμιθ, ο Τζόουνς και ο Άντερσον υπέγραψαν το συμβόλαιο.
+    </script>
+    <translit> O Smith, o Tzoouns kai o Anterson ypegrapsan to symvolaio.</translit> 
+    <morph>
+     The[m,nom] Smith, the[m,nom] Jones and the[m,nom] Anderson signed[past,3.Pl] the[neut,acc] contract[acc]. 
+     </morph>
+      <english>
+    Smith, Jones and Anderson signed the contract.
+    </english>
+  </p>
+  <q>
+    <script>
+     Ο Τζόουνς υπέγραψε το συμβόλαιο;
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio? </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg]  the[neut,acc] contract[acc]?
+     </morph>
+      <english>
+     Did Jones sign the contract?
+      </english>
+  </q>
+  <h>
+    <script>
+    Ο Τζόουνς υπέγραψε το συμβόλαιο.
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio. </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg] the[neut,acc] contract[acc].
+     </morph>
+      <english>
+    Jones signed the contract
+    </english>  
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+</problem>
+
+<problem
+  id="082"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+      Ο Σμιθ, ο Τζόουνς και αρκετοί δικηγόροι υπέγραψαν το συμβόλαιο.
+    </script>
+    <translit> O Smith, o Tzoouns kai arketoi dikigoroi ypegrapsan to symvolaio.</translit> 
+    <morph>
+     The[m,nom] Smith, the[m,nom] Jones and several[m,nom] lawyers[nom] signed[past,3.Pl] the[neut,acc] contract[acc]. 
+     </morph>
+      <english>
+    Smith, Jones and several lawyers signed the contract.
+    </english> 
+  </p>
+  <q>
+   <script>
+     Ο Τζόουνς υπέγραψε το συμβόλαιο;
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio? </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg]  the[neut,acc] contract[acc]?
+     </morph>
+      <english>
+     Did Jones sign the contract?
+      </english>
+  </q>
+  <h>
+    <script>
+    Ο Τζόουνς υπέγραψε το συμβόλαιο.
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio. </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg] the[neut,acc] contract[acc].
+     </morph>
+      <english>
+    Jones signed the contract
+    </english>  
+  </h>
+  <a> 
+   <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+</problem>
+
+<problem
+  id="083"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+      Είτε ο Σμιθ, ο Τζόουνς ή ο Άντερσον υπέγραψε το συμβόλαιο.
+    </script>
+    <translit> Eite o Smith, o Tzoouns i o Anterson ypegrapse to symvolaio.</translit> 
+    <morph>
+     Either the[m,nom] Smith, the[m,nom] Jones or the[m,nom] Anderson signed[past,3.Sg] the[neut,acc] contract[acc]. 
+     </morph>
+      <english>
+    Either Smith, Jones or Anderson signed the contract.
+      </english> 
+  </p>
+  <q>
+    <script>
+     Ο Τζόουνς υπέγραψε το συμβόλαιο;
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio? </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg]  the[neut,acc] contract[acc]?
+     </morph>
+      <english>
+     Did Jones sign the contract?
+      </english>
+  </q>
+  <h>
+    <script>
+    Ο Τζόουνς υπέγραψε το συμβόλαιο.
+    </script>
+    <translit> O Tzoouns ypegrapse to symvolaio. </translit> 
+    <morph>
+     The[m,nom] Jones signed[past,3.Sg] the[neut,acc] contract[acc].
+     </morph>
+      <english>
+    Jones signed the contract
+    </english>  
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+   </a>
+</problem>
+
+<problem
+  id="084"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>
+      Είτε ο Σμιθ, ο Τζόουνς ή ο Άντερσον υπέγραψε το συμβόλαιο.
+    </script>
+    <translit> Eite o Smith, o Tzoouns i o Anterson ypegrapse to symvolaio.</translit> 
+    <morph>
+     Either the[m,nom] Smith, the[m,nom] Jones or the[m,nom] Anderson signed[past,3.Sg] the[neut,acc] contract[acc]. 
+     </morph>
+      <english>
+    Either Smith, Jones or Anderson signed the contract.
+      </english> 
+  </p>
+  <q>
+    <script> Αν ο Σμιθ και ο Άντερσον δεν υπέγραψαν το συμβόλαιο, ο Τζόουνς υπέγραψε το συμβόλαιο; </script>
+    <translit> An o Smith kai o Anterson den ypegrapsan to symvolaio, o Tzoouns ypegrapse to symvolaio? </translit> 
+     <morph>
+        If the[m,nom] Smith and the[m,nom] Anderson not signed[past,3.Pl] the[neut,acc] contract[acc], the[m,nom] Jones signed[pres,3.Sg] the[neut,acc] contract[acc]?  
+      </morph>
+      <english>
+    If Smith and Anderson did not sign the contract, did Jones sign the contract?
+    </english>
+  </q>
+  <h>
+    <script> Αν ο Σμιθ και ο Άντερσον δεν υπέγραψαν το συμβόλαιο, ο Τζόουνς υπέγραψε το συμβόλαιο. </script>
+    <translit> An o Smith kai o Anterson den ypegrapsan to symvolaio, o Tzoouns ypegrapse to symvolaio. </translit> 
+     <morph>
+     If the[m,nom] Smith and the[m,nom] Anderson not signed[past,3.Pl] the[neut,acc] contract[acc], the[m,nom] Jones signed[pres,3.Sg] the[neut,acc] contract[acc]. </morph>
+      <english>
+    If Smith and Anderson did not sign the contract, Jones signed the contract.
+    </english>
+  </h>
+  <a> 
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+</problem>
+
+
+<problem
+  id="085"
+  fracas_answer="no">
+  <p idx="1">
+    <script>
+      Ακριβώς δυο δικηγόροι και τρεις λογιστές υπέγραψαν το συμβόλαιο.
+    </script>
+     <translit> Akrivos dyo dikigoroi kai treis logistes ypegrapsan to symvolaio. </translit> 
+     <morph>
+     Exactly two lawyers[nom] and three accountants[nom] signed[past,3.Pl] the[neut,acc] contract[acc]. </morph>
+    <english>
+    Exactly two lawyers and three accountants signed the contract.
+    </english>
+  </p>
+  <q>
+    <script>
+     Υπέγραψαν το συμβόλαιο έξι δικηγόροι;
+    </script>
+     <translit> Ypegrapsan to symvolaio exi dikigoroi? </translit> 
+     <morph>
+     Signed[past,3.Pl] the[neut,acc] contract[acc] six lawyers[nom] ? </morph>
+    <english>
+    Did six lawyers sign the contract?
+    </english>
+  </q>
+  <h>
+    <script>
+      Έξι δικηγόροι υπέγραψαν το συμβόλαιο.
+    </script>
+     <translit> Exi dikigoroi ypegrapsan to symvolaio. </translit> 
+     <morph>
+    Six lawyers[nom] signed[past,3.Pl] the[neut,acc] contract[acc]. </morph>
+    <english>
+    Six lawyers signed the contract.
+    </english>
+  </h>
+  <a> 
+    <script> Όχι </script>
+    <translit> Ochi  </translit>
+    <english>  No </english> 
+  </a>
+  <why> No scope relations between the two conjoined NPs. </why>
+</problem>
+
+<problem
+  id="086"
+  fracas_answer="no">
+  <p idx="1">
+    <script>
+      Ακριβώς δυο δικηγόροι και τρεις λογιστές υπέγραψαν το συμβόλαιο.
+    </script>
+     <translit> Akrivos dyo dikigoroi kai treis logistes ypegrapsan to symvolaio. </translit> 
+     <morph>
+     Exactly two lawyers[nom] and three accountants[nom] signed[past,3.Pl] the[neut,acc] contract[acc]. </morph>
+    <english>
+    Exactly two lawyers and three accountants signed the contract.
+    </english>
+  </p>
+  <q>
+    <script>
+     Υπέγραψαν το συμβόλαιο έξι λογιστές ;
+    </script>
+     <translit> Ypegrapsan to symvolaio exi logistes ? </translit> 
+     <morph>
+    Signed[past,3.Pl] the[neut,acc] contract[acc] six accountants[nom] ? </morph>
+    <english>
+    Did six accountants sign the contract?
+    </english>
+  </q>
+  <h>
+    <script>
+      Έξι λογιστές υπέγραψαν το συμβόλαιο.
+    </script>
+     <translit> Exi logistes ypegrapsan to symvolaio. </translit> 
+     <morph>
+    Six accountants[nom] signed[past,3.Pl] the[neut,acc] contract[acc]. </morph>
+    <english>
+    Six accountants signed the contract.
+    </english>
+  </h>
+  <a> 
+    <script> Όχι </script>
+    <translit> Ochi  </translit>
+    <english>  No </english> 
+  </a>
+  <why> No scope relations between the two conjoined NPs. </why>
+</problem>
+
+
+<comment> Conjoined Nbars </comment>
+
+<comment>
+  Nbar conjunction tends to be quite ambiguous. This may be the result of a
+  syntactic ambiguity between (i) genuine Nbar conjunction, and (ii) NP
+  conjunction where the determiner of one of the NPs is ellided.
+</comment>
+
+<problem
+  id="087"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script>
+      Κάθε εκπρόσωπος και πελάτης ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos kai pelatis itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] and client[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative and client was at the meeting.
+    </english> 
+  </p>
+  <q>
+    <script>
+      Ήταν κάθε εκπρόσωπος στη συνάντηση;
+    </script>
+     <translit> Itan kathe ekprosopos sti synantisi? </translit> 
+     <morph>
+     Was[past,3.Sg] every representative[nom] at the[contr,f,sg,acc] meeting[acc]? </morph>
+    <english>
+    Was every representative at the meeting?
+    </english> 
+  </q>
+  <h>
+    <script>
+      Κάθε εκπρόσωπος ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative was at the meeting.
+    </english> 
+  </h>
+  <a> 
+  <script> Ναι, με μια πρώτη ανάγνωση. </script>
+  <translit> Nai,me mia proti anagnosi.  </translit>
+  <english>  Yes, on one reading </english> 
+ </a>
+  <why> Arguably NP conjunction: every representative and every client. </why>
+</problem>
+
+
+
+<problem
+  id="088"
+  fracas_answer="unknown"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script>
+      Κάθε εκπρόσωπος και πελάτης ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos kai pelatis itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] and client[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative and client was at the meeting.
+    </english> 
+  </p>
+  <q>
+    <script>
+      Ήταν κάθε εκπρόσωπος στη συνάντηση;
+    </script>
+     <translit> Itan kathe ekprosopos sti synantisi? </translit> 
+     <morph>
+     Was[past,3.Sg] every representative[nom] at the[contr,f,sg,acc] meeting[acc]? </morph>
+    <english>
+    Was every representative at the meeting?
+    </english> 
+  </q>
+  <h>
+    <script>
+      Κάθε εκπρόσωπος ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative was at the meeting.
+    </english> 
+  </h>
+  <a> 
+   <script> Δεν ξέρω, με μια πρώτη ανάγνωση. </script>
+   <translit> Den xero,me mia proti anagnosi.  </translit>
+   <english>  Don't know, on one reading  </english> 
+  </a>
+  <why> NBar conjunction: everyone who is both a representative and a client. </why>
+</problem>
+
+<problem
+  id="089"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>
+      Κάθε εκπρόσωπος ή πελάτης ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos i pelatis itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] or client[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative or client was at the meeting.
+  </english> 
+  </p>
+  <q>
+    <script>
+      Ήταν κάθε εκπρόσωπος και κάθε πελάτης στη συνάντηση;
+    </script>
+     <translit> Itan kathe ekprosopos kai kathe pelatis sti synantisi? </translit> 
+     <morph>
+     Was[past,3.Sg] every representative[nom] and every client[nom] at the[contr,f,sg,acc] meeting[acc]? </morph>
+    <english>
+    Was every representative and every client at the meeting?
+     </english> 
+  </q>
+  <h>
+    <script>
+      Κάθε εκπρόσωπος και κάθε πελατης ήταν στη συνάντηση.
+    </script>
+     <translit> Kathe ekprosopos kai kathe pelatis itan sti synantisi. </translit> 
+     <morph>
+     Every representative[nom] and every client[nom] was[past,3.Sg] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>
+    Every representative and every client was at the meeting.
+    </english>
+  </h>
+  <a> 
+   <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+  <why> With disjunction, NP conjunction seems unavailable. </why>
+</problem>
+
+
+<comment class="subsection"> 2.2 Definite Plurals </comment>
+
+<comment>
+  Definite plurals can often be non-anaphoric and behave like universally
+  quantified noun phrases (90). However, as with (generic) bare plurals, the
+  force of the quantification can also be less than universal (91). Whether this
+  lessening of quantificational force is due to the noun phrase or to the
+  predicate of which the NP is an argument is unclear (92, 93).
+</comment>
+
+<problem
+  id="090"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+      Ο πρόεδρος διάβασε δυνατά τα θέματα της ημερήσιας διάταξης.
+    </script>
+     <translit> O proedros diavase dynata ta themata tis imerisias diataxis. </translit> 
+     <morph>
+     The[m,nom] chairman[nom] read[past,3.Sg] out the[neut,pl,acc] items[acc] the[f,gen] agenda[gen]. </morph>
+    <english>
+    The chairman read out the items on the agenda.
+    </english> 
+  </p>
+  <q>
+    <script>
+      Ο πρόεδρος διάβασε δυνατά κάθε θέμα της ημερήσιας διάταξης;
+    </script>
+     <translit> O proedros diavase dynata kathe thema tis imerisias diataxis? </translit> 
+     <morph>
+     The[m,nom] chairman[nom] read[past,3.Sg] out every item[neut,acc] the[f,gen] agenda[gen]? </morph>
+    <english>
+    Did the chairman read out every item on the agenda?
+     </english> 
+  </q>
+  <h>
+    <script>
+      Ο πρόεδρος διάβασε δυνατά κάθε θέμα της ημερήσιας διάταξης.
+    </script>
+     <translit> O proedros diavase dynata kathe thema tis imerisias diataxis. </translit> 
+     <morph>
+     The[m,nom] chairman[nom] read[past,3.Sg] out every item[neut,acc] the[f,gen] agenda[gen]. </morph>
+    <english>
+    The chairman read out every item on the agenda.
+    </english>
+   </h>
+  <a> 
+   <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+   <note> The term "agenda" is translated by the two terms "ημερήσια διάταξη", literally meaning "daily set-up/ordinance".</note>
+</problem>
+
+<comment> Non-anaphoric, universal plural definite </comment>
+
+<problem
+  id="091"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+      Οι άνθρωποι που ήταν στη συνεδρίαση ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oi anthropoi pou itan sti synedriasi psiphisan gia neo proedro. </translit> 
+     <morph>
+     The[pl,nom] people[nom] who were[past,3.Pl] at the[contr,f,sg,acc] meeting[acc] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    The people who were at the meeting voted for a new chairman.
+    </english>
+  </p>
+  <q>
+    <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο;
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro? </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] vote[past,3.Pl] for new[m,acc] chairman[acc]? </morph>
+    <english>
+    Did everyone at the meeting vote for a new chairman?
+    </english>
+  </q>
+  <h>
+    <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro. </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    Everyone at the meeting voted for a new chairman.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+   </a>
+  <why> Some people may have abstained from the vote </why>
+</problem>
+
+<problem
+  id="092"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Όλοι οι άνθρωποι που ήταν στη συνεδρίαση ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oloi oi anthropoi pou itan sti synedriasi psiphisan gia neo proedro. </translit> 
+     <morph>
+     All[m,nom] the[pl,nom] people[nom] who were[past,3.Pl] at the[contr,f,sg,acc] meeting[acc] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    All the people who were at the meeting voted for a new chairman.
+  </english>
+  </p>
+  <q>
+    <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο;
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro? </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] vote[past,3.Pl] for new[m,acc] chairman[acc]? </morph>
+    <english>
+    Did everyone at the meeting vote for a new chairman?
+    </english>
+  </q>
+  <h>
+   <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro. </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    Everyone at the meeting voted for a new chairman.
+    </english>  
+  </h>
+  <a> 
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+</problem>
+
+
+<problem
+  id="093"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Οι άνθρωποι που ήταν στη συνεδρίαση,όλοι ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oi anthropoi pou itan sti synedriasi,oloi psiphisan gia neo proedro. </translit> 
+     <morph>
+     The[pl,nom] people[nom] who were[past,3.Pl] at the[contr,f,sg,acc] meeting[acc], all[m,nom] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    The people who were at the meeting all voted for a new chairman.
+     </english>
+  </p>
+  <q>
+   <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο;
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro? </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] vote[past,3.Pl] for new[m,acc] chairman[acc]? </morph>
+    <english>
+    Did everyone at the meeting vote for a new chairman?
+    </english>
+  </q>
+  <h>
+   <script>
+     Όλοι στη συνεδρίαση ψήφισαν για νέο πρόεδρο.
+    </script>
+     <translit> Oloi sti synedriasi psiphisan gia neo proedro. </translit> 
+     <morph>
+     Everyone[m,pl,nom] at the[contr,f,sg,acc] meeting[acc] voted[past,3.Pl] for new[m,acc] chairman[acc]. </morph>
+    <english>
+    Everyone at the meeting voted for a new chairman.
+    </english>  
+  </h>
+  <a> 
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<comment> Closely related to this, plural definites can have a
+collective/institutional or even generic interpretation: </comment>
+
+<problem
+  id="094"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+    Οι κάτοικοι του Κέμπριτζ ψήφισαν για υπουργό Εργασίας.
+    </script>
+     <translit> Oi katoitoi tou Kembritz psiphisan gia ypourgo ergasias. </translit> 
+     <morph>
+     The[pl,nom] inhabitants[nom] the[neut,sg,gen] Cambridge voted[past,3.Pl] for MP[acc] Labour[acc]. </morph>
+    <english>
+    The inhabitants of Cambridge voted for a Labour MP.
+  </english>
+  </p>
+  <q>
+    <script>
+    Κάθε κάτοικος του Κέμπριτζ ψήφισε για υπουργό Εργασίας;
+    </script>
+     <translit> Kathe katoitos tou Kembritz psiphise gia ypourgo ergasias? </translit> 
+     <morph>
+     Every inhabitant[nom] the[neut,sg,gen] Cambridge vote[past,3.Sg] for MP[acc] Labour[acc]? </morph>
+    <english>
+    Did every inhabitant of Cambridge vote for a Labour MP?
+    </english>
+  </q>
+  <h>
+    <script>
+    Κάθε κάτοικος του Κέμπριτζ ψήφισε για υπουργό Εργασίας.
+    </script>
+     <translit> Kathe katoitos tou Kembritz psiphise gia ypourgo ergasias. </translit> 
+     <morph>
+     Every inhabitant[nom] the[neut,sg,gen] Cambridge voted[past,3.Sg] for MP[acc] Labour[acc]. </morph>
+    <english>
+    Every inhabitant of Cambridge voted for a Labour MP.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+    </a>
+</problem>
+
+
+    <problem
+  id="095"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+    Οι αρχάιοι Έλληνες ήταν φημισμένοι φιλόσοφοι.
+    </script>
+     <translit>Oi archaioi Ellines itan phimismenoi philosophoi. </translit> 
+     <morph>
+     The[m,pl,nom] ancient[pl,nom] Greeks[m,nom] were[past,3.Pl] noted[m,pl,nom] philosophers[nom]. </morph>
+    <english>
+    The Ancient Greeks were noted philosophers.
+  </english>
+  </p>
+  <q>
+    <script>
+    Κάθε αρχάιος Έλληνας ήταν φημισμένος φιλόσοφος;
+    </script>
+     <translit>Kathe archaios Ellinas itan phimismenos philosophos? </translit> 
+     <morph>
+     Every ancient[nom] Greek[m,nom] was[past,3.Sg] noted[m,sg,nom] philosopher[nom]? </morph>
+    <english>
+    Was every Ancient Greek a noted philosopher?
+    </english>
+  </q>
+  <h>
+    <script>
+    Κάθε αρχάιος Έλληνας ήταν φημισμένος φιλόσοφος.
+    </script>
+     <translit>Kathe archaios Ellinas itan phimismenos philosophos. </translit> 
+     <morph>
+     Every ancient[nom] Greek[m,nom] was[past,3.Sg] noted[m,sg,nom] philosopher[nom]. </morph>
+    <english>
+    Every Ancient Greek was a noted philosopher.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+ </a>
+</problem>
+
+<problem
+  id="096"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Οι αρχάιοι Έλληνες ήταν όλοι φημισμένοι φιλόσοφοι.
+    </script>
+     <translit>Oi archaioi Ellines itan oloi phimismenoi philosophoi. </translit> 
+     <morph>
+     The[m,pl,nom] ancient[pl,nom] Greeks[m,nom] were[past,3.Pl] all[m,pl,nom] noted[m,pl,nom] philosophers[nom]. </morph>
+    <english>
+    The Ancient Greeks were all noted philosophers.
+    </english>
+  </p>
+  <q>
+   <script>
+    Κάθε αρχάιος Έλληνας ήταν φημισμένος φιλόσοφος;
+    </script>
+     <translit>Kathe archaios Ellinas itan phimismenos philosophos? </translit> 
+     <morph>
+     Every ancient[nom] Greek[m,nom] was[past,3.Sg] noted[m,sg,nom] philosopher[nom]? </morph>
+    <english>
+    Was every Ancient Greek a noted philosopher?
+    </english>
+  </q>
+  <h>
+    <script>
+    Κάθε αρχάιος Έλληνας ήταν φημισμένος φιλόσοφος.
+    </script>
+     <translit>Kathe archaios Ellinas itan phimismenos philosophos. </translit> 
+     <morph>
+     Every ancient[nom] Greek[m,nom] was[past,3.Sg] noted[m,sg,nom] philosopher[nom]. </morph>
+    <english>
+    Every Ancient Greek was a noted philosopher.
+    </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+</problem>
+  
+
+<comment class="subsection"> 2.3 Bare Plurals </comment>
+
+<comment> Bare plurals can exhibit existential, (quasi) universal, generic or
+dependent plural behaviour. </comment>
+
+<comment> The circumstances giving rise to these different behaviours a poorly
+understood, so we only give a few illustrative examples. </comment>
+
+<problem
+  id="097"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Τα σφάλματα λογισμικού κατηγορήθηκαν για την αποτυχία του συστήματος.
+    </script>
+     <translit>Ta sphalmata logismikou katigorithikan gia thn apotychia tou systimatos. </translit> 
+     <morph>
+     The[neut,pl,nom] faults[nom] software[gen] blamed[past,3.Pl,passive] for the[acc] failure[acc] the[neut.gen] system[gen]. </morph>
+    <english>
+    Software faults were blamed for the system failure.
+  </english>
+  </p>
+  <q>
+    <script>
+    Η αποτυχία του συστήματος αποδόθηκε σε ένα ή περισσότερα σφάλματα λογισμικού;
+    </script>
+     <translit>I apotychia tou sistimatos apodothike se ena i perissotera sphalmata logismikou? </translit> 
+     <morph>
+     The[acc] failure[acc] the[neut.gen] system[gen] blamed[past,3.Sg,passive] to one[neut] or more[neut,pl,acc] faults[acc] software[gen]? </morph>
+    <english>
+    Was the system failure blamed on one or more software faults?
+   </english>
+  </q>
+  <h>
+    <script>
+    Η αποτυχία του συστήματος αποδόθηκε σε ένα ή περισσότερα σφάλματα λογισμικού.
+    </script>
+     <translit>I apotychia tou sistimatos apodothike se ena i perissotera sphalmata logismikou. </translit> 
+     <morph>
+     The[acc] failure[acc] the[neut.gen] system[gen] blamed[past,3.Sg,passive] to one[neut] or more[neut,pl,acc] faults[acc] software[gen]. </morph>
+    <english>
+    The system failure was blamed on one or more software faults.
+   </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+  <why> Existential bare plural </why>
+  <note> Distinction in the translation of the word "blame" in the premise and the question/hypothesis.</note>
+</problem>
+ 
+
+ <problem
+  id="098"
+  fracas_answer="unknown">
+  <p idx="1">
+   <script>
+    Τα σφάλματα λογισμικού κατηγορήθηκαν για την αποτυχία του συστήματος.
+    </script>
+     <translit>Ta sphalmata logismikou katigorithikan gia thn apotychia tou systimatos. </translit> 
+     <morph>
+     The[neut,pl,nom] faults[nom] software[gen] blamed[past,3.Pl,passive] for the[acc] failure[acc] the[neut.gen] system[gen]. </morph>
+    <english>
+    Software faults were blamed for the system failure.
+  </english>
+  </p>
+  <p idx="2">
+    <script>
+    Το σφάλμα # 32-985 είναι ένα γνωστό σφάλμα λογισμικού.
+    </script>
+     <translit>To sphalma # 32-985 einai ena gnosto sphalma logismikou. </translit> 
+     <morph>
+     The[neut,nom] fault[nom] # 32-985 is[pres,3.Sg] a[neut,nom] known[neut,nom] software[nom] fault[gen]. </morph>
+    <english>
+    Bug # 32-985 is a known software fault.
+   </english>
+  </p>
+  <q>
+    <script>
+    Το σφάλμα # 32-985 κατηγορήθηκε για την αποτυχία του συστήματος;
+    </script>
+     <translit>To sphalma # 32-985 katigorithike gia tin apotychia tou systimatos? </translit> 
+     <morph>
+     The[neut,nom] fault[nom] # 32-985 blamed[past,3.Sg,passive] for the[acc] failure[acc] the[neut.gen] system[gen]? </morph>
+    <english>
+    Was Bug # 32-985 blamed for the system failure?
+    </english>
+  </q>
+  <h>
+    <script>
+    Το σφάλμα # 32-985 κατηγορήθηκε για την αποτυχία του συστήματος.
+    </script>
+     <translit>To sphalma # 32-985 katigorithike gia tin apotychia tou systimatos. </translit> 
+     <morph>
+     The[neut,nom] fault[nom] # 32-985 blamed[past,3.Sg,passive] for the[acc] failure[acc] the[neut,gen] system[gen]. </morph>
+    <english>      
+      Bug # 32-985 was blamed for the system failure.
+    </english> 
+  </h>
+  <a>  
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english> 
+ </a>
+  <why> Existential interpretation: not every software fault contributed to the failure. </why>
+</problem>
+
+<problem
+  id="099"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Οι πελάτες στην επίδειξη εντυπωσιάστηκαν όλοι απο την απόδοση του συστήματος.
+    </script>
+     <translit>Oi pelates stin epideixi entyposiastikan oloi apo tin apodosi tou systimatos. </translit> 
+     <morph>
+     The[m,pl,nom] clients[nom] at the[contr,f,sg,acc] demonstration[acc] impressed[past,3.Pl,passive]  all[m,pl,nom] by the[f,acc] performance[acc] the[neut,gen] system[gen].</morph>
+    <english>
+    Clients at the demonstration were all impressed by the system&apos;s performance.
+    </english>  
+    </p>
+  <p idx="2">
+    <script>
+    Ο Σμιθ ήταν πελάτης στην επίδειξη.
+    </script>
+     <translit>O Smith itan pelatis stin epideixi. </translit> 
+     <morph>
+     The[m,nom] Smith was[past,3.Sg] client[nom] at the[contr,f,sg,acc] demonstration[acc]. </morph>
+    <english>
+    Smith was a client at the demonstration.
+  </english>
+  </p>
+  <q>
+    <script>
+    Ο Σμιθ εντυπωσιάστηκε απο την απόδοση του συστήματος;
+    </script>
+     <translit>O Smith entyposiastike apo tin apodosi tou systimatos? </translit> 
+     <morph>
+     The[m,nom] Smith impressed[past,3.Sg,passive] by the[f,acc] performance[acc] the[neut,gen] system[gen]? </morph>
+    <english>
+    Was Smith impressed by the system&apos;s performance?
+    </english>
+  </q>
+  <h>
+    <script>
+    Ο Σμιθ εντυπωσιάστηκε απο την απόδοση του συστήματος.
+    </script>
+     <translit>O Smith entyposiastike apo tin apodosi tou systimatos. </translit> 
+     <morph>
+     The[m,nom] Smith impressed[past,3.Sg,passive] by the[f,acc] performance[acc] the[neut,gen] system[gen]. </morph>
+    <english>
+    Smith was impressed by the system&apos;s performance.
+  </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+  <why> (Quasi) universal bare plural </why>
+</problem>
+
+<problem
+  id="100"
+  fracas_answer="yes">
+  <p idx="1">
+     <script>
+    Οι πελάτες στην επίδειξη εντυπωσιάστηκαν απο την απόδοση του συστήματος.
+    </script>
+     <translit>Oi pelates stin epideixi entyposiastikan apo tin apodosi tou systimatos. </translit> 
+     <morph>
+     The[m,pl,nom] clients[nom] at the[contr,f,sg,acc] demonstration[acc] impressed[past,3.Pl,passive] by the[f,acc] performance[acc] the[neut,gen] system[gen].</morph>
+    <english>
+    Clients at the demonstration were impressed by the system&apos;s performance.
+    </english>
+  </p>
+  <q>
+     <script>
+     Οι περισσότεροι πελάτες στην επίδειξη εντυπωσιάστηκαν απο την απόδοση του συστήματος;
+    </script>
+     <translit>Oi perissoteroi pelates stin epideixi entyposiastikan apo tin apodosi tou systimatos? </translit> 
+     <morph>
+     The[m,pl,nom] most[m,pl,nom] clients[nom] at the[contr,f,sg,acc] demonstration[acc] impressed[past,3.Pl,passive] by the[f,acc] performance[acc] the[neut,gen] system[gen]? </morph>
+    <english>
+    Were most clients at the demonstration impressed by the system&apos;s performance?
+    </english>
+  </q>
+  <h>
+    <script>
+     Οι περισσότεροι πελάτες στην επίδειξη εντυπωσιάστηκαν απο την απόδοση του συστήματος.
+    </script>
+     <translit>Oi perissoteroi pelates stin epideixi entyposiastikan apo tin apodosi tou systimatos. </translit> 
+     <morph>
+     The[m,pl,nom] most[m,pl,nom] clients[nom] at the[contr,f,sg,acc] demonstration[acc] impressed[past,3.Pl,passive] by the[f,acc] performance[acc] the[neut,gen] system[gen]. </morph>
+    <english>
+    Most clients at the demonstration were impressed by the system&apos;s performance.
+    </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+  <why> (Quasi) universal bare plural </why>
+</problem>
+
+<problem
+  id="101"
+  fracas_answer="yes">
+  <p idx="1">
+     <script>
+    Οι απόφοιτοι πανεπιστημίου αποτελούν κακούς χρηματιστές.
+    </script>
+     <translit>Oi apophoitoi panepistimiou apoteloun kakous chrimatistes. </translit> 
+     <morph>
+     The[m,pl,nom] graduates[nom] university[gen] make[pres,3.Pl,subj] poor[m,pl,acc] stock-market traders[acc]. </morph>
+    <english>
+    University graduates make poor stock-market traders.
+  </english>
+  </p>
+  <p idx="2">
+     <script>
+    Ο Σμιθ είναι απόφοιτος πανεπιστημίου.
+    </script>
+     <translit>O Smith einai apophoitos panepistimiou. </translit> 
+     <morph>
+     The[m,nom] Smith is[pres,3.Sg] graduate[nom] university[gen].</morph>
+    <english>
+    Smith is a university graduate.
+    </english>
+  </p>
+  <q>
+    <script>
+    Είναι πιθανόν ο Σμιθ να αποτελεί κακό χρηματιστή;
+    </script>
+     <translit>Einai pithanon o Smith na apotelei kako chrimatisti? </translit> 
+     <morph>
+     Is[pres,3.Sg] likely the[m,nom] Smith to make[pres,3.Sg,subj] poor[m,sg,acc] stock-market trader[acc]? </morph>
+    <english>
+    Is Smith likely to make a poor stock market trader?
+    </english>
+  </q>
+  <h>
+    <script>
+    Ο Σμιθ είναι πιθανόν να αποτελεί κακό χρηματιστή.
+    </script>
+     <translit>O Smith einai pithanon na apotelei kako chrimatisti. </translit> 
+     <morph>
+    The[m,nom] Smith is[pres,3.Sg] likely to make[pres,3.Sg,subj] poor[m,sg,acc] stock-market trader[acc]? </morph>
+    <english>
+    Smith is likely to make a poor stock market trader
+    </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>  
+   </a>
+  <why> Generic interpretation </why>
+</problem>
+
+<problem
+  id="102"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+    Οι απόφοιτοι πανεπιστημίου αποτελούν κακούς χρηματιστές.
+    </script>
+     <translit>Oi apophoitoi panepistimiou apoteloun kakous chrimatistes. </translit> 
+     <morph>
+     The[m,pl,nom] graduates[nom] university[gen] make[pres,3.Pl,subj] poor[m,pl,acc] stock-market traders[acc]. </morph>
+    <english>
+    University graduates make poor stock-market traders.
+  </english>
+  </p>
+  <p idx="2">
+    <script>
+    Ο Σμιθ είναι απόφοιτος πανεπιστημίου.
+    </script>
+     <translit>O Smith einai apophoitos panepistimiou. </translit> 
+     <morph>
+     The[m,nom] Smith is[pres,3.Sg] graduate[nom] university[gen].</morph>
+    <english>
+    Smith is a university graduate.
+    </english>
+  </p>
+  <q>
+    <script>
+   Θα αποτελέσει ο Σμιθ κακό χρηματιστή;
+    </script>
+     <translit> Tha apotelesei o Smith kako chrimatisti? </translit> 
+     <morph>
+     Will make[fut,3.Sg] the[m,nom] Smith poor[m,sg,acc] stock-market trader[acc]? </morph>
+    <english>
+    Will Smith make a poor stock market trader?
+  </english>
+  </q>
+  <h>
+     <script>
+   Ο Σμιθ θα αποτελέσει κακό χρηματιστή.
+    </script>
+     <translit> O Smith tha apotelesei kako chrimatisti. </translit> 
+     <morph>
+     The[m,nom] Smith will make[fut,3.Sg] poor[m,sg,acc] stock-market trader[acc]? </morph>
+    <english>
+    Smith will make a poor stock market trader.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english> 
+   </a>
+  <why> Generic interpretation </why>
+</problem>
+
+<problem
+  id="103"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Όλοι οι διευθυντές της ΑΠΚΟΜ έχουν εταιρικά αυτοκίνητα. 
+    </script>
+     <translit> Oloi oi dieythintes tis APCOM echoun etairika aytokinita. </translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] managers[nom] the[f,gen] APCOM have[pres,3.Pl] company[neut,pl,acc] cars[acc].</morph>
+    <english>
+    All APCOM managers have company cars.
+  </english>
+  </p>
+  <p idx="2">
+    <script>
+    Ο Τζόουνς είναι διευθυντής στην ΑΠΚΟΜ. 
+    </script>
+     <translit> O Tzoouns einai dieythintis stin APCOM. </translit> 
+     <morph>
+     The[m,nom] Jones is[pres,3.Sg] manager[nom] in the[contr,f,sg,acc] APCOM. </morph>
+    <english>
+    Jones is an APCOM manager.
+    </english>
+  </p>
+  <q>
+    <script>
+    Έχει ο Τζόουνς εταιρικό αυτοκίνητο;
+    </script>
+     <translit> Echei o Tzoouns etairiko autokinito? </translit> 
+     <morph>
+     Have[pres,3.Sg] the[m,nom] Jones company[neut,sg,acc] car[acc]? </morph>
+    <english>
+    Does Jones have a company car?
+  </english>
+  </q>
+  <h>
+    <script>
+    Ο Τζόουνς έχει εταιρικό αυτοκίνητο.
+    </script>
+     <translit> O Tzoouns echei etairiko autokinito. </translit> 
+     <morph>
+     The[m,nom] Jones have[pres,3.Sg] company[neut,sg,acc] car[acc]. </morph>
+    <english>
+    Jones has a company car.
+    </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="104"
+  fracas_answer="unknown">
+  <p idx="1">
+     <script>
+    Όλοι οι διευθυντές της ΑΠΚΟΜ έχουν εταιρικά αυτοκίνητα. 
+    </script>
+     <translit> Oloi oi dieythintes tis APCOM echoun etairika aytokinita. </translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] managers[nom] the[f,gen] APCOM have[pres,3.Pl] company[neut,pl,acc] cars[acc].</morph>
+    <english>
+    All APCOM managers have company cars.
+  </english>
+  </p>
+  <p idx="2">
+    <script>
+    Ο Τζόουνς είναι διευθυντής στην ΑΠΚΟΜ. 
+    </script>
+     <translit> O Tzoouns einai dieythintis stin APCOM. </translit> 
+     <morph>
+     The[m,nom] Jones is[pres,3.Sg] manager[nom] in the[contr,f,sg,acc] APCOM. </morph>
+    <english>
+    Jones is an APCOM manager.
+    </english>
+  </p>
+  <q>
+    <script>
+    Έχει ο Τζόουνς πάνω απο ένα εταιρικό αυτοκίνητο;
+    </script>
+     <translit> Echei o Tzoouns pano apo ena etairiko autokinito? </translit> 
+     <morph>
+     Have[pres,3.Sg] the[m,nom] Jones more than one[neut,acc] company[neut,sg,acc] car[acc]? </morph>
+    <english>
+    Does Jones have more than one company car?
+  </english>
+  </q>
+  <h>
+    <script>
+    Ο Τζόουνς έχει πάνω απο ένα  εταιρικό αυτοκίνητο.
+    </script>
+     <translit> O Tzoouns echei pano apo ena etairiko autokinito. </translit> 
+     <morph>
+     The[m,nom] Jones have[pres,3.Sg] more than one[neut,acc] company[neut,sg,acc] car[acc]. </morph>
+    <english>
+    Jones has more than one company car.
+  </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english> 
+ </a>
+</problem>
+
+<problem
+  id="105"
+  fracas_answer="no">
+  <p idx="1">
+     <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+   <script>
+     Κανένας απο τους λογιστές δεν παρέστη στη σύσκεψη;
+    </script>
+     <translit> Kanenas apo tous logistes den paresti sti syskepsi? </translit> 
+     <morph>  No[m,nom] from the[m,pl,acc] accountants[acc] not attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english>   Did no accountants attend the meeting?  </english>  
+  </q>
+  <h>
+    <script>
+     Κανένας απο τους λογιστές δεν παρέστη στη σύσκεψη.
+    </script>
+     <translit> Kanenas apo tous logistes den paresti sti syskepsi. </translit> 
+     <morph>  No[m,nom] from the[m,pl,acc] accountants[acc] not attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> 
+    No accountants attended the meeting.
+     </english>  
+  </h>
+  <a>
+    <script> Όχι </script>
+    <translit> Ochi  </translit>
+    <english>  No </english>
+     </a>
+</problem>
+
+<problem
+  id="106"
+  fracas_answer="no">
+  <p idx="1">
+    <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+    <script>
+     Κανένας λογιστής δεν παρέστη στη σύσκεψη;
+    </script>
+     <translit> Kanenas logistis den paresti sti syskepsi? </translit> 
+     <morph>  No[m,nom] accountant[acc] not attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english>   Did no accountant attend the meeting?  </english>  
+  </q>
+  <h>
+    <script>
+     Κανένας λογιστής δεν παρέστη στη σύσκεψη.
+    </script>
+     <translit> Kanenas logistis den paresti sti syskepsi. </translit> 
+     <morph>  No[m,nom] accountant[acc] not attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> No accountant attended the meeting. </english> 
+  </h>
+  <a>
+    <script> Όχι </script>
+    <translit> Ochi  </translit>
+    <english>  No </english>
+  </a>
+</problem>
+
+
+<problem
+  id="107"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc.</morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+    <script>
+     Κάποιοι λογιστές παρέστησαν στη σύσκεψη;
+    </script>
+     <translit> Kapoioi logistes parestisan sti syskepsi? </translit> 
+     <morph>  Any[m,pl,nom] accountants[acc] attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english> 
+    Did any accountants attend the meeting?
+  </english> 
+  </q>
+  <h>
+    <script>
+     Ορισμένοι λογιστές παρέστησαν στη σύσκεψη.
+    </script>
+     <translit> Orismenoi logistes parestisan sti syskepsi. </translit> 
+     <morph>  Some[m,pl,nom] accountants[acc] attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> 
+    Some accountants attended the meeting.
+     </english> 
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="108"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc].</morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+   <script>
+     Κάποιοι λογιστές παρέστησαν στη σύσκεψη;
+    </script>
+     <translit> Kapoioi logistes parestisan sti syskepsi? </translit> 
+     <morph>  Any[m,sg,nom] accountants[acc] attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english> 
+    Did any accountants attend the meeting?
+  </english> 
+  </q>
+  <h>
+    <script>
+     Κάποιος λογιστής παρέστη στη σύσκεψη.
+    </script>
+     <translit> Kapoios logistis paresti sti syskepsi. </translit> 
+     <morph>  Some[m,sg,nom] accountant[acc] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> 
+    Some accountant attended the meeting.
+     </english> 
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+     </a>
+</problem>
+
+<problem
+  id="109"
+  fracas_answer="no"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+    <script>
+     Ορισμένοι λογιστές παρέστησαν στη σύσκεψη;
+    </script>
+     <translit> Orismenoi logistes parestisan sti syskepsi? </translit> 
+     <morph>  Some[m,pl,nom] accountants[acc] attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english> 
+    Did some accountants attend the meeting?
+  </english>
+  </q>
+  <h><script>
+     Ορισμένοι λογιστές παρέστησαν στη σύσκεψη.
+    </script>
+     <translit> Orismenoi logistes parestisan sti syskepsi. </translit> 
+     <morph>  Some[m,pl,nom] accountants[acc] attended[past,3.Pl] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> 
+    Some accountants attended the meeting.
+     </english> 
+  </h>
+  <a>
+   <script> Όχι, μονο ένας. </script>
+    <translit> Ochi, mono enas  </translit>
+    <english>No, just one </english>
+  </a>
+</problem>
+
+<problem
+  id="110"
+  fracas_answer="yes">
+  <p idx="1">
+  <script>
+     Μόνο ένας λογιστής παρέστη στη σύσκεψη. 
+    </script>
+     <translit> Mono enas logistis paresti sti syskepsi. </translit> 
+     <morph>  Only one[m,nom] accountant[nom] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english>
+    Just one accountant attended the meeting.
+  </english>
+  </p>
+  <q>
+    <script>
+     Κάποιος λογιστής παρέστη στη σύσκεψη;    </script>
+     <translit> Kapoios logistis paresti sti syskepsi? </translit> 
+     <morph>  Some[m,sg,nom] accountant[acc] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]? </morph>
+    <english>  Did some accountant attend the meeting? </english> 
+  </q>
+  <h>
+   <script>
+     Κάποιος λογιστής παρέστη στη σύσκεψη.
+    </script>
+     <translit> Kapoios logistis paresti sti syskepsi. </translit> 
+     <morph>  Some[m,sg,nom] accountant[acc] attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english> 
+    Some accountant attended the meeting.
+     </english>
+  </h>
+  <a> 
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+
+<comment class="subsection"> 2.6 Collective and Distributive Plurals </comment>
+
+<problem
+  id="111"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ υπέγραψε ένα συμβόλαιο. </script>
+    <translit> O Smith ypegrapse ena symvolaio. </translit> 
+    <morph>  The[m,nom] Smith signed[past,3.Sg] one[neut,acc] contract[acc]. </morph>
+    <english> Smith signed one contract.  </english>
+  </p>
+  <p idx="2">
+    <script>  Ο Τζόουνς υπέγραψε ένα άλλο συμβόλαιο.  </script>
+    <translit> O Tzoouns ypegrapse ena allo symvolaio. </translit> 
+    <morph>   The[m,nom] Smith signed[past,3.Sg] one[neut,acc] other[neut,acc] contract[acc].  </morph>
+    <english>  Jones signed another contract.  </english>
+  </p>
+  <q>
+   <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια;  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia? </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones sign[past,3.Pl] two contracts[acc]?  </morph>
+    <english> Did Smith and Jones sign two contracts? </english>
+  </q>
+  <h>
+    <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια.  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia. </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones signed[past,3.Pl] two contracts[acc].  </morph>
+    <english> Smith and Jones signed two contracts. </english>
+  </h>
+  <a> 
+    <script> Ναι, σε μια συλλογική / αθροιστική ανάγνωση του συμπεράσματος. </script>
+    <translit> Nai,se mia syllogiki/ athroistiki anagnosi tou symperasmatos.  </translit>
+    <english>  Yes, on a collective/cumulative reading of the conclusion. </english>
+  </a>  
+</problem>
+
+
+<problem
+  id="112"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ υπέγραψε δυο συμβόλαια. </script>
+    <translit> O Smith ypegrapse dyo symvolaia. </translit> 
+    <morph>  The[m,nom] Smith signed[past,3.Sg] two contracts[acc]. </morph>
+    <english> Smith signed two contracts. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Τζόουνς υπέγραψε δυο συμβόλαια. </script>
+    <translit> O Tzoouns ypegrapse dyo symvolaia. </translit> 
+    <morph>  The[m,nom] Jones signed[past,3.Sg] two contracts[acc]. </morph>
+    <english> Jones signed two contracts. </english>
+  </p>
+  <q>
+    <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια;  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia? </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones sign[past,3.Pl] two contracts[acc]?  </morph>
+    <english> Did Smith and Jones sign two contracts? </english>
+  </q>
+  <h>
+   <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια.  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia. </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones signed[past,3.Pl] two contracts[acc].  </morph>
+    <english> Smith and Jones signed two contracts. </english>
+  </h>
+  <a> 
+    <script> Ναι, σε μια διανεμητική ανάγνωση του "Σμιθ και Τζόουνς" . </script>
+    <translit> Nai,se mia dianemitiki anagnosi tou "Smith and Tzoouns".  </translit>
+    <english>Yes, on a distributive reading of "Smith and Jones". </english> 
+  </a>
+</problem>
+
+<problem
+  id="113"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Σμιθ υπέγραψε δυο συμβόλαια. </script>
+    <translit> O Smith ypegrapse dyo symvolaia. </translit> 
+    <morph>  The[m,nom] Smith signed[past,3.Sg] two contracts[acc]. </morph>
+    <english> Smith signed two contracts. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Τζόουνς επίσης τα υπέγραψε. </script>
+    <translit> O Tzoouns episis ta ypegrapse. </translit> 
+    <morph>  The[m,nom] Jones also them[neut,acc]  signed[past,3.Sg] . </morph>
+    <english> Jones also signed them. </english>
+  </p>
+  <q>
+   <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια;  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia? </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones signepast,3.Pl] two contracts[acc]?  </morph>
+    <english> Did Smith and Jones sign two contracts? </english>
+  </q>
+  <h>
+   <script>  Ο Σμιθ και ο Τζόουνς υπέγραψαν δυο συμβόλαια.  </script>
+    <translit> O Smith kai o Tzoouns ypegrapsan dyo symvolaia. </translit> 
+    <morph>   The[m,nom] Smith and the[m,nom] Jones signed[past,3.Pl] two contracts[acc].  </morph>
+    <english> Smith and Jones signed two contracts. </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+
+<comment class="section"> 3 (NOMINAL) ANAPHORA </comment>
+
+<comment> In the examples below we make the assumption (unless otherwise
+indicated) that there is no context beyond that provided by the
+mini-discourse. This is so that we can do away with explicit co-indexing
+of pronouns with their antecedents, on the grounds that context will
+provide only (or sometimes a strictly limited number) of possible
+antecedents. </comment>
+
+<comment class="subsection"> 3.1 Intra-Sentential </comment>
+
+<problem
+  id="114"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Η Μαίρη χρησιμοποίησε το γραφείο της. </script>
+    <translit> I Mairi chrisimopoiise to grafeio tis. </translit> 
+    <morph>  The[f,nom] Mary[nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Mary used her workstation. </english>
+  </p>
+  <q>
+    <script> Χρησιμοποιήθηκε το γραφείο της Μαίρης; </script>
+    <translit> Chrisimopoiithike to grafeio tis Mairis? </translit> 
+    <morph>  Used[past,3.Sg,passive] the[neut,nom] workstation[nom] the[f,gen] Mary [gen]? </morph>
+    <english> Was Mary&apos;s workstation used? </english>
+  </q>
+  <h>
+    <script> Το γραφείο της Μαίρης χρησιμοποιήθηκε. </script>
+    <translit> To grafeio tis Mairis chrisimopoiithike. </translit> 
+    <morph>  The[neut,nom] workstation[nom] the[f,gen] Mary [gen] used[past,3.Sg,passive]. </morph>
+    <english>Mary&apos;s workstation was used. </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="115"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Η Μαίρη χρησιμοποίησε το γραφείο της. </script>
+    <translit> I Mairi chrisimopoiise to grafeio tis. </translit> 
+    <morph>  The[f,nom] Mary[nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Mary used her workstation. </english>
+  </p>
+  <q>
+     <script> Έχει η Μαίρη γραφείο; </script>
+    <translit> Echei i Mairi grafeio? </translit> 
+    <morph> Have[pres,3.Sg] the[f,nom] Mary[nom]  workstation[acc]? </morph>
+    <english> Does Mary have a workstation? </english>
+  </q>
+  <h>
+    <script> Η Μαίρη έχει γραφείο. </script>
+    <translit> I Mairi echei grafeio. </translit> 
+    <morph>  The[f,nom] Mary[nom] has[past,3.Sg] workstation[acc]. </morph>
+    <english> Mary has a workstation. </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="116"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Η Μαίρη χρησιμοποίησε το γραφείο της. </script>
+    <translit> I Mairi chrisimopoiise to grafeio tis. </translit> 
+    <morph>  The[f,nom] Mary[nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Mary used her workstation. </english>
+  </p>
+  <q>
+    <script> Η Μαίρη είναι γυναίκα; </script>
+    <translit> I Mairi einai gynaika? </translit> 
+    <morph>  The[f,nom] Mary[nom] is[pres,3.Sg] female[nom]? </morph>
+    <english> Is Mary female? </english>
+  </q>
+  <h>
+    <script> Η Μαίρη είναι γυναίκα </script>
+    <translit> I Mairi einai gynaika. </translit> 
+    <morph>  The[f,nom] Mary[nom] is[pres,3.Sg] female[nom]. </morph>
+    <english> Mary is female. </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="117"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε μαθητής χρησιμοποίησε το γραφείο της. </script>
+    <translit> Kathe mathitis chrisimopoiise to grafeio tis. </translit> 
+    <morph>  Every student[m,nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Every student used her workstation. </english>
+  </p>
+  <p idx="2">
+    <script> Η Μαίρη είναι μαθήτρια. </script>
+    <translit> I Mairi einai mathitria. </translit> 
+    <morph>  The[f,nom] Mary[nom] is[pres,3.Sg] student[f,nom]. </morph>
+    <english> Mary is a student. </english>
+  </p>
+  <q>
+    <script> Χρησιμοποίησε η Μαίρη το γραφείο της; </script>
+    <translit> Chrisimopoiise i Mairi to grafeio tis? </translit> 
+    <morph>  Used[past,3.Sg] the[f,nom] Mary[nom] the[neut,acc] workstation[acc] her[gen]? </morph>
+    <english> Did Mary use her workstation? </english>
+  </q>
+  <h>
+    <script> Η Μαίρη χρησιμοποίησε το γραφείο της. </script>
+    <translit> I Mairi chrisimopoiise to grafeio tis. </translit> 
+    <morph>  The[f,nom] Mary[nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Mary used her workstation. </english>
+  </h>
+  <a>
+    <script> Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="118"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Κάθε μαθητής χρησιμοποίησε το γραφείο της. </script>
+    <translit> Kathe mathitis chrisimopoiise to grafeio tis. </translit> 
+    <morph>  Every student[m,nom] used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> Every student used her workstation. </english>
+  </p>
+  <p idx="2">
+   <script> Η Μαίρη είναι μαθήτρια. </script>
+    <translit> I Mairi einai mathitria. </translit> 
+    <morph>  The[f,nom] Mary[nom] is[pres,3.Sg] student[f,nom]. </morph>
+    <english> Mary is a student. </english>
+  </p>
+  <q>
+    <script> Έχει η Μαίρη γραφείο; </script>
+    <translit> Echei i Mairi grafeio? </translit> 
+    <morph>  Have[pres,3.Sg] the[f,nom] Mary[nom] workstation[acc]? </morph>
+    <english> Does Mary have a workstation? </english>
+  </q>
+  <h>
+   <script> Η Μαίρη έχει γραφείο. </script>
+    <translit> I Mairi echei grafeio. </translit> 
+    <morph>  The[f,nom] Mary[nom] has[pres,3.Sg] workstation[acc]. </morph>
+    <english> Mary has a workstation. </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+
+<problem
+  id="119"
+  fracas_answer="no">
+  <p idx="1">
+    <script> Κανένας μαθητής δεν χρησιμοποίησε το γραφείο της. </script>
+    <translit> Kanenas mathitis den chrisimopoiise to grafeio tis. </translit> 
+    <morph>  No[m,nom] student[m,nom] not used[past,3.Sg] the[neut,acc] workstation[acc] her[gen]. </morph>
+    <english> No student used her workstation. </english>
+  </p>
+  <p idx="2">
+     <script> Η Μαίρη είναι μαθήτρια. </script>
+    <translit> I Mairi einai mathitria. </translit> 
+    <morph>  The[f,nom] Mary[nom] is[pres,3.Sg] student[f,nom]. </morph>
+    <english> Mary is a student. </english>
+  </p>
+  <q>
+    <script> Χρησιμοποίησε η Μαίρη ένα γραφείο; </script>
+    <translit> Chrisimopoiise i Mairi ena grafeio? </translit> 
+    <morph>  Used[past,3.Sg] the[f,nom] Mary[nom] a[neut,acc] workstation[acc]? </morph>
+    <english>  Did Mary use a workstation? </english>
+  </q>
+  <h>
+    <script> Η Μαίρη χρησιμοποίησε ένα γραφείο. </script>
+    <translit> I Mairi chrisimopoiise ena grafeio. </translit> 
+    <morph>  The[f,nom] Mary[nom] used[past,3.Sg] a[neut,acc] workstation[acc]. </morph>
+    <english> Mary used a workstation. </english>
+  </h>
+  <a>
+    <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english>
+ </a>
+</problem>
+
+
+<comment class="subsection"> 3.2 Inter-Sentential </comment>
+
+<problem
+  id="120"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Η Σμιθ παρέστη στη σύσκεψη. 
+    </script>
+     <translit>I Smith paresti sti syskepsi. </translit> 
+     <morph>  The[f,nom] Smith attended[past,3.Sg] at the[contr,sg,f,acc] meeting[acc]. </morph>
+    <english>Smith attended a meeting. </english>
+  </p>
+  <p idx="2">
+    <script>
+     Αυτή την προέδρευσε. 
+    </script>
+     <translit>Ayti tin proedrephse. </translit> 
+     <morph>  She it[f,acc] chaired[past,3.Sg].</morph>
+    <english> She chaired it. </english>
+  </p>
+  <q>
+    <script>
+     Η Σμιθ προέδρευσε μια σύσκεψη; 
+    </script>
+     <translit>I Smith proedrephse mia syskepsi? </translit> 
+     <morph>  The[f,nom] Smith chair[past,3.Sg] a[f,acc] meeting[acc]? </morph>
+    <english>Did Smith chair a meeting? </english>
+  </q>
+  <h>
+    <script>
+     Η Σμιθ προέδρευσε μια σύσκεψη.
+    </script>
+     <translit>I Smith proedrephse mia syskepsi. </translit> 
+     <morph>  The[f,nom] Smith chaired[past,3.Sg] a[f,acc] meeting[acc]. </morph>
+    <english>Smith chaired a meeting. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+     </a>
+</problem>
+
+<problem
+  id="121"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Η Σμιθ παρέδωσε μια αναφορά στην ΙΤΕΛ.
+    </script>
+     <translit>I Smith paredose mia anafora stin ITEL. </translit> 
+     <morph>  The[f,nom] Smith delivered[past,3.Sg] a[f,acc] report[acc] to the[contr,sg,f,acc] ITEL. </morph>
+    <english>Smith delivered a report to ITEL. </english>
+  </p>
+  <p idx="2">
+    <script>
+    Τους παρέδωσε επίσης ενα τιμολόγιο.
+    </script>
+     <translit>Tous paredose episis ena timologio. </translit> 
+     <morph>  Them[m,acc] delivered[past,3.Sg] also an[neut,acc] invoice[acc]. </morph>
+    <english>She also delivered them an invoice. </english>
+  </p>
+  <p idx="3">
+    <script>
+    Και τους παρέδωσε μια πρόταση έργου.
+    </script>
+     <translit>Kai tous paredose mia protasi ergou. </translit> 
+     <morph>  And them[m,acc] delivered[past,3.Sg] a[f,acc] proposal[acc] project[gen]. </morph>
+    <english>And she delivered them a project proposal. </english>
+  </p>
+  <q>
+    <script>
+    Παρέδωσε η Σμιθ μια αναφορά, ενα τιμολόγιο και μια προταση έργου στην ΙΤΕΛ;
+    </script>
+     <translit>Paredose i Smith mia anafora, ena timologio kai mia protasi ergou stin ITEL? </translit> 
+     <morph>  Delivered[past,3.Sg] the[f,nom] Smith a[f,acc] report[acc], an[neut,acc] invoice[acc] and a[f,acc] proposal[acc] project[gen] to the[contr,sg,f,acc] ITEL? </morph>
+    <english>Did Smith deliver a report, an invoice and a project proposal to ITEL? </english>
+  </q>
+  <h>
+    <script>
+   Η Σμιθ παρέδωσε μια αναφορά, ενα τιμολόγιο και μια προταση έργου στην ΙΤΕΛ.
+    </script>
+     <translit>I Smith paredose mia anafora, ena timologio kai mia protasi ergou stin ITEL. </translit> 
+     <morph> The[f,nom] Smith delivered[past,3.Sg] a[f,acc] report[acc], an[neut,acc] invoice[acc] and a[f,acc] proposal[acc] project[gen] to the[contr,sg,f,acc] ITEL. </morph>
+    <english> Smith delivered a report, an invoice and a project proposal to ITEL.</english>
+  </h>
+  <a>
+   <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+   </a>
+  <why> Keeping track of same entities across more than two sentences. </why>
+</problem>
+
+<problem
+  id="122"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>
+     Κάθε επιτροπή έχει ενα πρόεδρο.
+    </script>
+     <translit>Kathe epitropi echei ena proedro. </translit> 
+     <morph>  Every committee[nom] has[pres,3.Sg] a[acc] chairman[acc]. </morph>
+    <english> Every committee has a chairman. </english>
+  </p>
+  <p idx="2">
+     <script>
+     Αυτός διορίζεται απο τα μέλη της.
+    </script>
+     <translit>Autos diorizetai apo ta meli tis. </translit> 
+     <morph>  He appointed[pres,3.Sg,passive] by the[neut,acc] members[acc] its[f,gen].</morph>
+    <english> He is appointed by its members. </english>
+  </p>
+  <q>
+    <script>
+     Έχει κάθε επιτροπή ενα πρόεδρο διορισμένο απο μέλη της επιτροπής;
+    </script>
+     <translit>Echei kathe epitropi ena proedro diorismeno apo meli tis epitropis? </translit> 
+     <morph>  Have[pres,3.Sg] every committee[nom] a[acc] chairman[acc] appointed[acc] by members[acc] the[gen] committee[gen]?  </morph>
+    <english>Does every committee have a chairman appointed by members of the committee? </english>
+  </q> 
+  <h>
+    <script>
+     Κάθε επιτροπή έχει ενα πρόεδρο διορισμένο απο μέλη της επιτροπής.
+    </script>
+     <translit>Kathe epitropi echei ena proedro diorismeno apo meli tis epitropis. </translit> 
+     <morph>  Every committee[nom] have[pres,3.Sg] a[acc] chairman[acc] appointed[acc] by members[acc] the[gen] committee[gen]. </morph>
+    <english>Every committee has a chairman appointed by members of the committee. </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+  <why> Modal subordination. </why>
+</problem>
+
+<comment class="subsection"> 3.3 Plural Anaphora </comment>
+
+<problem
+  id="123"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Η ΙΤΕΛ έχει στείλει τις περισσότερες απο τις αναφορές που χρειάζεται η Σμιθ.
+    </script>
+     <translit>I ITEL echei steilei tis perissoteres apo tis anafores pou chreiazetai i Smith. </translit> 
+     <morph>  The[f,nom] ITEL has sent[pres.perf,3.Sg] the[f,acc] most[acc] of the[f,acc] reports[acc] that needs[pres,3.Sg] the[f,nom] Smith. </morph>
+    <english>ITEL has sent most of the reports Smith needs. </english>
+  </p>
+  <p idx="2">
+    <script> Αυτές είναι στο γραφείο της. </script>
+     <translit>Aphtes einai sto grafeio tis. </translit> 
+     <morph>  They[f,nom] are[pres,3.Pl] on the[contr,neut,sg,acc] desk[acc] her[gen]. </morph>
+    <english>They are on her desk.  </english>
+  </p>
+  <q>
+    <script> Υπάρχουν ορισμένες αναφορές απο την ΙΤΕΛ στο γραφείο της Σμιθ; </script>
+     <translit>Yparchoun orismenes anafores apo tin  ITEL sto grafeio tis Smith?</translit> 
+     <morph>  Exist[pres,3.Pl] some[f,pl,nom] reports[nom] from the[f,acc] ITEL on the[contr,neut,sg,acc] desk[acc] the[f,gen] Smith? </morph>
+    <english>Are there some reports from ITEL on Smith&apos;s desk?  </english>
+  </q>
+  <h>
+    <script> Υπάρχουν ορισμένες αναφορές απο την ΙΤΕΛ στο γραφείο της Σμιθ.</script>
+     <translit>Yparchoun orismenes anafores apo tin  ITEL sto grafeio tis Smith.</translit> 
+     <morph>  Exist[pres,3.Pl] some[f,pl,nom] reports[nom] from the[f,acc] ITEL on the[contr,neut,sg,acc] desk[acc] the[f,gen] Smith. </morph>
+    <english>There are some reports from ITEL on Smith&apos;s desk.  </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="124"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Δυο απο τις δέκα μηχανές λέιπουν. </script>
+     <translit> Dyo apo tis deka michanes leipoun.</translit> 
+     <morph>  Two of the[f,acc] ten machines[acc] miss[pres,3.Pl]. </morph>
+    <english>Two out of ten machines are missing. </english> 
+  </p>
+  <p idx="2">
+    <script> Αυτές έχουν αφαιρεθεί. </script>
+     <translit> Aphtes echoun afairethei.</translit> 
+     <morph>  They[f,nom] have removed[pres.perf,3.Pl,passive]. </morph>
+    <english> They have been removed. </english> 
+  </p>
+  <q>
+    <script> Έχουν αφαιρεθεί δυο μηχανές; </script>
+     <translit> Echoun afairethei dyo michanes?.</translit> 
+     <morph> Have removed[pres.perf,3.Pl,passive] two machines[nom]? </morph>
+    <english> Have two machines been removed? </english> 
+  </q>
+  <h>
+    <script> Δυο μηχανές έχουν αφαιρεθεί.</script>
+     <translit> Dyo michanes echoun afairethei.</translit> 
+     <morph> Two machines[nom] have removed[pres.perf,3.Pl,passive]. </morph>
+    <english> Two machines have been removed. </english> 
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+   </a>
+</problem>
+
+<problem
+  id="125"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Δυο απο τις δέκα μηχανές λέιπουν. </script>
+     <translit> Dyo apo tis deka michanes leipoun.</translit> 
+     <morph>  Two of the[f,acc] ten machines[acc] miss[pres,3.Pl]. </morph>
+    <english>Two out of ten machines are missing. </english> 
+  </p>
+  <p idx="2">
+    <script> Αυτές έχουν αφαιρεθεί. </script>
+     <translit> Aphtes echoun afairethei.</translit> 
+     <morph>  They[f,nom] have removed[pres.perf,3.Pl,passive]. </morph>
+    <english> They have been removed. </english> 
+  </p>
+  <q>
+     <script> Έχουν αφαιρεθεί οκτώ μηχανές; </script>
+     <translit> Echoun afairethei okto michanes?.</translit> 
+     <morph> Have removed[pres.perf,3.Pl,passive] eight machines[nom]? </morph>
+    <english> Have eight machines been removed? </english> 
+  </q>
+  <h>
+    <script> Οκτώ μηχανές έχουν αφαιρεθεί.</script>
+     <translit> Okto michanes echoun afairethei.</translit> 
+     <morph> Eight machines[nom] have removed[pres.perf,3.Pl,passive]. </morph>
+    <english> Okto machines have been removed. </english> 
+  </h>
+  <a>
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+  <why> Set difference can't be used to construct plural antecedents </why>
+</problem>
+
+
+<problem
+  id="126"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Δυο απο τις δέκα μηχανές λέιπουν. </script>
+     <translit> Dyo apo tis deka michanes leipoun.</translit> 
+     <morph>  Two of the[f,acc] ten machines[acc] miss[pres,3.Pl]. </morph>
+    <english>Two out of ten machines are missing. </english> 
+  </p>
+  <p idx="2">
+    <script> Ήταν όλες εδώ χθές. </script>
+     <translit> Itan oles edo chthes.</translit> 
+     <morph>  Were[past,3.Pl] all[f,nom] here yesterday. </morph>
+    <english>They were all here yesterday. </english> 
+  </p>
+  <q>
+    <script> Ήταν δέκα μηχανές εδώ χθές; </script>
+     <translit> Itan deka michanes edo chthes?</translit> 
+     <morph>  Were[past,3.Pl] ten machines[nom] here yesterday? </morph>
+    <english>Were ten machines here yesterday? </english>
+  </q>
+  <h>
+    <script> Δέκα μηχανές ήταν εδώ χθές. </script>
+     <translit> Deka michanes itan edo chthes.</translit> 
+     <morph>  Ten machines[nom] were[past,3.Pl] here yesterday. </morph>
+    <english>Ten machines were here yesterday.  </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="127"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ πήρε μια μηχανή τη Τρίτη και ο Τζόουνς πήρε μια μηχανή τη Τετάρτη. </script>
+     <translit> O Smith pire mia michani ti Triti kai o Tzoouns pire mia michani ti Tetarti.</translit> 
+     <morph>  The[m,nom] Smith took[past,3.Sg] a[f,acc] machine[acc] the[f,acc] Tuesday and the[m,nom] Jones took[past,3.Sg] a[f,acc] machine[acc] the[f,acc] Wednesday. </morph>
+    <english>Smith took a machine on Tuesday, and Jones took a machine on Wednesday. </english>
+  </p>
+  <p idx="2">
+    <script>Τις έβαλαν στο χώρο αναμονής. </script>
+     <translit> Tis evalan sto choro anamonis. </translit> 
+     <morph>Them[f,acc] put[past.3.Pl] in the[contr,neut,sg,acc] lobby[acc]. </morph>
+      <english> They put them in the lobby. </english>
+  </p>
+  <q>
+    <script>Έβαλαν ο Σμιθ και ο Τζόουνς δυο μηχανές στο χώρο αναμονής; </script>
+     <translit> Evalan o Smith kai o Tzoouns dio michanes sto choro anamonis? </translit> 
+     <morph>Put[past.3.Pl] the[m,nom] Smith and the[m,nom] Jones two machines[acc] in the[contr,neut,sg,acc] lobby[acc]? </morph>
+      <english>Did Smith and Jones put two machines in the lobby? </english>
+  </q>
+  <h>
+    <script>Ο Σμιθ και ο Τζόουνς έβαλαν δυο μηχανές στο χώρο αναμονής. </script>
+     <translit> O Smith kai o Tzoouns evalan dio michanes sto choro anamonis. </translit> 
+     <morph>The[m,nom] Smith and the[m,nom] Jones put[past.3.Pl] two machines[acc] in the[contr,neut,sg,acc] lobby[acc]. </morph>
+      <english>Smith and Jones put two machines in the lobby. </english>
+  </h>
+  <a>  
+    <script> Ναι, σε μια διανεμητική ανάγνωση της ερώτησης . </script>
+    <translit> Nai,se mia dianemitiki anagnosi tis erotisis.  </translit>
+    <english>Yes, on a distributive reading of the question. </english>
+   </a>
+  <why> Construction of plural antecedents from separate constituents. </why>
+</problem>
+
+<problem
+  id="128"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης και οι συνάδελφοί του πήγαν σε μια σύσκεψη. </script>
+     <translit>O Giannis kai oi synadelfoi tou pigan se mia syskepsi. </translit> 
+     <morph>  The[m,nom] John and the[m,pl,nom] colleagues[nom] his[gen] went[past,3.Pl] to a[f,acc] meeting[acc]. </morph>
+    <english>John and his colleagues went to a meeting. </english>
+  </p>
+  <p idx="2">
+    <script> Τη μίσησαν. </script>
+     <translit>Ti misisan. </translit> 
+     <morph> It[f,acc] hated[past,3.Pl]. </morph>
+    <english>They hated it. </english>
+  </p>
+  <q>
+    <script> Οι συνάδελφοί του Γιάννη μίσησαν τη σύσκεψη; </script>
+     <translit>Oi synadelfoi tou Gianni misisan ti syskepsi? </translit> 
+     <morph>  The[m,pl,nom] colleagues[nom] the[m,gen] John[gen]  hate[past,3.Pl] the[f,acc] meeting[acc]? </morph>
+    <english>Did John&apos;s colleagues hate the meeting? </english>
+  </q>
+  <h>
+    <script> Οι συνάδελφοί του Γιάννη μίσησαν τη σύσκεψη. </script>
+     <translit>Oi synadelfoi tou Gianni misisan ti syskepsi. </translit> 
+     <morph>  The[m,pl,nom] colleagues[nom] the[m,gen] John[gen]  hated[past,3.Pl] the[f,acc] meeting[acc]. </morph>
+    <english> John&apos;s colleagues hated the meeting. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="129"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης και οι συνάδελφοί του πήγαν σε μια σύσκεψη. </script>
+     <translit>O Giannis kai oi synadelfoi tou pigan se mia syskepsi. </translit> 
+     <morph>  The[m,nom] John and the[m,pl,nom] colleagues[nom] his[gen] went[past,3.Pl] to a[f,acc] meeting[acc]. </morph>
+    <english>John and his colleagues went to a meeting. </english>
+  </p>
+  <p idx="2">
+    <script> Τη μίσησαν. </script>
+     <translit>Ti misisan. </translit> 
+     <morph> It[f,acc] hated[past,3.Pl]. </morph>
+    <english>They hated it. </english>
+  </p>
+  <q>
+    <script> Ο Γιάννης μίσησε τη σύσκεψη; </script>
+     <translit>O Giannis misise ti syskepsi? </translit> 
+     <morph>  The[m,nom] John[nom]  hate[past,3.Sg] the[f,acc] meeting[acc]? </morph>
+    <english> Did John hate the meeting? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης μίσησε τη σύσκεψη. </script>
+     <translit>O Giannis misise ti syskepsi. </translit> 
+     <morph>  The[m,nom] John[nom]  hateδ[past,3.Sg] the[f,acc] meeting[acc]. </morph>
+    <english> John hated the meeting. </english>
+  </h>
+  <a>
+    <script> Ναι, με μια πιθανή ανάγνωση. </script>
+    <translit> Nai,me mia pithani anagnosi.  </translit>
+    <english> Yes, on one possible reading. </english>
+   </a>
+  <why> "They" can be resolved to John and his colleagues. </why>
+</problem>
+
+<problem
+  id="130"
+  fracas_answer="unknown"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης και οι συνάδελφοί του πήγαν σε μια σύσκεψη. </script>
+     <translit>O Giannis kai oi synadelfoi tou pigan se mia syskepsi. </translit> 
+     <morph>  The[m,nom] John and the[m,pl,nom] colleagues[nom] his[gen] went[past,3.Pl] to a[f,acc] meeting[acc]. </morph>
+    <english>John and his colleagues went to a meeting. </english>
+  </p>
+  <p idx="2">
+    <script> Τη μίσησαν. </script>
+     <translit>Ti misisan. </translit> 
+     <morph> It[f,acc] hated[past,3.Pl]. </morph>
+    <english>They hated it. </english>
+  </p>
+  <q>
+     <script> Ο Γιάννης μίσησε τη σύσκεψη; </script>
+     <translit>O Giannis misise ti syskepsi? </translit> 
+     <morph>  The[m,nom] John[nom]  hate[past,3.Sg] the[f,acc] meeting[acc]? </morph>
+    <english> Did John hate the meeting? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης μίσησε τη σύσκεψη. </script>
+     <translit>O Giannis misise ti syskepsi. </translit> 
+     <morph>  The[m,nom] John[nom]  hate[past,3.Sg] the[f,acc] meeting[acc]. </morph>
+    <english> John hated the meeting. </english>
+  </h>
+  <a>
+    <script> Δεν ξέρω, με μια πιθανή ανάγνωση. </script>
+    <translit> Den ksero ,me mia pithani anagnosi.  </translit>
+    <english>  Don't know, on one possible reading </english>
+  </a>
+  <why> "They" can also be resolved to John's colleagues but not John. </why>
+</problem>
+
+<problem
+  id="131"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε τμήμα έχει μια αποκλειστική γραμμή. </script>
+     <translit> Kathe tmima echei mia apokleistiki grammi. </translit> 
+     <morph>  Each department[nom] has[pres,3.Sg] a[f,acc] dedicated[f,acc] line[acc].</morph>
+    <english> Each department has a dedicated line. </english>
+  </p>
+  <p idx="2">
+    <script> Τις νοικιάζουν απο τη ΒΤ. </script>
+     <translit> Tis noikiazoun apo ti BT.</translit> 
+     <morph>  Them[f,acc] rent[pres,3.Pl] from the[f,acc] BT. </morph>
+    <english> They rent them from BT. </english>
+  </p>
+  <q>
+     <script> Νοικιάζει κάθε τμήμα μια γραμμή απο τη ΒΤ; </script>
+     <translit> Noikiazei kathe tmima mia grammi apo ti BT? </translit> 
+     <morph> Rent[pres,3.Sg] every department[nom] a[f,acc] line[acc] from the[f,acc] BT?</morph>
+    <english> Does every department rent a line from BT? </english>
+  </q>
+  <h>
+     <script> Κάθε τμήμα νοικιάζει μια γραμμή απο τη ΒΤ. </script>
+     <translit> Kathe tmima noikiazei mia grammi apo ti BT. </translit> 
+     <morph>  Every department[nom] rent[pres,3.Sg] a[f,acc] line[acc] from the[f,acc] BT.</morph>
+    <english>Every department rents a line from BT. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+  <why> Dependent plural anaphora </why>
+</problem>
+
+
+<problem
+  id="132"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε τμήμα έχει μια αποκλειστική γραμμή. </script>
+     <translit> Kathe tmima echei mia apokleistiki grammi. </translit> 
+     <morph>  Each department[nom] has[pres,3.Sg] a[f,acc] dedicated[f,acc] line[acc].</morph>
+    <english> Each department has a dedicated line. </english>
+  </p>
+  <p idx="2">
+    <script> Το τμήμα πωλήσεων τη νοικιάζει απο τη ΒΤ. </script>
+     <translit> To tmima poliseon ti noikiazei apo ti BT.</translit> 
+     <morph>  The[neut,nom] department[nom] sales[gen] it[f,acc] rents[pres,3.Sg] from the[f,acc] BT. </morph>
+    <english> The sales department rents it from BT. </english>
+  </p>
+  <q>
+   <script> Νοικιάζει το τμήμα πωλήσεων μια γραμμή απο τη ΒΤ; </script>
+     <translit> Noikiazei to tmima poliseon mia grammi apo ti BT? </translit> 
+     <morph> Rent[pres,3.Sg]  the[neut,nom] department[nom] sales[gen] a[f,acc] line[acc] from the[f,acc] BT?</morph>
+    <english> Does the sales department rent a line from BT? </english>
+  </q>
+  <h>
+    <script> Το τμήμα πωλήσεων νοικιάζει μια γραμμή απο τη ΒΤ. </script>
+     <translit> To tmima poliseon noikiazei mia grammi apo ti BT. </translit>> 
+     <morph>  The[neut,nom] department[nom] sales[gen] rents[pres,3.Sg] a[f,acc] line[acc] from the[f,acc] BT.</morph>
+    <english>The sales department rents a line from BT.  </english>
+  </h> 
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+  <why> Paycheque pronoun </why>
+</problem>
+
+<comment class="subsection"> 3.4 E-type and Donkey Pronouns </comment>
+
+<problem
+  id="133"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Η ΓΦΙ διαθέτει αρκετούς υπολογιστές. </script>
+     <translit> I GFI diathetei arketous ypologistes. </translit> 
+     <morph> The[f,nom] GFI owns[pres,3.Sg] several[m,acc] computers[acc]. </morph>
+    <english> GFI owns several computers. </english>
+  </p>
+  <p idx="2">
+    <script> Η ΙΤΕΛ τους συντηρεί.</script>
+     <translit> I ITEL tous syntirei. </translit> 
+     <morph> The[f,nom] ITEL them[m,acc] maintains[pres,3.Sg]. </morph>
+    <english> ITEL maintains them. </english>
+  </p>
+  <q>
+    <script> Η ΙΤΕΛ συντηρεί όλους τους υπολογιστές που διαθέτει η ΓΦΙ;</script>
+     <translit> I ITEL syntirei olous tous ypologistes pou diathetei i GFI? </translit> 
+     <morph> The[f,nom] ITEL maintains[pres,3.Sg] all[m,acc] the[m,pl,acc] computers[acc] that owns[pres,3.Sg] the[f,nom] GFI? </morph>
+    <english> Does ITEL maintain all the computers that GFI owns? </english>
+  </q>
+  <h>
+    <script> Η ΙΤΕΛ συντηρεί όλους τους υπολογιστές που διαθέτει η ΓΦΙ.</script>
+     <translit> I ITEL syntirei olous tous ypologistes pou diathetei i GFI. </translit> 
+     <morph> The[f,nom] ITEL maintains[pres,3.Sg] all[m,acc] the[m,pl,acc] computers[acc] that owns[pres,3.Sg] the[f,nom] GFI. </morph>
+    <english> ITEL maintains all the computers that GFI owns.</english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+  <why> E-type anaphora </why>
+</problem>
+
+
+<problem
+  id="134"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε πελάτης που διαθέτει εναν υπολογιστή έχει ενα συμβόλαιο συντήρησης για αυτόν. </script>
+     <translit> Kathe pelatis pou diathetei enan ypologisti echei ena symvolaio syntirisis gia auton. </translit> 
+     <morph> Every customer[nom] who owns[pres,3.Sg] a[m,acc] computer[acc] has[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for it[m,acc]. </morph>
+    <english> Every customer who owns a computer has a service contract for it. </english>
+  </p>
+  <p idx="2">
+    <script> Η ΜΦΙ είναι ένας πελάτης που διαθέτει ακριβώς έναν υπολογιστή.</script>
+     <translit> I MFI einai enas pelatis pou diathetei akrivos enan ypologisti. </translit> 
+     <morph> The[f,nom] MFI is[pres,3.Sg] a[neut,nom] customer[nom] that owns[pres,3.Sg] exactly one[m,acc] computer[acc]. </morph>
+    <english> MFI is a customer that owns exactly one computer. </english>
+  </p>
+  <q>
+    <script> Η ΜΦΙ έχει ένα συμβόλαιο συντήρησης για όλους τους υπολογιστές της; </script>
+     <translit> I MFI echei ena symvolaio syntirisis gia olous tous ypologistes tis?  </translit> 
+     <morph> The[f,nom] MFI have[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for all[m,acc] the[m,pl,acc] computers[acc] its[f,gen]?</morph>
+    <english> Does MFI have a service contract for all its computers? </english>
+  </q>
+  <h>
+    <script> Η ΜΦΙ έχει ένα συμβόλαιο συντήρησης για όλους τους υπολογιστές της. </script>
+     <translit> I MFI echei ena symvolaio syntirisis gia olous tous ypologistes tis.  </translit> 
+     <morph> The[f,nom] MFI have[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for all[m,acc] the[pl,acc] computers[acc] its[f,gen]. </morph>
+    <english> MFI has a service contract for all its computers. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+ </a>
+  <why> Donkey sentence </why>
+</problem>
+
+<problem
+  id="135"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε πελάτης που διαθέτει εναν υπολογιστή έχει ενα συμβόλαιο συντήρησης για αυτόν. </script>
+     <translit> Kathe pelatis pou diathetei enan ypologisti echei ena symvolaio syntirisis gia auton. </translit> 
+     <morph> Every customer[nom] who owns[pres,3.Sg] a[m,acc] computer[acc] has[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for it[m,acc]. </morph>
+    <english> Every customer who owns a computer has a service contract for it. </english>
+  </p>
+  <p idx="2">
+    <script> Η ΜΦΙ είναι ένας πελάτης που διαθέτει αρκετούς υπολογιστές.</script>
+     <translit> I MFI einai enas pelatis pou diathetei arketous ypologistes. </translit> 
+     <morph> The[f,nom] MFI is[pres,3.Sg] a[neut,nom] customer[nom] that owns[pres,3.Sg] several[m,acc] computers[acc]. </morph>
+    <english> MFI is a customer that owns several computers. </english>
+  </p>
+  <q>
+    <script> Η ΜΦΙ έχει ένα συμβόλαιο συντήρησης για όλους τους υπολογιστές της; </script>
+     <translit> I MFI echei ena symvolaio syntirisis gia olous tous ypologistes tis?  </translit> 
+     <morph> The[f,nom] MFI have[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for all[m,acc] the[m,pl,acc] computers[acc] its[f,gen]?</morph>
+    <english> Does MFI have a service contract for all its computers? </english>
+  </q>
+  <h>
+     <script> Η ΜΦΙ έχει ένα συμβόλαιο συντήρησης για όλους τους υπολογιστές της. </script>
+     <translit> I MFI echei ena symvolaio syntirisis gia olous tous ypologistes tis.  </translit> 
+     <morph> The[f,nom] MFI have[pres,3.Sg] a[neut,acc] contract[acc] service[gen] for all[m,acc] the[m,pl,acc] computers[acc] its[f,gen]. </morph>
+    <english> MFI has a service contract for all its computers. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+  <why>
+    This pattern of inference, unlike (134), tends to some theory
+    dependence. Although the inference seems correct in this example, compare
+    with (136)
+  </why>
+</problem>
+
+<problem
+  id="136"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Κάθε στέλεχος που διέθετε ενα φορητό υπολογιστή τον έφερε για να κρατήσει σημειώσεις στη σύσκεψη. </script>
+     <translit> Kathe stelechos pou diethete ena forito ypologisti ton efere gia na kratisei simioseis sti syskepsi. </translit> 
+     <morph> Every executive[nom] who had[past,3.Sg] a[m,acc] laptop[m,acc] computer[acc] it[m,acc] brought[past,3.Sg]  to take[pres,3.Sg,subj] notes[acc] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english>  Every executive who had a laptop computer brought it to take notes at the meeting. </english> 
+  </p>
+  <p idx="2">
+   <script> Ο Σμιθ είναι ένα στέλεχος που διαθέτει πέντε διαφορετικούς φορητούς υπολογιστές. </script>
+     <translit> O Smith einai ena stelechos pou diathetei pente diaforetikous foritous ypologistes. </translit> 
+     <morph> The[m,nom] Smith is[pres,3.Sg] an[neut,nom] executive[nom] who owns[pres,3.Sg]  five different[m,pl,acc] laptop[m,pl,acc] computers[acc].</morph>
+    <english> Smith is a executive who owns five different laptop computers. </english>
+  </p>
+  <q>
+    <script> Ο Σμιθ πήρε πέντε  φορητούς υπολογιστές στη σύσκεψη; </script>
+     <translit> O Smith pire  pente  foritous ypologistes sti syskepsi? </translit> 
+     <morph> The[m,nom] Smith take[past,3.Sg] five laptop[m,pl,acc] computers[acc] at the[contr,f,sg,acc] meeting[acc]?</morph>
+    <english>  Did Smith take five laptop computers to the meeting? </english>
+  </q>
+  <h>
+    <script> Ο Σμιθ πήρε πέντε  φορητούς υπολογιστές στη σύσκεψη. </script>
+     <translit> O Smith pire  pente foritous ypologistes sti syskepsi. </translit> 
+     <morph> The[m,nom] Smith took[past,3.Sg] five laptop[m,pl.acc] computers[acc] at the[contr,f,sg,acc] meeting[acc]. </morph>
+    <english> Smith took five laptop computers to the meeting. </english>
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+  <why> Similar to (135), except for tense and pragmatic plausibility. </why>
+</problem>
+
+<problem
+  id="137"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Υπάρχουν 100 εταιρίες. </script>
+     <translit>Yparchoun 100 etairies. </translit> 
+     <morph> Exist[pres,3.Pl] 100 companies[nom]. </morph>
+    <english>There are 100 companies. </english>
+  </p>
+  <p idx="2">
+    <script> Η ΙΣΜ είναι μια απο τις εταιρίες και διαθέτει 150 υπολογιστές. </script>
+     <translit> H ICM einai mia apo tis etairies kai diathetei 150 ypologistes.</translit> 
+     <morph> The[f,nom] ICM is[pres,3.Sg] one[f,nom] of the[f,acc] companies[acc] and owns[pres,3.Sg] 150 computers[acc]. </morph>
+    <english> ICM is one of the companies and owns 150 computers. </english>
+  </p>
+  <p idx="3">
+    <script> Δεν έχει συμβόλαια συντήρησης για κανέναν απο τους υπολογιστές της. </script>
+     <translit> Den echei symvolaia syntirisis gia kanenan apo tous pelates tis.</translit> 
+     <morph> Not have[pres,3.Sg] contracts[acc] service[gen] for any[m,acc] of the[pl,acc] computers[acc] its[f,gen]. </morph>
+    <english> It does not have service contracts for any of its computers. </english>
+  </p>
+  <p idx="4">
+    <script> Κάθε μια απο τις άλλες 99 εταιρίες διαθέτει έναν υπολογιστή.</script>
+     <translit> Kathe mia apo tis alles 99 etairies diathetei enan ypologisti.</translit> 
+     <morph> Each one[f,nom] of the other[f,acc] 99 companies[acc] owns[pres,3.Sg] one[m,acc] computer[acc]. </morph>
+    <english> Each of the other 99 companies owns one computer.</english>
+  </p>
+  <p idx="5">
+    <script> Έχουν συμβόλαια συντήρησης για αυτούς. </script>
+     <translit> Echoun symvolaia syntirisis gia autous. </translit> 
+     <morph> Have[pres,3.Pl] contracts[acc] service[gen] for them[m,acc]. </morph>
+    <english>They have service contracts for them. </english>
+  </p>
+  <q>
+    <script>Οι περισσότερες εταιρίες που διαθέτουν έναν υπολογιστή έχουν ένα συμβόλαιο συντήρησης για αυτόν; </script>
+     <translit> Οi perissoteres etairies pou diathetoun enan ypologisti echoun ena symvolaio syntirisis gia auton? </translit> 
+     <morph>The[f,nom] most[f,nom] companies[nom] that own[pres,3.Pl] a[m,acc] computer[acc] have[pres,3.Pl] a[neut,acc] contract[acc] service[gen] for it[m,acc]? </morph>
+    <english> Do most companies that own a computer have a service contract for it? </english>
+  </q>
+  <h>
+   <script> Οι περισσότερες εταιρίες που διαθέτουν έναν υπολογιστή έχουν ένα συμβόλαιο συντήρησης για αυτόν. </script>
+     <translit> Οi perissoteres etairies pou diathetoun enan ypologisti echoun ena symvolaio syntirisis gia auton. </translit> 
+     <morph> The[f,nom] most[f,nom] companies[nom] that own[pres,3.Pl] a[m,acc] computer[acc] have[pres,3.Pl] a[neut,acc] contract[acc] service[gen] for it[m,acc]. </morph>
+    <english>  Most companies that own a computer have a service contract for it. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+  <why> Proportion problem </why>
+</problem>
+
+<comment class="subsection"> 3.5 Functional and Subsectional </comment>
+
+<comment> Due to the heavy domain dependence of functional (or better perhaps,
+relational) anaphora, it is hard to state general inferences that don't assume
+considerable background knowledge unless this is given explicitly. </comment>
+
+<problem
+  id="138"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Κάθε αναφορά έχει ενα εξώφυλλο.  </script>
+    <translit> Kathe anafora echei ena exofyllo. </translit> 
+    <morph>  Every report[nom] has[pres,3.Sg] a[neut,acc] cover page[acc]. </morph>
+    <english>Every report has a cover page. </english>
+  </p>
+  <p idx="2">
+   <script> Η R-95-103 είναι μια αναφορά. </script>
+    <translit> H R-95-103 einai mia anafora. </translit> 
+    <morph>  The[f,nom] R-95-103 is[pres,3.Sg] a[f,nom] report[nom]. </morph>
+    <english> R-95-103 is a report. </english>
+  </p>
+  <p idx="3">
+    <script> Ο Σμιθ υπέγραψε το εξώφυλλο. </script>
+    <translit> O Smith ypegrapse to exofyllo. </translit> 
+    <morph>  The[m,nom] Smith signed[past,3.Sg] the[neut,acc] cover page[acc]. </morph>
+    <english> Smith signed the cover page. </english>
+  </p>
+  <q>
+    <script> Yπέγραψε ο Σμιθ το εξώφυλλο της R-95-103; </script>
+    <translit> Ypegrapse o Smith to exofyllo tis R-95-103? </translit> 
+    <morph>  Sign[past,3.Sg] the[m,nom] Smith the[neut,acc] cover page[acc] the[f,gen] R-95-103?  </morph>
+    <english> Did Smith sign the cover page of R-95-103? </english>
+  </q>
+  <h>
+   <script>  Ο Σμιθ υπέγραψε το εξώφυλλο της R-95-103. </script>
+    <translit> O Smith ypegrapse to exofyllo tis R-95-103. </translit> 
+    <morph>   The[m,nom] Smith signed[past,3.Sg] the[neut,acc] cover page[acc] the[f,gen] R-95-103? </morph>
+    <english>  Smith signed the cover page of R-95-103. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+
+<comment class="subsection"> 3.6 Simple Reflexives </comment>
+
+<problem
+  id="139"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ένας διευθυντής εταιρίας επιβράβευσε τον εαυτό του με μια μεγάλη αύξηση μισθού.</script>
+    <translit> Enas dieuthintis etairias epivraveuse ton eauto tou me mia megali afksisi misthou. </translit> 
+    <morph>  A[m,nom] director[nom] company[gen] awarded[past,3.Sg] the[,acc] self[acc] him[gen] with a[f,acc] large[f,acc] payrise[acc]. </morph>
+    <english> A company director awarded himself a large payrise. </english>
+  </p> 
+  <q>
+    <script>Έχει επιβραβεύσει και επιβραβευθεί ένας διευθυντής εταιρίας με μια αύξηση μισθού;</script>
+    <translit> Echei epivravefsei kai epivravefthei enas dieuthintis etairias me mia afksisi misthou? </translit> 
+    <morph>  Has awarded[pres.perf,3.Sg] and been awarded[pres.perf,3.Sg,passive] a[m,nom] director[nom] company[gen] with a[f,acc] payrise[acc]? </morph>
+    <english> Has a company director awarded and been awarded a payrise? </english>
+  </q>
+  <h>
+   <script>Ένας διευθυντής εταιρίας έχει επιβραβεύσει και επιβραβευθεί με μια αύξηση μισθού.</script>
+    <translit> Enas dieuthintis etairias echei epivravefsei kai epivravefthei me mia afksisi misthou. </translit> 
+    <morph>  A[m,nom] director[nom] company[gen] has awarded[pres.perf,3.Sg] and been awarded[pres.perf,3.Sg,passive] with a[f,acc] payrise[acc]. </morph>
+    <english> A company director has awarded and been awarded a payrise. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="140"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης είπε οτι ο Βασίλης είχε τραυματίσει τον εαυτό του.  </script>
+    <translit> O Giannis eipe oti o Vasilis eiche travmatisei ton eayto tou. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg] the[,acc] self[acc] him[gen]. </morph>
+    <english>  John said Bill had hurt himself. </english> 
+  </p>
+  <q>
+    <script> Έιπε ο Γιάννης οτι ο Βασίλης είχε τραυματιστεί;  </script>
+    <translit> Eipe o Giannis oti o Vasilis eiche travmatistei? </translit> 
+    <morph> Said[past,3.Sg] the[m,nom] John[nom]  that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg,passive]. </morph>
+    <english> Did John say Bill had been hurt? </english> 
+  </q>
+  <h>
+    <script> Ο Γιάννης είπε οτι ο Βασίλης είχε τραυματιστεί;  </script>
+    <translit> O Giannis eipe oti o Vasilis eiche travmatistei? </translit> 
+    <morph> The[m,nom] John[nom] said[past,3.Sg] that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg,passive]. </morph>
+    <english> John said Bill had been hurt. </english> 
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+</problem>
+
+<problem
+  id="141"
+  fracas_answer="unknown">
+  <p idx="1">
+     <script> Ο Γιάννης είπε οτι ο Βασίλης είχε τραυματιστεί.  </script>
+    <translit> O Giannis eipe oti o Vasilis eiche travmatistei. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg] the[,acc] self[acc] him[gen]. </morph>
+    <english>  John said Bill had hurt himself. </english> 
+  </p>
+  <q>
+    <script> Έιπε κάποιος οτι ο Βασίλης είχε τραυματιστεί;  </script>
+    <translit> Eipe kapoios oti o Vasilis eiche travmatistei? </translit> 
+    <morph> Said[past,3.Sg] anyone[m,nom] that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg,passive]? </morph>
+    <english> Did anyone say John had been hurt? </english> 
+  </q>
+  <h>
+   <script> Κάποιος είπε οτι ο Βασίλης είχε τραυματιστεί.  </script>
+    <translit> Kapoios eipe oti o Vasilis eiche travmatistei. </translit> 
+    <morph> Someone[m,nom] said[past,3.Sg] that the[m,nom] Bill[nom] had hurt[past.perf,3.Sg,passive]. </morph>
+    <english> Someone said John had been hurt. </english> 
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+</problem>
+
+<comment class="section"> 4 ELLIPSIS </comment>
+
+<comment>
+  In nearly all cases the inferences presented here have conclusions that are
+  simply reconstructions of the ellided constituent. Unfortunately, an inference
+  test suite is not well suited to illustrating prohibitions on ellipsis
+  resolution. For example, an ill-formed discourse like
+
+  John was in Paris yesterday. *So did Bill.
+
+  doesn't even get as far as supporting any inferences.
+</comment>
+
+<comment class="subsection"> 4.1 VP Ellipsis </comment>
+
+<problem
+  id="142"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc].  </morph>
+    <english>  John spoke to Mary. </english>
+  </p>
+  <p idx="2">
+   <script> Το ίδιο έκανε ο Βασίλης.  </script>
+    <translit> To idio ekane o Vasilis. </translit> 
+    <morph>  So did[past,3.Sg] the[m,nom] Bill[nom]. </morph>
+    <english>  So did Bill.  </english>
+  </p>
+  <q>
+    <script> Μίλησε ο Βασίλης στη Μαίρη;  </script>
+    <translit> Milise o Vasilis sti Mairi? </translit> 
+    <morph>  Speak[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Did Bill speak to Mary?  </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης μίλησε στη Μαίρη.  </script>
+    <translit> O Vasilis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Bill spoke to Mary.  </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+ </a>
+  <why> Basic example. </why>
+</problem>
+
+<problem
+  id="143"
+  fracas_answer="unknown">
+  <p idx="1">
+     <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc].  </morph>
+    <english>  John spoke to Mary. </english>
+  </p>
+  <p idx="2">
+   <script> Το ίδιο έκανε ο Βασίλης.  </script>
+    <translit> To idio ekane o Vasilis. </translit> 
+    <morph>  So did[past,3.Sg] the[m,nom] Bill[nom]. </morph>
+    <english>  So did Bill.  </english>
+  </p>
+  <p idx="3">
+   <script> Ο Γιάννης μίλησε στη Μαίρη στις τέσσερις η ώρα.  </script>
+    <translit> O Giannis milise sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock.</morph>
+    <english> John spoke to Mary at four o&apos;clock </english>
+  </p>
+  <q>
+   <script> Μίλησε ο Βασίλης στη Μαίρη στις τέσσερις η ώρα;  </script>
+    <translit> Milise o Vasilis sti Mairi stis tesseris i ora? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock? </morph>
+    <english>  Did Bill speak to Mary at four o&apos;clock? </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης μίλησε στη Μαίρη στις τέσσερις η ώρα.  </script>
+    <translit> O Vasilis milise sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock.</morph>
+    <english>  Bill spoke to Mary at four o&apos;clock. </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+  <why>
+    Temporal resolution of tense in antecedent is not carried across to ellipsis.
+  </why>
+</problem>
+
+<problem
+  id="144"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη στις τέσσερις η ώρα.  </script>
+    <translit> O Giannis milise sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock.</morph>
+    <english> John spoke to Mary at four o&apos;clock </english>
+  </p>
+  <p idx="2">
+    <script> Το ίδιο έκανε ο Βασίλης.  </script>
+    <translit> To idio ekane o Vasilis. </translit> 
+    <morph>  So did[past,3.Sg] the[m,nom] Bill[nom]. </morph>
+    <english>  So did Bill.  </english>
+  </p>
+  <q>
+    <script> Μίλησε ο Βασίλης στη Μαίρη στις τέσσερις η ώρα;  </script>
+    <translit> Milise o Vasilis sti Mairi stis tesseris i ora? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock? </morph>
+    <english>  Did Bill speak to Mary at four o&apos;clock? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης μίλησε στη Μαίρη στις τέσσερις η ώρα.  </script>
+    <translit> O Vasilis milise sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock.</morph>
+    <english>  Bill spoke to Mary at four o&apos;clock. </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+  </a>
+  <why> Explicit temporal adverbials are carried across to ellipsis. </why>
+</problem>
+
+<problem
+  id="145"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη στις τέσσερις η ώρα.  </script>
+    <translit> O Giannis milise sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] four[num] o'clock.</morph>
+    <english> John spoke to Mary at four o&apos;clock </english>
+  </p>
+  <p idx="2">
+     <script> Και ο Βασίλης το έκανε στις πέντε η ώρα.  </script>
+    <translit> Kai o Vasilis to ekane stis pente i ora. </translit> 
+    <morph>  And the[m,nom] Bill[nom] it[neut] did[past,3.Sg] at the[contr,f,pl,acc] five[num] o'clock. </morph>
+    <english> And Bill did at five o&apos;clock. </english>
+  </p>
+  <q>
+   <script> Μίλησε ο Βασίλης στη Μαίρη στις πέντε η ώρα;  </script>
+    <translit> Milise o Vasilis sti Mairi stis pente i ora? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] five[num] o'clock? </morph>
+    <english> Did Bill speak to Mary at five o&apos;clock? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης μίλησε στη Μαίρη στις πέντε η ώρα.  </script>
+    <translit> O Vasilis milise sti Mairi stis pente i ora. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] at the[contr,f,pl,acc] five[num] o'clock.</morph>
+    <english>   Bill spoke to Mary at five o&apos;clock. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>
+   </a>
+  <why> Explicit temporal adverbials are not carried across if overridden. </why>
+</problem>
+
+<problem
+  id="146"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης έχει μιλήσει στη Μαίρη.  </script>
+    <translit> O Giannis echei milisei sti Mairi stis tesseris i ora. </translit> 
+    <morph>  The[m,nom] John[nom] has spoken[pres.perf,3.Sg] to the[contr,f,sg,acc] Mary[acc].</morph>
+    <english>  John has spoken to Mary. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης θα το κάνει.  </script>
+    <translit> O Vasilis tha to kanei. </translit> 
+    <morph>  The[m,nom] Bill[nom] will it[neut] do[fut,3.Sg]. </morph>
+    <english> Bill is going to. </english>
+  </p>
+  <q>
+    <script> Θα μιλήσει ο Βασίλης στη Μαίρη;  </script>
+    <translit> Tha milisei o Vasilis sti Mairi? </translit> 
+    <morph>  Will  speak[fut,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc]?  </morph>
+    <english> Will Bill speak to Mary? </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης θα μιλήσει στη Μαίρη.  </script>
+    <translit> O Vasilis tha milisei sti Mairi. </translit> 
+    <morph>  The[m,nom] Bill[nom] will speak[fut,3.Sg] to the[contr,f,sg,acc] Mary[acc].  </morph>
+    <english> Bill will speak to Mary. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+ </a>
+  <why> Tense agreement not necessary between ellipsis and antecedent. </why>
+</problem>
+
+<problem
+  id="147"
+  fracas_answer="no">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη τη Δευτέρα.  </script>
+    <translit> O Giannis milise sti Mairi ti Deutera. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Monday[acc].</morph>
+    <english> John spoke to Mary on Monday. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης δεν το έκανε.  </script>
+    <translit> O Vasilis den to ekane. </translit> 
+    <morph>  The[m,nom] Bill[nom] not it[neut] do[past,3.Sg]. </morph>
+    <english> Bill didn&apos;t.  </english>
+  </p>
+  <q>
+   <script> Μίλησε ο Βασίλης στη Μαίρη τη Δευτέρα;  </script>
+    <translit> Milise o Vasilis sti Mairi ti Deutera? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Monday[acc]? </morph>
+    <english>  Did Bill speak to Mary on Monday? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης μίλησε στη Μαίρη τη Δευτέρα.  </script>
+    <translit> O Vasilis milise sti Mairi ti Deutera. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Monday[acc].</morph>
+    <english>  Bill spoke to Mary on Monday. </english>
+  </h>
+  <a> 
+    <script>  Όχι </script>
+    <translit> Ochi  </translit>
+    <english>  No </english> 
+  </a>
+  <why> Polarity agreement not necessary between ellipsis and antecedent. </why>
+</problem>
+
+
+<problem
+  id="148"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Έχει μιλήσει ο Γιάννης στη Μαίρη;  </script>
+    <translit> Echei milisei o Giannis sti Mairi? </translit> 
+    <morph>  Has spoken[pres.perf,3.Sg] the[m,nom] John[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english>  Has John spoken to Mary?   </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει μιλήσει.  </script>
+    <translit> O Vasilis echei milisei. </translit> 
+    <morph>  The[m,nom] Bill[nom] has spoken[pres.perf,3.Sg]. </morph>
+    <english> Bill has.  </english>
+  </p>
+  <q>
+     <script> Έχει μιλήσει ο Βασίλης στη Μαίρη;  </script>
+    <translit> Echei milisei o Vasilis sti Mairi? </translit> 
+    <morph>  Has spoken[pres.perf,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Has Bill spoken to Mary? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης έχει μιλήσει στη Μαίρη.  </script>
+    <translit> O Vasilis echei milisei sti Mairi. </translit> 
+    <morph>  The[m,nom] Bill[nom] has spoken[pres.perf,3.Sg] to the[contr,f,sg,acc] Mary[acc]. </morph>
+    <english> Bill has spoken to Mary. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english> 
+   </a>
+  <why> Mood agreement not necessary between ellipsis and antecedent. </why>
+</problem>
+
+
+<problem
+  id="149"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης έχει μιλήσει στη Μαίρη.  </script>
+    <translit> O Giannis echei milisei sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] has spoken[pres.perf,3.Sg] to the[contr,f,sg,acc] Mary[acc].</morph>
+    <english>  John has spoken to Mary. </english>
+  </p>
+  <p idx="2">
+   <script> Ο μαθητές έχουν μιλήσει επίσης.  </script>
+    <translit> Oi mathites echoun milisei episis. </translit> 
+    <morph>  The[m,pl,nom] students[nom] have spoken[pres.perf,3.Pl] too. </morph>
+    <english> The students have too.  </english>
+  </p>
+  <q>
+    <script> Έχουν μιλήσει οι μαθητές στη Μαίρη;  </script>
+    <translit> Echoun milisei oi mathites sti Mairi? </translit> 
+    <morph>  Have spoken[pres.perf,3.Pl] the[m,pl,nom] students[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Have the students spoken to Mary? </english>
+  </q>
+  <h>
+    <script> Οι μαθητές έχουν μιλήσει στη Μαίρη.  </script>
+    <translit> Oi mathites echoun milisei sti Mairi. </translit> 
+    <morph>  The[m,pl,nom] students[nom] have spoken[pres.perf,3.Pl] to the[contr,f,sg,acc] Mary[acc]. </morph>
+    <english> The students have spoken to Mary. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>  
+  </a>
+  <why> Number agreement not necessary. </why>
+</problem>
+
+<comment class="subsection"> 4.2 Gapping </comment>
+
+<problem
+  id="150"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης πήγε στο Παρίσι με αυτοκίνητο και ο Βασίλης με τρένο.  </script>
+    <translit> O Giannis pige sto Parisi me autokinito kai o Vasilis me treno. </translit> 
+    <morph>  The[m,nom] John[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by car[acc] and the[m,nom] Bill[nom] by train[acc].</morph>
+    <english> John went to Paris by car, and Bill by train. </english>
+  </p>
+  <q>
+    <script> Πήγε ο Βασίλης στο Παρίσι με τρένο;  </script>
+    <translit> Pige o Vasilis sto Parisi me treno? </translit> 
+    <morph>  Went[past,3.Sg] the[m,nom] Bill[nom] to the[contr,neut,sg,acc] Paris[acc] by train[acc]? </morph>
+    <english> Did Bill go to Paris by train? </english>
+  </q>
+  <h>
+     <script> Ο Βασίλης πήγε στο Παρίσι με τρένο.  </script>
+    <translit> O Vasilis pige sto Parisi me treno. </translit> 
+    <morph>  The[m,nom] Bill[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by train[acc]. </morph>
+    <english> Bill went to Paris by train. </english>
+  </h>
+  <a>
+   <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>  
+  </a>
+  <why> Basic example </why>
+</problem>
+
+
+<problem
+  id="151"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης πήγε στο Παρίσι με αυτοκίνητο και ο Βασίλης με τρένο στο Βερολίνο.  </script>
+    <translit> O Giannis pige sto Parisi me autokinito kai o Vasilis me treno sto Verolino. </translit> 
+    <morph>  The[m,nom] John[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by car[acc] and the[m,nom] Bill[nom] by train[acc] to the[contr,neut,sg,acc] Berlin[acc].</morph>
+    <english>  John went to Paris by car, and Bill by train to Berlin.</english>
+  </p>
+  <q>
+    <script> Πήγε ο Βασίλης στο Βερολίνο με τρένο;  </script>
+    <translit> Pige o Vasilis sto Verolino me treno? </translit> 
+    <morph>  Went[past,3.Sg] the[m,nom] Bill[nom] to the[contr,neut,sg,acc] Berlin[acc] by train[acc]? </morph>
+    <english> Did Bill go to Berlin by train? </english>
+  </q>
+  <h>
+     <script> Ο Βασίλης πήγε στο Βερολίνο με τρένο.  </script>
+    <translit> O Vasilis pige sto Verolino me treno. </translit> 
+    <morph>  The[m,nom] Bill[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Berlin[acc] by train[acc]. </morph>
+    <english>  Bill went to Berlin by train. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>  
+ </a>
+  <why> Another basic example </why>
+</problem>
+
+<problem
+  id="152"
+  fracas_answer="yes">
+  <p idx="1">
+     <script> Ο Γιάννης πήγε στο Παρίσι με αυτοκίνητο και ο Βασίλης στο Βερολίνο.  </script>
+    <translit> O Giannis pige sto Parisi me autokinito kai o Vasilis sto Verolino. </translit> 
+    <morph>  The[m,nom] John[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by car[acc] and the[m,nom] Bill[nom] to the[contr,neut,sg,acc] Berlin[acc].</morph>
+    <english> John went to Paris by car, and Bill to Berlin. </english>
+  </p>
+  <q>
+   <script> Πήγε ο Βασίλης στο Βερολίνο με αυτοκίνητο;  </script>
+    <translit> Pige o Vasilis sto Verolino me autokinito? </translit> 
+    <morph>  Went[past,3.Sg] the[m,nom] Bill[nom] to the[contr,neut,sg,acc] Berlin[acc] by car[acc]? </morph>
+    <english> Did Bill go to Berlin by car? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης πήγε στο Βερολίνο με αυτοκίνητο.  </script>
+    <translit> O Vasilis pige sto Verolino me autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Berlin[acc] by car[acc]. </morph>
+    <english>   Bill went to Berlin by car.  </english>
+  </h>
+  <a>
+   <script>  Ναι </script>
+    <translit> Nai  </translit>
+    <english>  Yes </english>   
+  </a>
+  <why> Another basic example </why>
+</problem>
+
+<problem
+  id="153"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης πηγαίνει στο Παρίσι με αυτοκίνητο και οι μαθητές με τρένο.  </script>
+    <translit> O Giannis pigainei sto Parisi me autokinito kai oi mathites me treno. </translit> 
+    <morph>  The[m,nom] John[nom] go[pres,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by car[acc] and the[m,pl,nom] students[nom] by train[acc].</morph>
+    <english> John is going to Paris by car, and the students by train. </english>
+  </p>
+  <q>
+   <script> Πηγαίνουν οι μαθητές στο Παρίσι με τρένο;  </script>
+    <translit> Pigainoun oi mathites sto Parisi me treno? </translit> 
+    <morph>  Go[pres,3.Pl] the[m,pl,nom] students[nom] to the[contr,neut,sg,acc] Paris[acc] by train[acc]? </morph>
+    <english> Are the students going to Paris by train?  </english>
+  </q>
+  <h>
+    <script> Οι μαθητές πηγαίνουν στο Παρίσι με τρένο.  </script>
+    <translit> Oi mathites pigainoun sto Parisi me treno. </translit> 
+    <morph>  The[m,pl,nom] students[nom] go[pres,3.Pl] to the[contr,neut,sg,acc] Paris[acc] by train[acc]. </morph>
+    <english> The students are going to Paris by train. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai </translit>  
+    <english>  Yes </english>  
+  </a>
+  <why> Subject-verb agreement not necessary </why>
+</problem>
+
+
+<problem
+  id="154"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης πήγε στο Παρίσι με αυτοκίνητο. </script>
+    <translit> O Giannis pige sto Parisi me autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by car[acc].</morph>
+    <english> John went to Paris by car. </english>  
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης με τρένο.  </script>
+    <translit> O Vasilis me treno. </translit> 
+    <morph>  The[m,nom] Bill[nom] by train[acc] .</morph>
+    <english> Bill by train. </english>  
+  </p>
+  <q>
+     <script> Πήγε ο Βασίλης στο Παρίσι με τρένο;  </script>
+    <translit> Pige o Vasilis sto Parisi me treno? </translit> 
+    <morph>  Went[past,3.Sg] the[m,nom] Bill[nom] to the[contr,neut,sg,acc] Paris[acc] by train[acc]? </morph>
+    <english> Did Bill go to Paris by train?  </english>  
+  </q>
+  <h>
+   <script> Ο Βασίλης πήγε στο Παρίσι με τρένο.  </script>
+    <translit> O Vasilis pige sto Parisi me treno. </translit> 
+    <morph>  The[m,nom] Bill[nom] went[past,3.Sg] to the[contr,neut,sg,acc] Paris[acc] by train[acc]. </morph>
+    <english> Bill went to Paris by train. </english>  
+  </h>
+  <a>  
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>   
+  </a>
+  <why> Cross-sentential gapping </why>
+</problem>
+
+<comment class="subsection"> 4.3 One Anaphora </comment>
+
+<problem
+  id="155"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα αυτοκίνητο. </script>
+    <translit> O Giannis echei ena autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] car[acc].</morph>
+    <english> John owns a car. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα επίσης. </script>
+    <translit> O Vasilis echei ena episis. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] one[neut,acc] too.</morph>
+    <english> Bill owns one too.</english>
+  </p>
+  <q>
+   <script> Έχει ο Βασίλης ενα αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] car[acc]?</morph>
+    <english> Does Bill own a car?</english>
+  </q>
+  <h>
+   <script> Ο Βασίλης έχει ενα αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] car[acc].</morph>
+    <english> Bill owns a car.</english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>  
+  </a>
+  <why> Basic example </why>
+</problem>
+
+<problem
+  id="156"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα αυτοκίνητο. </script>
+    <translit> O Giannis echei ena autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] car[acc].</morph>
+    <english> John owns a car. </english>
+  </p>
+  <p idx="2">
+    <script>  Ο Βασίλης έχει ενα επίσης. </script>
+    <translit> O Vasilis echei ena episis. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] one[neut,acc] too.</morph>
+    <english> Bill owns one too.</english>
+  </p>
+  <q>
+    <script> Υπάρχει ενα αυτοκίνητο που έχουν ο Γιάννης και ο Βασίλης; </script>
+    <translit> Yparchei ena autokinito pou echoun o Giannis kai o Vasilis? </translit> 
+    <morph>  Exist[pres,3.Sg] a[neut,nom] car[nom] that own[pres,3.Pl] the[m,nom] John[nom] and the[m,nom] Bill[nom] ?</morph>
+    <english> Is there a car that John and Bill own? </english>
+  </q>
+  <h>
+    <script> Υπάρχει ενα αυτοκίνητο που έχουν ο Γιάννης και ο Βασίλης. </script>
+    <translit> Yparchei ena autokinito pou echoun o Giannis kai o Vasilis. </translit> 
+    <morph>  Exist[pres,3.Sg] a[neut,nom] car[nom] that own[pres,3.Pl] the[m,nom] John[nom] and the[m,nom] Bill[nom]. </morph>
+    <english> There is a car that John and Bill own. </english>
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+  <why> It needn't be the same car that John and Bill own. </why>
+</problem>
+
+
+<problem
+  id="157"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a red car.  </english>
+  </p> 
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα μπλε. </script>
+    <translit> O Vasilis echei ena mple. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] blue.</morph>
+    <english>  Bill owns a blue one. </english>
+  </p>
+  <q>
+   <script> Έχει ο Βασίλης ενα μπλε αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena mple autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] blue car[acc]?</morph>
+    <english>  Does Bill own a blue car? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης έχει ενα μπλε αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena μπλε autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] blue car[acc].</morph>
+    <english>  Bill owns a blue car. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>
+  </a>
+</problem>
+
+
+<problem
+  id="158"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a red car.  </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα μπλε. </script>
+    <translit> O Vasilis echei ena mple. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] blue.</morph>
+    <english>  Bill owns a blue one. </english>
+  </p>
+  <q>
+    <script> Έχει ο Βασίλης ενα κόκκινο αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena kokkino autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] red[acc] car[acc]?</morph>
+    <english> Does Bill own a red car?  </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] red[acc] car[acc].</morph>
+    <english> Bill owns a red car. </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+</problem>
+
+<problem
+  id="159"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a red car.  </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα γρήγορο. </script>
+    <translit> O Vasilis echei ena grigoro. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] fast[neut,acc].</morph>
+    <english> Bill owns a fast one.  </english>
+  </p>
+  <q>
+    <script> Έχει ο Βασίλης ενα γρήγορο αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena grigoro autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] fast[acc] car[acc]?</morph>
+    <english> Does Bill own a fast car? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης έχει ενα γρήγορο αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena grigoro autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] one[neut,acc] fast[acc] car[acc].</morph>
+    <english> Bill owns a fast car. </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>
+  </a>
+</problem>
+
+
+<problem
+  id="160"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a red car.  </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα γρήγορο. </script>
+    <translit> O Vasilis echei ena grigoro. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] fast[neut,acc].</morph>
+    <english> Bill owns a fast one.  </english>
+  </p>
+  <q>
+   <script> Έχει ο Βασίλης ενα γρήγορο κόκκινο αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena grigoro kokkino autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] fast[acc] red[neut,acc] car[acc]?</morph>
+    <english> Does Bill own a fast red car?  </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης έχει ενα γρήγορο κόκκινο αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena grigoro kokkino autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] fast[acc] red[neut,acc] car[acc].</morph>
+    <english>  Bill owns a fast red car.  </english>
+  </h>
+  <a> 
+    <script> Ναι, με μια πιθανή ανάγνωση. </script>
+    <translit> Nai,me mia pithani anagnosi.  </translit>
+    <english> Yes, on one possible reading. </english>
+  </a>
+  <why>
+    The "one" anaphor may be resolved via the property of being a red car.
+  </why>
+</problem>
+
+
+<problem
+  id="161"
+  fracas_answer="unknown"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης έχει ενα κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a red car.  </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα γρήγορο. </script>
+    <translit> O Vasilis echei ena grigoro. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] fast[neut,acc].</morph>
+    <english> Bill owns a fast one.  </english>
+  </p>
+  <q>
+   <script> Έχει ο Βασίλης ενα γρήγορο κόκκινο αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena grigoro kokkino autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] fast[acc] red[neut,acc] car[acc]?</morph>
+    <english> Does Bill own a fast red car?  </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης έχει ενα γρήγορο κόκκινο αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena grigoro kokkino autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] fast[acc] red[neut,acc] car[acc].</morph>
+    <english>  Bill owns a fast red car.  </english>
+  </h>
+  <a>
+    <script> Δεν ξέρω, με μια πιθανή ανάγνωση. </script>
+    <translit> Den ksero ,me mia pithani anagnosi.  </translit>
+    <english>  Don't know, on one possible reading </english>
+  </a>
+  <why>
+    Or the "one" anaphor may just be resolved via the property of being a car.
+  </why>
+</problem>
+
+<problem
+  id="162"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης έχει ενα γρήγορο κόκκινο αυτοκίνητο. </script>
+    <translit> O Giannis echei ena grigoro kokkino autokinito. </translit> 
+    <morph>  The[m,nom] John[nom] own[pres,3.Sg] a[neut,acc] fast[acc] red[neut,acc] car[acc].</morph>
+    <english>  John owns a fast red car. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης έχει ενα αργό. </script>
+    <translit> O Vasilis echei ena argo. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] slow[neut,acc].</morph>
+    <english> Bill owns a slow one. </english>
+  </p>
+  <q>
+   <script> Έχει ο Βασίλης ενα αργό κόκκινο αυτοκίνητο; </script>
+    <translit> Echei o Vasilis ena argo kokkino autokinito? </translit> 
+    <morph>  Own[pres,3.Sg] the[m,nom] Bill[nom] a[neut,acc] slow[acc] red[neut,acc] car[acc]?</morph>
+    <english>  Does Bill own a slow red car? </english>
+  </q>
+  <h>
+     <script> Ο Βασίλης έχει ενα αργό κόκκινο αυτοκίνητο. </script>
+    <translit> O Vasilis echei ena argo kokkino autokinito. </translit> 
+    <morph>  The[m,nom] Bill[nom] own[pres,3.Sg] a[neut,acc] slow[acc] red[neut,acc] car[acc].</morph>
+    <english> Bill owns a slow red car.  </english>
+  </h>
+  <a>
+   <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>
+  </a>
+  <why>
+    When semantically parallel (e.g. fast/slow) modifiers appear on the
+    antecedent and one-anaphor, it appears that all non-parallel modifiers must
+    form part of the resolution.
+  </why>
+</problem>
+
+
+<comment class="subsection"> 4.4 Sluicing </comment>
+
+<problem
+  id="163"
+  fracas_answer="no">
+  <p idx="1">
+    <script> Ο Γιάννης έκανε την εργασία του δεκτή. </script>
+    <translit> O Giannis ekane tin ergasia tou dekti. </translit> 
+    <morph>  The[m,nom] John[nom] had[past,3.Sg] the[f,acc] paper[acc] his[m,gen] accepted[f,acc].</morph>
+    <english> John had his paper accepted.</english>
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης δεν ξέρει γιατί. </script>
+    <translit> O Vasilis den xerei giati. </translit> 
+    <morph>  The[m,nom] Bill[nom] not know[pres,3.Sg] why.</morph>
+    <english> Bill doesn&apos;t know why.</english>
+  </p>
+  <q>
+    <script> Ξέρει ο Βασίλης γιατί ο Γιάννης έκανε την εργασία του δεκτή; </script>
+    <translit> Xerei o Vasilis giati o Giannis ekane tin ergasia tou dekti? </translit> 
+    <morph> Know[pres,3.Sg] the[m,nom] Bill[nom] why the[m,nom] John[nom] had[past,3.Sg] the[f,acc] paper[acc] his[m,gen] accepted[f,acc]?</morph>
+    <english> Does Bill know why John had his paper accepted? </english>
+  </q>
+  <h>
+     <script> Ο Βασίλης ξέρει γιατί ο Γιάννης έκανε την εργασία του δεκτή. </script>
+    <translit> O Vasilis xerei giati o Giannis ekane tin ergasia tou dekti. </translit> 
+    <morph> The[m,nom] Bill[nom] knows[pres,3.Sg] why the[m,nom] John[nom] had[past,3.Sg] the[f,acc] paper[acc] his[m,gen] accepted[f,acc]?</morph>
+    <english> Bill knows why John had his paper accepted. </english>
+  </h>
+  <a>
+    <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english> 
+ </a>
+</problem>
+
+
+
+<comment class="subsection"> 4.5 Phrasal Ellipsis </comment>
+
+<problem
+  id="164"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc].  </morph>
+    <english>  John spoke to Mary. </english>
+  </p>
+  <p idx="2">
+    <script> Και στη Σου.  </script>
+    <translit> Kai sti Sou. </translit> 
+    <morph>  And to the[contr,f,sg,acc] Sue.  </morph>
+    <english> And to Sue. </english>
+  </p>
+  <q>
+    <script> Μίλησε ο Γιάννης στη Σου;  </script>
+    <translit> Milise o Giannis sti Sou? </translit> 
+    <morph>  Speak[past,3.Sg] the[m,nom] John[nom] to the[contr,f,sg,acc] Sue? </morph>
+    <english> Did John speak to Sue?</english>
+  </q>
+  <h>
+   <script> Ο Γιάννης μίλησε στη Σου.  </script>
+    <translit> O Giannis milise sti Sou. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Sue? </morph>
+    <english>  John spoke to Sue. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english> 
+  </a>
+  <why> PP ellipsis (subcategorized) </why>
+</problem>  
+
+
+<problem
+  id="165"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc].  </morph>
+    <english>  John spoke to Mary. </english>
+  </p>
+  <p idx="2">
+   <script> Την Παρασκευή.  </script>
+    <translit> Tin Paraskevi. </translit> 
+    <morph>  The[f,acc] Friday. </morph>
+    <english>  On Friday. </english>
+  </p>
+  <q>
+    <script> Μίλησε ο Γιάννης στη Μαίρη την Παρασκευή;  </script>
+    <translit> Milise o Giannis sti Mairi tin Paraskevi? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] John[nom] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Friday[acc]? </morph>
+    <english>  Did John speak to Mary on Friday? </english>
+  </q>
+  <h>
+   <script> Ο Γιάννης μίλησε στη Μαίρη την Παρασκευή.  </script>
+    <translit> O Giannis milise sti Mairi tin Paraskevi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Friday[acc].</morph>
+    <english>  John spoke to Mary on Friday. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english> 
+  </a>
+  <why> PP ellipsis: adds PP to antecedent </why>
+</problem>
+
+
+<problem
+  id="166"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης μίλησε στη Μαίρη την Πέμπτη.  </script>
+    <translit> O Giannis milise sti Mairi tin Pempti. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Thursday[acc].</morph>
+    <english> John spoke to Mary on Thursday.</english>
+  </p>
+  <p idx="2">
+    <script> Και την Παρασκευή.  </script>
+    <translit> Kai tin Paraskevi. </translit> 
+    <morph>  And the[f,acc] Friday. </morph>
+    <english> And on Friday. </english>
+  </p>
+  <q>
+    <script> Μίλησε ο Γιάννης στη Μαίρη την Παρασκευή;  </script>
+    <translit> Milise o Giannis sti Mairi tin Paraskevi? </translit> 
+    <morph>  Spoke[past,3.Sg] the[m,nom] John[nom] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Friday[acc]? </morph>
+    <english>  Did John speak to Mary on Friday? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης μίλησε στη Μαίρη την Παρασκευή.  </script>
+    <translit> O Giannis milise sti Mairi tin Paraskevi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc] the[f,acc] Friday[acc].</morph>
+    <english>  John spoke to Mary on Friday. </english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english> 
+  </a>
+  <why> PP ellipsis: replaces PP in antecedent </why>
+</problem>
+
+<problem
+  id="167"
+  fracas_answer="no">
+  <p idx="1">
+    <script> Είκοσι άνδρες εργάζονται στο Τμήμα Πωλήσεων.  </script>
+    <translit> Eikosi andres ergazontai sto Tmima Poliseon.</translit> 
+    <morph>  Twenty men[nom] work[pres,3.Pl] in the[contr,neut,sg,acc] Department[acc] Sales[gen].</morph>
+    <english> Twenty men work in the Sales Department.</english>
+  </p>
+  <p idx="2">
+   <script> Αλλά μόνο μια γυναίκα.  </script>
+    <translit> Alla mono mia gynaika.</translit> 
+    <morph>  But only one[f,nom] woman[nom].</morph>
+    <english>  But only one woman.</english>
+  </p>
+  <q>
+   <script> Εργάζονται δυο γυναίκες στο Τμήμα Πωλήσεων; </script>
+    <translit> Ergazontai dyo gynaikes sto Tmima Poliseon? </translit> 
+    <morph> Work[pres,3.Pl]  two women[nom] in the[contr,neut,sg,acc] Department[acc] Sales[gen]?</morph>
+    <english>  Do two women work in the Sales Department? </english>
+  </q>
+  <h>
+    <script> Δυο γυναίκες εργάζονται στο Τμήμα Πωλήσεων. </script>
+    <translit> Dyo gynaikes ergazontai sto Tmima Poliseon. </translit> 
+    <morph> Two women[nom] work[pres,3.Pl] in the[contr,neut,sg,acc] Department[acc] Sales[gen].</morph>
+    <english>  Two women work in the Sales Department.</english>
+  </h>
+  <a>
+   <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english> 
+   </a>
+  <why> NP ellipsis </why>
+</problem>
+
+
+<problem
+  id="168"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Πέντε άνδρες εργάζονται με μερική απασχόληση.  </script>
+    <translit> Pente andres ergazontai me meriki apascholisi.</translit> 
+    <morph>  Five men[nom] work[pres,3.Pl] with part[f,acc] time[acc].</morph>
+    <english> Five men work part time.</english>
+  </p>
+  <p idx="2">
+    <script> Και σαράντα πέντε γυναίκες.  </script>
+    <translit> Kai saranta pente gynaikes.</translit> 
+    <morph>  And fourty five women[nom].</morph>
+    <english> And forty five women. </english>
+  </p>
+  <q>
+    <script> Εργάζονται σαράντα πέντε γυναίκες με μερική απασχόληση; </script>
+    <translit> Ergazontai saranta pente gynaikes me meriki apascholisi? </translit> 
+    <morph> Work[pres,3.Pl] fourty five women[nom] with part[f,acc] time[acc]?</morph>
+    <english> Do forty five women work part time? </english>
+  </q>
+  <h>
+   <script> Σαράντα πέντε γυναίκες εργάζονται με μερική απασχόληση. </script>
+    <translit> Saranta pente gynaikes ergazontai me meriki apascholisi. </translit> 
+    <morph> Fourty five women[nom] work[pres,3.Pl] with part[f,acc] time[acc]. </morph>
+    <english>  Forty five women work part time. </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>  
+  </a>
+  <why> NP ellipsis </why>
+</problem>
+
+
+<problem
+  id="169"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης βρήκε τη Μαίρη πριν το Βασίλη.  </script>
+    <translit> O Giannis vrike ti Mairi prin to Vasili. </translit> 
+    <morph>  The[m,nom] John[nom] found[past,3.Sg] the[f,acc] Mary[acc] before the[m,acc] Bill[acc].</morph>
+    <english> John found Mary before Bill. </english> 
+  </p>
+  <q>
+    <script> Bρήκε o Γιάννης τη Μαίρη πριν ο Βασίλης βρεί τη Μαίρη;  </script>
+    <translit> Vrike o Giannis ti Mairi prin o Vasilis vrei ti Mairi? </translit> 
+    <morph> Found[past,3.Sg]  the[m,nom] John[nom] the[f,acc] Mary[acc] before the[m,nom] Bill[nom] find[pres,3.Sg,subj] the[f,acc] Mary[acc]?</morph>
+    <english> Did John find Mary before Bill found Mary? </english> 
+  </q>
+  <h>
+   <script> Ο Γιάννης βρήκε τη Μαίρη πριν ο Βασίλης βρεί τη Μαίρη.  </script>
+    <translit>  O Giannis vrike ti Mairi prin o Vasilis vrei ti Mairi. </translit> 
+    <morph> The[m,nom] John[nom] found[past,3.Sg] the[f,acc] Mary[acc] before the[m,nom] Bill[nom] find[pres,3.Sg,subj] the[f,acc] Mary[acc].</morph>
+    <english>  John found Mary before Bill found Mary. </english>
+  </h>
+  <a> 
+    <script> Ναι, με μια πιθανή ανάγνωση. </script>
+    <translit> Nai,me mia pithani anagnosi.  </translit>
+    <english> Yes, on one possible reading. </english>
+  </a>
+  <why> NP ellipsis </why>
+</problem>
+
+<problem
+  id="170"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης βρήκε τη Μαίρη πριν το Βασίλη.  </script>
+    <translit> O Giannis vrike ti Mairi prin to Vasili. </translit> 
+    <morph>  The[m,nom] John[nom] found[past,3.Sg] the[f,acc] Mary[acc] before the[m,acc] Bill[acc].</morph>
+    <english> John found Mary before Bill. </english> 
+  </p>
+  <q>
+   <script> Bρήκε o Γιάννης τη Μαίρη πριν o Γιάννης βρεί το Βασίλη;  </script>
+    <translit> Vrike o Giannis ti Mairi prin o Giannis vrei to Vasili? </translit> 
+    <morph> Found[past,3.Sg]  the[m,nom] John[nom] the[f,acc] Mary[acc] before the[m,nom] John[nom] find[pres,3.Sg,subj] the[m,acc] Bill[acc]?</morph>
+    <english>  Did John find Mary before John found Bill? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης βρήκε τη Μαίρη πριν o Γιάννης βρεί το Βασίλη.  </script>
+    <translit>  O Giannis vrike ti Mairi prin o Giannis vrei to Vasili. </translit> 
+    <morph> The[m,nom] John[nom] found[past,3.Sg] the[f,acc] Mary[acc] before the[m,nom] John[nom] find[pres,3.Sg,subj] the[m,acc] Bill[acc].</morph>
+    <english>  John found Mary before John found Bill. </english>
+  </h>
+  <a>
+    <script> Ναι, με μια πιθανή ανάγνωση. </script>
+    <translit> Nai,me mia pithani anagnosi.  </translit>
+    <english> Yes, on one possible reading. </english>
+     </a>
+  <why> NP ellipsis </why>
+</problem>
+
+<problem
+  id="171"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>Ο Γιάννης θέλει να ξέρει πόσοι άνδρες εργάζονται με μερική απασχόληση.  </script>
+    <translit> O Giannis thelei na xerei posoi andres ergazontai me meriki apascholisi.</translit> 
+    <morph>The[m,nom] John[nom] wants[pres.3.Sg] to know[pres,3.Sg,subj] how many[m,pl,nom] men[nom] work[pres,3.Pl] with part[f,acc] time[acc].</morph>
+    <english> John wants to know how many men work part time. </english>
+  </p>
+  <p idx="2">
+    <script> Και γυναίκες.  </script>
+    <translit> Kai gynaikes.</translit> 
+    <morph>  And women[nom].</morph>
+    <english> And  women. </english>
+  </p>
+  <q>
+    <script> Θέλει να ξέρει ο Γιάννης πόσες γυναίκες εργάζονται με μερική απασχόληση;  </script>
+    <translit> Thelei na xerei o Giannis poses gynaikes ergazontai me meriki apascholisi?</translit> 
+    <morph> Wants[pres.3.Sg] to know[pres,3.Sg,subj] the[m,nom] John[nom] how many[f,pl,nom] women[nom] work[pres,3.Pl] with part[f,acc] time[acc].</morph>
+    <english>  Does John want to know how many women work part time? </english>
+  </q>
+  <h>
+  <script> Ο Γιάννης θέλει να ξέρει πόσες γυναίκες εργάζονται με μερική απασχόληση. </script>
+    <translit> O Giannis thelei na xerei poses gynaikes ergazontai me meriki apascholisi.</translit> 
+    <morph> The[m,nom] John[nom] wants[pres.3.Sg] to know[pres,3.Sg,subj] how many[f,pl,nom] women[nom] work[pres,3.Pl] with part[f,acc] time[acc].</morph>
+    <english>  John wants to know how many women work part time.</english>
+   </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>   
+  </a>
+  <why> Nbar ellipsis </why>
+</problem>
+
+<problem
+  id="172"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>Ο Γιάννης θέλει να ξέρει πόσοι άνδρες εργάζονται με μερική απασχόληση και ποιοί.  </script>
+    <translit> O Giannis thelei na xerei posoi andres ergazontai me meriki apascholisi kai poioi.</translit> 
+    <morph>The[m,nom] John[nom] wants[pres.3.Sg] to know[pres,3.Sg,subj] how many[m,pl,nom] men[nom] work[pres,3.Pl] with part[f,acc] time[acc] and which[m,pl,nom].</morph>
+    <english>  John wants to know how many men work part time, and which. </english>  
+  </p>
+  <q>
+    <script> Θέλει να ξέρει ο Γιάννης ποιοί άνδρες εργάζονται με μερική απασχόληση;  </script>
+    <translit> Thelei na xerei o Giannis poioi andres ergazontai me meriki apascholisi?</translit> 
+    <morph> Wants[pres.3.Sg] to know[pres,3.Sg,subj] the[m,nom] John[nom] which[m,pl,nom] men[nom] work[pres,3.Pl] with part[f,acc] time[acc]?</morph>
+    <english> Does John want to know which men work part time?</english>
+  </q>
+  <h>
+    <script>Ο Γιάννης θέλει να ξέρει ποιοί άνδρες εργάζονται με μερική απασχόληση .  </script>
+    <translit> O Giannis thelei na xerei poioi andres ergazontai me meriki apascholisi.</translit> 
+    <morph>The[m,nom] John[nom] wants[pres.3.Sg] to know[pres,3.Sg,subj] which[m,pl,nom] men[nom] work[pres,3.Pl] with part[f,acc] time[acc].</morph>
+    <english> John wants to know which men work part time</english>
+  </h>
+  <a>
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>  
+  </a>
+  <why> Determiner ellipsis </why>
+</problem>
+
+<comment class="subsection"> 4.6 Antecedent Contained Deletion </comment>
+
+<comment> Antecedent contained deletion is a notorious problem for copying
+approaches to ellipsis, since the antecedent clause contains the ellipsis and
+some way must be found of removing it from the copy. </comment>
+
+<problem
+  id="173"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Βασίλης μίλησε σε όλους όσους μίλησε ο Γιάννης.  </script>
+    <translit> O Vasilis milise se olous osous milise o Giannis. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to everyone[m,pl,acc] who[m,pl,acc] spoke[past,3.Sg] the[m,nom] John[nom].</morph>
+    <english> Bill spoke to everyone that John did. </english> 
+  </p>
+  <p idx="2">
+    <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc]. </morph>
+    <english>  John spoke to Mary. </english> 
+  </p>
+  <q>
+    <script> Μίλησε ο Βασίλης στη Μαίρη;  </script>
+    <translit> Milise o Vasilis sti Mairi? </translit> 
+    <morph>  Speak[past,3.Sg] the[m,nom] Bill[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Did Bill speak to Mary?  </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης μίλησε στη Μαίρη.  </script>
+    <translit> O Vasilis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> Bill spoke to Mary.  </english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="174"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Βασίλης μίλησε σε όλους όσους μίλησε ο Γιάννης.  </script>
+    <translit> O Vasilis milise se olous osous milise o Giannis. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to everyone[m,pl,acc] who[m,pl,acc] spoke[past,3.Sg] the[m,nom] John[nom].</morph>
+    <english> Bill spoke to everyone that John did. </english> 
+  </p>
+  <p idx="2">
+    <script> Ο Βασίλης μίλησε στη Μαίρη.  </script>
+    <translit>  O Vasilis milise milise sti Mairi. </translit> 
+    <morph>  The[m,nom] Bill[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc]. </morph>
+    <english>  Bill spoke to Mary. </english> 
+  </p>
+  <q>
+    <script> Μίλησε ο Γιάννης στη Μαίρη;  </script>
+    <translit> Milise o Giannis sti Mairi? </translit> 
+    <morph>  Speak[past,3.Sg] the[m,nom] John[nom] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english>Did John speak to Mary? </english> 
+  </q>
+  <h>
+    <script> Ο Γιάννης μίλησε στη Μαίρη.  </script>
+    <translit> O Giannis milise sti Mairi. </translit> 
+    <morph>  The[m,nom] John[nom] spoke[past,3.Sg] to the[contr,f,sg,acc] Mary[acc]? </morph>
+    <english> John spoke to Mary. </english> 
+  </h>
+  <a>
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+</problem>
+
+<comment class="subsection"> 4.7 Configurational Effects </comment>
+
+<comment>
+  There are a number of syntactic and other configurational constraints on what
+  can constitute the antecedent to an ellipsis. These constraints varying
+  depending on the type of ellipsis (VP, phrasal, gapping, etc).
+</comment>
+
+<problem
+  id="175"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης είπε οτι η Μαίρη έγραψε μια αναφορά και ο Βασίλης επίσης.  </script>
+    <translit> O Giannis eipe oti i Mairi egrapse mia anafora kai o Vasilis episis. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc] and the[m,nom] Bill[nom] too. </morph>
+    <english>  John said Mary wrote a report, and Bill did too. </english>
+  </p>
+  <q>
+   <script> Είπε ο Βασίλης οτι η Μαίρη έγραψε μια αναφορά; </script>
+    <translit> Eipe o Vasilis oti i Mairi egrapse mia anafora? </translit> 
+    <morph>  Said[past,3.Sg] the[m,nom] Bill[nom] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc]? </morph>
+    <english>  Did Bill say Mary wrote a report? </english>
+  </q>
+  <h>
+   <script> Ο Βασίλης είπε οτι η Μαίρη έγραψε μια αναφορά. </script>
+    <translit> O Vasilis eipe oti i Mairi egrapse mia anafora. </translit> 
+    <morph>   The[m,nom] Bill[nom] said[past,3.Sg] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english>  Bill said Mary wrote a report. </english>
+  </h>
+  <a>
+    <script> Ναι, με μια πιθανή ανάγνωση/ανάλυση. </script>
+    <translit> Nai,me mia pithani anagnosi/analisi.  </translit>
+    <english> Yes, on one possible reading/parse. </english>
+  </a>
+</problem>
+
+<problem
+  id="176"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης είπε οτι η Μαίρη έγραψε μια αναφορά και ο Βασίλης επίσης.  </script>
+    <translit> O Giannis eipe oti i Mairi egrapse mia anafora kai o Vasilis episis. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc] and the[m,nom] Bill[nom] too. </morph>
+    <english>  John said Mary wrote a report, and Bill did too. </english>
+  </p>
+  <q>
+    <script> Είπε ο Γιάννης οτι ο Βασίλης έγραψε μια αναφορά; </script>
+    <translit> Eipe o Giannis oti o Vasilis egrapse mia anafora? </translit> 
+    <morph>  Said[past,3.Sg] the[m,nom] John[nom] that the[m,nom] Bill[acc] wrote[past,3.Sg] a[f,acc] report[acc]? </morph>
+    <english> Did John say Bill wrote a report? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης είπε οτι ο Βασίλης έγραψε μια αναφορά. </script>
+    <translit> O Giannis eipe oti o Vasilis egrapse mia anafora. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[m,nom] Bill[acc] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english> John said Bill wrote a report. </english>
+  </h>
+  <a> 
+    <script> Ναι, με μια πιθανή ανάγνωση/ανάλυση. </script>
+    <translit> Nai,me mia pithani anagnosi/analisi.  </translit>
+    <english> Yes, on one possible reading/parse. </english>
+  </a>
+</problem>
+
+
+<problem
+  id="177"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Γιάννης είπε οτι η Μαίρη έγραψε μια αναφορά και ο Βασίλης επίσης.  </script>
+    <translit> O Giannis eipe oti i Mairi egrapse mia anafora kai o Vasilis episis. </translit> 
+    <morph>  The[m,nom] John[nom] said[past,3.Sg] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc] and the[m,nom] Bill[nom] too. </morph>
+    <english>  John said Mary wrote a report, and Bill did too. </english>
+  </p>
+  <q>
+    <script> Είπε ο Βασίλης οτι η Μαίρη έγραψε μια αναφορά; </script>
+    <translit> Eipe o Vasilis oti i Mairi egrapse mia anafora? </translit> 
+    <morph>  Said[past,3.Sg] the[m,nom] Bill[nom] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc]? </morph>
+    <english>  Did Bill say Mary wrote a report? </english>
+  </q>
+  <h>
+    <script> Ο Βασίλης είπε οτι η Μαίρη έγραψε μια αναφορά. </script>
+    <translit> O Vasilis eipe oti i Mairi egrapse mia anafora. </translit> 
+    <morph>   The[m,nom] Bill[nom] said[past,3.Sg] that the[f,nom] Mary[acc] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english>  Bill said Mary wrote a report. </english>
+  </h>
+  <a>  
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english> 
+  </a>
+</problem>
+
+<comment> Note that the first sentence in (175) and (176) is syntactically
+ambiguous, depending on whether the conjunctive clause conjoins with the main
+or subordinate clause of "John said Mary wrote a report". In (177) the
+conjunctive clause unambiguously conjoins with the subordinate clause, and
+only one interpretation of the ellipsis is possible. This appears to indicate
+that the antecedent clause to a VP ellipsis must be adjacent to the elliptical
+clause. However, as the examples below show, this is not correct. </comment>
+
+<problem
+  id="178"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης έγραψε μια αναφορά και ο Βασίλης είπε οτι και ο Πέτρος επίσης.  </script>
+    <translit> O Giannis egrapse mia anafora kai o Vasilis eipe oti kai o Petros episis. </translit> 
+    <morph>  The[m,nom] John[nom] wrote[past,3.Sg] a[f,acc] report[acc] and the[m,nom] Bill[nom] said[past,3.Sg] that and the[m,nom] Peter[nom] too. </morph>
+    <english> John wrote a report, and Bill said Peter did too. </english> 
+  </p>
+  <q>
+    <script> Είπε ο Βασίλης οτι ο Πέτρος έγραψε μια αναφορά; </script>
+    <translit> Eipe o Vasilis oti o Petros egrapse mia anafora? </translit> 
+    <morph>  Said[past,3.Sg] the[m,nom] Bill[nom] that the[m,nom] Peter[acc] wrote[past,3.Sg] a[f,acc] report[acc]? </morph>
+    <english> Did Bill say Peter wrote a report? </english> 
+  </q>
+  <h>
+    <script> Ο Βασίλης είπε οτι ο Πέτρος έγραψε μια αναφορά. </script>
+    <translit> O Vasilis eipe oti o Petros egrapse mia anafora. </translit> 
+    <morph>  The[m,nom] Bill[nom] said[past,3.Sg] that the[m,nom] Peter[acc] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english>  Bill said Peter wrote a report.</english> 
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>
+  </a>
+  <why> Embedded elliptical clause </why>
+</problem>
+
+<problem
+  id="179"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Αν ο Γιάννης έγραψε μια αναφορά τότε και ο Βασίλης το έκανε επίσης.  </script>
+    <translit> An o Giannis egrapse mia anafora tote kai o Vasilis to ekane episis. </translit> 
+    <morph>  If the[m,nom] John[nom] wrote[past,3.Sg] a[f,acc] report[acc] then and the[m,nom] Bill[nom] it[neut,acc] did[past,3.Sg] too. </morph>
+    <english> If John wrote a report, then Bill did too.</english> 
+  </p>
+  <p idx="2">
+   <script> Ο Γιάννης έγραψε μια αναφορά.  </script>
+    <translit> O Giannis egrapse mia anafora.</translit> 
+    <morph>  The[m,nom] John[nom] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english>  John wrote a report.</english> 
+  </p>
+  <q>
+    <script> Έγραψε ο Βασίλης μια αναφορά;  </script>
+    <translit> Egrapse o Vasilis mia anafora?</translit> 
+    <morph> Wrote[past,3.Sg] the[m,nom] Bill[nom] a[f,acc] report[acc]? </morph>
+    <english> Did Bill write a report? </english> 
+  </q>
+  <h>
+   <script> Ο Βασίλης έγραψε μια αναφορά.  </script>
+    <translit> O Vasilis egrapse mia anafora.</translit> 
+    <morph>  The[m,nom] Bill[nom] wrote[past,3.Sg] a[f,acc] report[acc]. </morph>
+    <english>  Bill wrote a report. </english> 
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english>
+  </a>
+  <why> Elliptical and antecedent clause embedded (in parallel) </why>
+</problem>
+
+<problem
+  id="180"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Γιάννης ήθελε να αγοράσει ενα αυτοκίνητο και το έκανε. </script>
+    <translit> O Giannis ithele na agorasei ena aytokinito kai to ekane. </translit> 
+    <morph>  The[m,nom] John[nom] wanted[past,3.Sg] to buy[pres,3.Sg,subj] a[neut,acc] car[acc] and it[neut,acc] did[past,3.Sg]. </morph>
+    <english> John wanted to buy a car, and he did. </english>
+  </p>
+  <q>
+   <script> Αγόρασε ο Γιάννης ενα αυτοκίνητο; </script>
+    <translit>Agorase o Giannis ena aytokinito? </translit> 
+    <morph>  Buy[past,3.Sg] the[m,nom] John[nom] a[neut,acc] car[acc]?  </morph>
+    <english>  Did John buy a car? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης αγόρασε ενα αυτοκίνητο. </script>
+    <translit>O Giannis agorase ena aytokinito. </translit> 
+    <morph> The[m,nom] John[nom] bought[past,3.Sg] a[neut,acc] car[acc].  </morph>
+    <english>  John bought a car.</english>
+  </h>
+  <a> 
+    <script>  Ναι </script>
+    <translit> Nai  </translit>  
+    <english>  Yes </english> 
+ </a>
+  <why> Embedded antecedent clause </why>
+</problem>
+
+<problem
+  id="181"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Γιάννης έπρεπε να αγοράσει ενα αυτοκίνητο και ο Βασίλης το έκανε. </script>
+    <translit> O Giannis eprepe na agorasei ena aytokinito kai o Vasilis to ekane. </translit> 
+    <morph>  The[m,nom] John[nom] need[past,3.Sg] to buy[pres,3.Sg,subj] a[neut,acc] car[acc] and the[m,nom] Bill[nom] it[neut,acc] did[past,3.Sg]. </morph>
+    <english> John needed to buy a car, and Bill did. </english>
+  </p>
+  <q>
+   <script> Αγόρασε ο Βασίλης ενα αυτοκίνητο; </script>
+    <translit>Agorase o Vasilis ena aytokinito? </translit> 
+    <morph>  Buy[past,3.Sg] the[m,nom] Bill[nom] a[neut,acc] car[acc]?  </morph>
+    <english>  Did Bill buy a car? </english>
+  </q>
+  <h>
+     <script> Ο Βασίλης αγόρασε ενα αυτοκίνητο. </script>
+    <translit>O Vasilis agorase ena aytokinito. </translit> 
+    <morph> The[m,nom] Bill[nom] bought[past,3.Sg] a[neut,acc] car[acc].  </morph>
+    <english> Bill bought a car.  </english>
+  </h>
+  <a>
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>  
+ </a>
+</problem>
+
+
+<comment>
+  Other configurational effects of the kinds illustrated in Deliverable 7 are
+  hard to exemplify using inference suites.
+</comment>
+
+<comment class="subsection"> 4.8 Ellipsis and Anaphora </comment>
+
+<comment>
+  The following inferences illustrate differences between strict and sloppy
+  interpretations of anaphors in elliptical clauses.
+</comment>
+
+<problem
+  id="182"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ εκπροσωπεί την εταιρία του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ekprosopei tin etairia tou kai to idio kai o Tzoouns. </translit> 
+    <morph>  The[m,nom] Smith[nom] represents[past,3.Sg] the[f,acc] company[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english> Smith represents his company and so does Jones.  </english>
+  </p>
+  <q>
+    <script> Ο Τζόουνς εκπροσωπεί την εταιρία του Τζόουνς; </script>
+    <translit> O Tzoouns ekprosopei tin etairia tou Tzoouns? </translit> 
+    <morph>  The[m,nom] Jones[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Jones[acc]? </morph>
+    <english> Does Jones represent Jones&apos; company?  </english>
+  </q>
+  <h>
+    <script> Ο Τζόουνς εκπροσωπεί την εταιρία του Τζόουνς. </script>
+    <translit> O Tzoouns ekprosopei tin etairia tou Tzoouns. </translit> 
+    <morph>  The[m,nom] Jones[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Jones[acc]. </morph>
+    <english>Jones represents Jones&apos; company. </english>
+  </h>
+  <a> 
+  <script> Ναι, με μια πρώτη ανάγνωση. </script>
+  <translit> Nai,me mia proti anagnosi.  </translit>
+  <english>  Yes, on one reading </english> 
+  </a>
+  <why> Sloppy identity </why>
+</problem>
+
+<problem
+  id="183"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script> Ο Σμιθ εκπροσωπεί την εταιρία του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ekprosopei tin etairia tou kai to idio kai o Tzoouns. </translit> 
+    <morph>  The[m,nom] Smith[nom] represents[past,3.Sg] the[f,acc] company[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english> Smith represents his company and so does Jones.  </english>
+  </p>
+  <q>
+    <script> Ο Τζόουνς εκπροσωπεί την εταιρία του Σμιθ; </script>
+    <translit> O Tzoouns ekprosopei tin etairia tou Smith? </translit> 
+    <morph>  The[m,nom] Jones[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Smith[acc]? </morph>
+    <english>  Does Jones represent Smith&apos;s company?  </english>
+  </q>
+  <h>
+    <script> Ο Τζόουνς εκπροσωπεί την εταιρία του Σμιθ. </script>
+    <translit> O Tzoouns ekprosopei tin etairia tou Smith. </translit> 
+    <morph>  The[m,nom] Jones[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Smith[acc]. </morph>
+    <english>  Jones represents Smith&apos;s company. </english>
+  </h>
+  <a>
+    <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english>  
+  </a>
+  <why> Strict identity </why>
+</problem>
+
+<problem
+  id="184"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Σμιθ εκπροσωπεί την εταιρία του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ekprosopei tin etairia tou kai to idio kai o Tzoouns. </translit> 
+    <morph>  The[m,nom] Smith[nom] represents[past,3.Sg] the[f,acc] company[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english> Smith represents his company and so does Jones.  </english>
+  </p>
+  <q>
+    <script> Ο Σμιθ εκπροσωπεί την εταιρία του Τζόουνς; </script>
+    <translit> O Smith ekprosopei tin etairia tou Tzoouns? </translit> 
+    <morph>  The[m,nom] Smith[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Jones[acc]? </morph>
+    <english> Does Smith represent Jones&apos; company? </english>
+  </q>
+  <h>
+    <script> Ο Σμιθ εκπροσωπεί την εταιρία του Τζόουνς. </script>
+    <translit> O Smith ekprosopei tin etairia tou Tzoouns. </translit> 
+    <morph>  The[m,nom] Smith[nom] represents[past,3.Sg] the[f,acc] company[acc] the[m,gen] Jones[acc]. </morph>
+    <english> Smith represents Jones&apos; company. </english>
+  </h>
+  <a>
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>   
+ </a>
+</problem>
+
+<problem
+  id="185"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ ισχυρίστηκε οτι είχε κοστολογήσει την πρόταση του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ischiristike oti eiche kostologisei tin protasi tou kai to idio kai o Tzoouns. </translit> 
+    <morph> The[m,nom] Smith[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english>  Smith claimed he had costed his proposal and so did Jones. </english> 
+  </p>
+  <q>
+    <script> Ισχυρίστηκε ο Τζόουνς οτι είχε κοστολογήσει τη δική του πρόταση; </script>
+    <translit> Ischiristike o Tzoouns oti eiche kostologisei ti diki tou protasi? </translit> 
+    <morph> Claimed[past,3.Sg] the[m,nom] Jones[nom] that had costed[past.perf,3.Sg] the[f,acc] own[gen] his[gen] proposal[acc]? </morph>
+    <english> Did Jones claim he had costed his own proposal?  </english> 
+  </q>
+  <h>
+    <script> Ο Τζόουνς ισχυρίστηκε οτι είχε κοστολογήσει τη δική του πρόταση. </script>
+    <translit> O Tzoouns ischiristike oti eiche kostologisei ti diki tou protasi. </translit> 
+    <morph> The[m,nom] Jones[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] own[gen] his[gen] proposal[acc]. </morph>
+    <english> Jones claimed he had costed his own proposal. </english> 
+  </h>
+  <a> 
+    <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english>   
+  </a>
+  <why> Sloppy identity on both pronouns </why>
+</problem>
+
+
+<problem
+  id="186"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ ισχυρίστηκε οτι είχε κοστολογήσει την πρόταση του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ischiristike oti eiche kostologisei tin protasi tou kai to idio kai o Tzoouns. </translit> 
+    <morph> The[m,nom] Smith[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english>  Smith claimed he had costed his proposal and so did Jones. </english> 
+  </p>
+  <q>
+   <script> Ισχυρίστηκε ο Τζόουνς οτι είχε κοστολογήσει την πρόταση του Σμιθ; </script>
+    <translit> Ischiristike o Tzoouns oti eiche kostologisei tin protasi tou Smith? </translit> 
+    <morph> Claimed[past,3.Sg] the[m,nom] Jones[nom] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Smith[gen]? </morph>
+    <english> Did Jones claim he had costed Smith&apos;s proposal? </english> 
+  </q>
+  <h>
+    <script> Ο Τζόουνς ισχυρίστηκε οτι είχε κοστολογήσει την πρόταση του Σμιθ. </script>
+    <translit> O Tzoouns ischiristike oti eiche kostologisei tin protasi tou Smith. </translit> 
+    <morph> The[m,nom] Jones[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Smith[gen]. </morph>
+    <english> Jones claimed he had costed Smith&apos;s proposal. </english> 
+  </h>
+  <a> 
+    <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english>  
+ </a>
+  <why> Sloppy identity "he", strict on "his" </why>
+</problem>
+
+
+<problem
+  id="187"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Σμιθ ισχυρίστηκε οτι είχε κοστολογήσει την πρόταση του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ischiristike oti eiche kostologisei tin protasi tou kai to idio kai o Tzoouns. </translit> 
+    <morph> The[m,nom] Smith[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english>  Smith claimed he had costed his proposal and so did Jones. </english> 
+  </p>
+  <q>
+   <script> Ισχυρίστηκε ο Τζόουνς οτι ο Σμιθ  είχε κοστολογήσει την πρόταση του Σμιθ; </script>
+    <translit> Ischiristike o Tzoouns oti o Smith eiche kostologisei tin protasi tou Smith? </translit> 
+    <morph> Claimed[past,3.Sg] the[m,nom] Jones[nom] that the[m,nom] Smith[nom] had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Smith[gen]? </morph>
+    <english>  Did Jones claim Smith had costed Smith&apos;s proposal? </english> 
+  </q>
+  <h>
+    <script> Ο Τζόουνς ισχυρίστηκε οτι ο Σμιθ είχε κοστολογήσει την πρόταση του Σμιθ. </script>
+    <translit> O Tzoouns ischiristike oti o Smith eiche kostologisei tin protasi tou Smith. </translit> 
+    <morph> The[m,nom] Jones[nom] claimed[past,3.Sg] that the[m,nom] Smith[nom] had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Smith[gen]. </morph>
+    <english> Jones claimed Smith had costed Smith&apos;s proposal.  </english> 
+  </h>
+  <a>
+   <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english> 
+ </a>
+  <why> Strict identity on both pronouns </why>
+</problem>
+
+<problem
+  id="188"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Σμιθ ισχυρίστηκε οτι είχε κοστολογήσει την πρόταση του και το ίδιο και ο Τζόουνς. </script>
+    <translit> O Smith ischiristike oti eiche kostologisei tin protasi tou kai to idio kai o Tzoouns. </translit> 
+    <morph> The[m,nom] Smith[nom] claimed[past,3.Sg] that had costed[past.perf,3.Sg] the[f,acc] proposal[acc] his[gen] and so and the[m,nom] Jones[nom]. </morph>
+    <english>  Smith claimed he had costed his proposal and so did Jones. </english> 
+  </p>
+  <q>
+    <script> Ισχυρίστηκε ο Τζόουνς οτι ο Σμιθ  είχε κοστολογήσει την πρόταση του Τζόουνς; </script>
+    <translit> Ischiristike o Tzoouns oti o Smith eiche kostologisei tin protasi tou Tzoouns? </translit> 
+    <morph> Claimed[past,3.Sg] the[m,nom] Jones[nom] that the[m,nom] Smith[nom] had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Jones[gen]? </morph>
+    <english>Did Jones claim Smith had costed Jones&apos; proposal? </english> 
+  </q>
+  <h>
+   <script> Ο Τζόουνς ισχυρίστηκε οτι ο Σμιθ είχε κοστολογήσει την πρόταση του Τζόουνς. </script>
+    <translit> O Tzoouns ischiristike oti o Smith eiche kostologisei tin protasi tou Tzoouns. </translit> 
+    <morph> The[m,nom] Jones[nom] claimed[past,3.Sg] that the[m,nom] Smith[nom] had costed[past.perf,3.Sg] the[f,acc] proposal[acc] the[m,gen] Jones[gen]. </morph>
+    <english> Jones claimed Smith had costed Jones&apos; proposal.</english> 
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <why> Can't have strict identity on "he" and sloppy identity on "his" </why>
+</problem>
+
+<problem
+  id="189"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script> Ο Γιάννης είναι άνδρας και η Μάιρη είναι γυναίκα.</script>
+    <translit> O Giannis einai andras kai i Mairi einai gynaika. </translit> 
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] man[nom] and the[f,nom] Mary[nom] is[pres,3.Sg] woman[nom]. </morph>
+    <english>  John is a man and Mary is a woman. </english>
+  </p>
+  <p idx="2">
+   <script> Ο Γιάννης εκπροσωπεί την εταιρία του και το ίδιο και η Μαίρη.</script>
+    <translit> O Giannis ekprosopei tin etairia tou kai to idio kai i Mairi. </translit> 
+    <morph> The[m,nom] John[nom] represents[pres,3.Sg] the[f,acc] company[acc] his[gen] and so the[f,nom] Mary[nom]. </morph>
+    <english> John represents his company and so does Mary.</english>
+  </p>
+  <q>
+     <script> Η Μαίρη εκπροσωπεί τη δική της εταιρία; </script>
+    <translit> I Mairi ekprosopei ti diki tis etairia? </translit> 
+    <morph> The[f,nom] Mary[nom] represents[pres,3.Sg] the[f,acc] own[gen] her[gen] company[acc]? </morph>
+    <english>  Does Mary represent her own company? </english>
+  </q>
+  <h>
+    <script> Η Μαίρη εκπροσωπεί τη δική της εταιρία. </script>
+    <translit> I Mairi ekprosopei ti diki tis etairia. </translit> 
+    <morph> The[f,nom] Mary[nom] represents[pres,3.Sg] the[f,acc] own[gen] her[gen] company[acc]. </morph>
+    <english>  Mary represents her own company. </english>
+  </h>
+  <a> 
+    <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english> 
+  </a>
+  <why> Sloppy identity, gender agreement not necessary </why>
+</problem>
+
+<problem
+  id="190"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης είναι άνδρας και η Μάιρη είναι γυναίκα.</script>
+    <translit> O Giannis einai andras kai i Mairi einai gynaika. </translit> 
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] man[nom] and the[f,nom] Mary[nom] is[pres,3.Sg] woman[nom]. </morph>
+    <english>  John is a man and Mary is a woman. </english>
+  </p>
+  <p idx="2">
+    <script> Ο Γιάννης εκπροσωπεί την εταιρία του και το ίδιο και η Μαίρη.</script>
+    <translit> O Giannis ekprosopei tin etairia tou kai to idio kai i Mairi. </translit> 
+    <morph> The[m,nom] John[nom] represents[pres,3.Sg] the[f,acc] company[acc] his[gen] and so the[f,nom] Mary[nom]. </morph>
+    <english> John represents his company and so does Mary.</english>
+  </p>
+  <q>
+   <script> Η Μαίρη εκπροσωπεί την εταιρία του Γιάννη; </script>
+    <translit> I Mairi ekprosopei tin etairia tou Gianni? </translit> 
+    <morph> The[f,nom] Mary[nom] represents[pres,3.Sg] the[f,acc] company[acc] the[m,gen] John[gen]? </morph>
+    <english> Does Mary represent John&apos;s company?  </english>
+  </q>
+  <h>
+    <script> Η Μαίρη εκπροσωπεί την εταιρία του Γιάννη. </script>
+    <translit> I Mairi ekprosopei tin etairia tou Gianni. </translit> 
+    <morph> The[f,nom] Mary[nom] represents[pres,3.Sg] the[f,acc] company[acc] the[m,gen] John[gen]. </morph>
+    <english> Mary represents John&apos;s company. </english>
+  </h>
+  <a> 
+    <script> Ναι, με μια πρώτη ανάγνωση. </script>
+    <translit> Nai,me mia proti anagnosi.  </translit>
+    <english>  Yes, on one reading </english> 
+  </a>
+  <why> Strict identity, gender agreement not necessary </why>
+</problem>
+
+<problem
+  id="191"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Βασίλης πρότεινε στο αφεντικό του Φρανκ οτι πρέπει να πάνε στη σύσκεψη μαζί, και ο Καρλ στη γυναίκα του Άλαν.  </script>
+    <translit> O Vasilis proteine sto aphentiko tou Frank oti prepei na pane sti syskepsi mazi, kai o Karl sti gynaika tou Alan.</translit> 
+    <morph> The[m,nom] Bill[nom] suggested[past,3.Sg] to the[contr,neut,sg,acc] boss[acc] the[m,gen] Frank that should[pres,impers] to go[pres,3.Pl,subj] together to the[contr,f,sg,acc] meeting[acc], and the[m,nom] Carl to the[contr,f,sg,acc] wife[acc] the[m,gen] Alan. </morph>
+    <english>  Bill suggested to Frank&apos;s boss that they should go to the meeting together, and Carl to Alan&apos;s wife. </english>
+  </p>
+  <q>
+    <script> Αν προτάθηκε οτι ο Βασίλης και ο Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και ο Άλαν πρέπει να πάνε μαζί; </script>
+    <translit> An protathike oti o Vasilis kai o Frank prepei na pane mazi, protathike oti o Karl kai o Alan prepei na pane mazi?</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] Frank[nom] should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[m,nom] Alan should[pres,impers] to go[pres,3.Pl,subj] together? </morph>
+    <english>  If it was suggested that Bill and Frank should go together, was it suggested that Carl and Alan should go together? </english>
+  </q>
+  <h>
+    <script> Αν προτάθηκε οτι ο Βασίλης και ο Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και ο Άλαν πρέπει να πάνε μαζί. </script>
+    <translit> An protathike oti o Vasilis kai o Frank prepei na pane mazi, protathike oti o Karl kai o Alan prepei na pane mazi.</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] Frank[nom] should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[m,nom] Alan should[pres,impers] to go[pres,3.Pl,subj] together. </morph>
+    <english> If it was suggested that Bill and Frank should go together, it was suggested that Carl and Alan should go together. </english>
+  </h>
+  <a> 
+    <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english> 
+ </a>
+  <why> Plural pronouns resolved in parallel </why>
+</problem>
+
+
+<problem
+  id="192"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Βασίλης πρότεινε στο αφεντικό του Φρανκ οτι πρέπει να πάνε στη σύσκεψη μαζί, και ο Καρλ στη γυναίκα του Άλαν.  </script>
+    <translit> O Vasilis proteine sto aphentiko tou Frank oti prepei na pane sti syskepsi mazi, kai o Karl sti gynaika tou Alan.</translit> 
+    <morph> The[m,nom] Bill[nom] suggested[past,3.Sg] to the[contr,neut,sg,acc] boss[acc] the[m,gen] Frank that should[pres,impers] to go[pres,3.Pl,subj] together to the[contr,f,sg,acc] meeting[acc], and the[m,nom] Carl to the[contr,f,sg,acc] wife[acc] the[m,gen] Alan. </morph>
+    <english>  Bill suggested to Frank&apos;s boss that they should go to the meeting together, and Carl to Alan&apos;s wife. </english>
+  </p>
+  <q>
+    <script> Αν προτάθηκε οτι ο Βασίλης και ο Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και η γυναίκα του Άλαν πρέπει να πάνε μαζί; </script>
+    <translit> An protathike oti o Vasilis kai o Frank prepei na pane mazi, protathike oti o Karl kai i gynaika tou Alan prepei na pane mazi?</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] Frank[nom] should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[f,nom] wife[nom] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together? </morph>
+    <english>  If it was suggested that Bill and Frank should go together, was it suggested that Carl and Alan&apos;s wife should go together? </english>
+  </q>
+  <h>
+   <script> Αν προτάθηκε οτι ο Βασίλης και ο Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και η γυναίκα του Άλαν πρέπει να πάνε μαζί. </script>
+    <translit> An protathike oti o Vasilis kai o Frank prepei na pane mazi, protathike oti o Karl kai i gynaika tou Alan prepei na pane mazi. </translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] Frank[nom] should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl[nom] and the[f,nom] wife[nom] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together. </morph>
+    <english>   If it was suggested that Bill and Frank should go together, it was suggested that Carl and Alan&apos;s wife should go together. </english>
+    </h>
+  <a> 
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english> 
+ </a>
+  <why> Plural pronouns resolved in parallel </why>
+</problem>
+
+<problem
+  id="193"
+  fracas_answer="yes">
+  <p idx="1">
+     <script> Ο Βασίλης πρότεινε στο αφεντικό του Φρανκ οτι πρέπει να πάνε στη σύσκεψη μαζί, και ο Καρλ στη γυναίκα του Άλαν.  </script>
+    <translit> O Vasilis proteine sto aphentiko tou Frank oti prepei na pane sti syskepsi mazi, kai o Karl sti gynaika tou Alan.</translit> 
+    <morph> The[m,nom] Bill[nom] suggested[past,3.Sg] to the[contr,neut,sg,acc] boss[acc] the[m,gen] Frank that should[pres,impers] to go[pres,3.Pl,subj] together to the[contr,f,sg,acc] meeting[acc], and the[m,nom] Carl to the[contr,f,sg,acc] wife[acc] the[m,gen] Alan. </morph>
+    <english>  Bill suggested to Frank&apos;s boss that they should go to the meeting together, and Carl to Alan&apos;s wife. </english>
+  </p>
+  <q>
+    <script> Αν προτάθηκε οτι ο Βασίλης και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και η γυναίκα του Άλαν πρέπει να πάνε μαζί; </script>
+    <translit> An protathike oti o Vasilis kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl kai i gynaika tou Alan prepei na pane mazi?</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[f,nom] wife[nom] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together? </morph>
+    <english>  If it was suggested that Bill and Frank&apos;s boss should go together, was it suggested that Carl and Alan&apos;s wife should go together?</english>
+  </q>
+  <h>
+   <script> Αν προτάθηκε οτι ο Βασίλης και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και η γυναίκα του Άλαν πρέπει να πάνε μαζί.</script>
+    <translit> An protathike oti o Vasilis kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl kai i gynaika tou Alan prepei na pane mazi.</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[f,nom] wife[nom] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together. </morph>
+    <english> If it was suggested that Bill and Frank&apos;s boss should go together, it was suggested that Carl and Alan&apos;s wife should go together.</english>
+  </h>
+  <a> 
+    <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  <why> Plural pronouns resolved in parallel </why>
+</problem>
+
+<problem
+  id="194"
+  fracas_answer="unknown">
+  <p idx="1">
+     <script> Ο Βασίλης πρότεινε στο αφεντικό του Φρανκ οτι πρέπει να πάνε στη σύσκεψη μαζί, και ο Καρλ στη γυναίκα του Άλαν.  </script>
+    <translit> O Vasilis proteine sto aphentiko tou Frank oti prepei na pane sti syskepsi mazi, kai o Karl sti gynaika tou Alan.</translit> 
+    <morph> The[m,nom] Bill[nom] suggested[past,3.Sg] to the[contr,neut,sg,acc] boss[acc] the[m,gen] Frank that should[pres,impers] to go[pres,3.Pl,subj] together to the[contr,f,sg,acc] meeting[acc], and the[m,nom] Karl to the[contr,f,sg,acc] wife[acc] the[m,gen] Alan. </morph>
+    <english>  Bill suggested to Frank&apos;s boss that they should go to the meeting together, and Carl to Alan&apos;s wife. </english>
+  </p>
+  <q>
+    <script> Αν προτάθηκε οτι ο Βασίλης και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και o Άλαν πρέπει να πάνε μαζί; </script>
+    <translit> An protathike oti o Vasilis kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl kai o Alan prepei na pane mazi?</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[m,nom] Alan should[pres,impers] to go[pres,3.Pl,subj] together? </morph>
+    <english> If it was suggested that Bill and Frank&apos;s boss should go together, was it suggested that Carl and Alan should go together? </english>
+  </q>
+  <h>
+   <script> Αν προτάθηκε οτι ο Βασίλης και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ και o Άλαν πρέπει να πάνε μαζί. </script>
+    <translit> An protathike oti o Vasilis kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl kai o Alan prepei na pane mazi.</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom] and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl and the[m,nom] Alan should[pres,impers] to go[pres,3.Pl,subj] together. </morph>
+    <english>If it was suggested that Bill and Frank&apos;s boss should go together, it was suggested that Carl and Alan should go together. </english>
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english> 
+ </a>
+  <why> Plural pronouns resolved in parallel </why>
+</problem>
+
+<problem
+  id="195"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ο Βασίλης πρότεινε στο αφεντικό του Φρανκ οτι πρέπει να πάνε στη σύσκεψη μαζί, και ο Καρλ στη γυναίκα του Άλαν.  </script>
+    <translit> O Vasilis proteine sto aphentiko tou Frank oti prepei na pane sti syskepsi mazi, kai o Karl sti gynaika tou Alan.</translit> 
+    <morph> The[m,nom] Bill[nom] suggested[past,3.Sg] to the[contr,neut,sg,acc] boss[acc] the[m,gen] Frank that should[pres,impers] to go[pres,3.Pl,subj] together to the[contr,f,sg,acc] meeting[acc], and the[m,nom] Karl to the[contr,f,sg,acc] wife[acc] the[m,gen] Alan. </morph>
+    <english>  Bill suggested to Frank&apos;s boss that they should go to the meeting together, and Carl to Alan&apos;s wife. </english>
+  </p>
+  <q>
+   <script> Αν προτάθηκε οτι ο Βασίλης, ο Φρανκ και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ, o Άλαν και η γυναίκα του Άλαν πρέπει να πάνε μαζί; </script>
+    <translit> An protathike oti o Vasilis, o Frank kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl,o Alan kai i gynaika tou Alan prepei na pane mazi?</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom],the[m,nom] Frank and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl,the[m,nom] Alan and the[f,nom] wife[acc] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together? </morph>
+    <english> If it was suggested that Bill, Frank and Frank&apos;s boss should go together, was it suggested that Carl, Alan and Alan&apos;s wife should go together? </english>
+  </q>
+  <h>
+    <script> Αν προτάθηκε οτι ο Βασίλης, ο Φρανκ και το αφεντικό του Φρανκ πρέπει να πάνε μαζί, προτάθηκε οτι ο Καρλ, o Άλαν και η γυναίκα του Άλαν πρέπει να πάνε μαζί. </script>
+    <translit> An protathike oti o Vasilis, o Frank kai to aphentiko tou Frank prepei na pane mazi, protathike oti o Karl,o Alan kai i gynaika tou Alan prepei na pane mazi.</translit> 
+    <morph> If it-suggested[past,3.Sg,passive] that the[m,nom] Bill[nom],the[m,nom] Frank and the[m,nom] boss[nom] the[m,gen] Frank should[pres,impers] to go[pres,3.Pl,subj] together,it-suggested[past,3.Sg,passive] that the[m,nom] Carl,the[m,nom] Alan and the[f,nom] wife[acc] the[m,gen] Alan should[pres,impers] to go[pres,3.Pl,subj] together. </morph>
+    <english> If it was suggested that Bill, Frank and Frank&apos;s boss should go together, it was suggested that Carl, Alan and Alan&apos;s wife should go together. </english>
+  </h>
+  <a> 
+    <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english> 
+ </a>
+  <why> Plural pronouns resolved in parallel </why>
+</problem>
+
+<comment class="subsection"> 4.9 Ellipsis and Quantification </comment>
+
+<comment> Scope parallelism turns out to be rather tricky to illustrate
+through inference suites. This is because of the entailment relation: 98
+j= 89. </comment>
+
+<problem
+  id="196"
+  fracas_answer="yes">
+  <p idx="1">
+    <script> Ένας δικηγόρος υπέγραψε κάθε αναφορά και το ίδιο έκανε ένας ελεγκτής. </script>
+    <translit> Enas dikigoros ypegrapse kathe anafora kai to idio ekane enas elegktis.</translit>  
+    <morph> A[m,nom] lawyer[nom] signed[past,3.Sg] every report[acc] and so did[past,3.Sg] a[m,nom] auditor[nom].</morph>  
+      <english> A lawyer signed every report, and so did an auditor. </english>
+  </p>
+  <p idx="2">
+   <script> Δηλαδή, υπήρχε ένας δικηγόρος που υπέγραψε όλες τις αναφορές. </script>
+    <translit> Diladi, ypirche enas  dikigoros pou ypegrapse oles tis anafores.</translit>  
+    <morph> That is, exist[past,3.Sg] a[m,nom] lawyer[nom] who signed[past,3.Sg] all[f,acc] the[f,acc] reports[acc].</morph>  
+      <english>  That is, there was one lawyer who signed all the reports. </english>
+  </p>
+  <q>
+   <script> Υπήρχε ένας ελεγκτής που υπέγραψε όλες τις αναφορές; </script>
+    <translit> Ypirche enas elegktis pou ypegrapse oles tis anafores?</translit>  
+    <morph> Exist[past,3.Sg] a[m,nom] auditor[nom] who signed[past,3.Sg] all[f,acc] the[f,acc] reports[acc]?</morph>  
+      <english> Was there one auditor who signed all the reports? </english>
+  </q>
+  <h>
+    <script> Υπήρχε ένας ελεγκτής που υπέγραψε όλες τις αναφορές. </script>
+    <translit> Ypirche enas elegktis pou ypegrapse oles tis anafores.</translit>  
+    <morph> Exist[past,3.Sg] a[m,nom] auditor[nom] who signed[past,3.Sg] all[f,acc] the[f,acc] reports[acc].</morph>  
+      <english> There was one auditor who signed all the reports. </english>
+  </h>
+  <a> 
+    <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english> 
+ </a>
+</problem>
+
+<comment class="section"> 5 ADJECTIVES </comment>
+
+<comment>
+  The inferences below carve up adjectives into (a by no means exhaustive)
+  cross-cutting set of dimensions. Typical inferences are given for example
+  adjectives.
+</comment>
+
+<comment class="subsection"> 5.1 Affirmative and Non-Affirmative </comment>
+
+<comment>
+  Affirmative adjectives map the denotation of the predicate they modify onto a
+  subset of the denotation. So for example, an old man is a man. Most adjectives
+  are affirmative, but a few like former and fake are not. Given that someone is
+  a former student, one cannot conclude that they are now a student. But it is
+  not entirely clear whether one can conclude that they are not now a student
+  ... they may have become one again.
+</comment>
+
+<problem
+  id="197"
+  fracas_answer="yes">
+  <p idx="1">
+   <script> Ο Γιάννης έχει ένα αληθινό διαμάντι. </script>
+    <translit> O Giannis echei ena alithino diamanti.</translit>  
+    <morph> The[m,nom] John[nom] has[pres,3.Sg] a[neut,acc] genuine[neut,acc] diamond[acc].</morph>  
+      <english> John has a genuine diamond. </english>
+  </p>
+  <q>
+   <script> Έχει ο Γιάννης ένα διαμάντι; </script>
+    <translit> Echei o Giannis ena diamanti?</translit>  
+    <morph>Has[pres,3.Sg] the[m,nom] John[nom] a[neut,acc] diamond[acc]?</morph>  
+      <english>  Does John have a diamond? </english>
+  </q>
+  <h>
+    <script>  Ο Γιάννης έχει ένα διαμάντι. </script>
+    <translit> O Giannis echei ena diamanti</translit>  
+    <morph>The[m,nom] John[nom] has[pres,3.Sg] a[neut,acc] diamond[acc].</morph>  
+      <english> John has a diamond. </english>
+  </h>
+  <a> 
+    <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english> 
+ </a>
+  <why> Affirmative adjectives: Adj N entails N </why>
+</problem>
+
+<problem
+  id="198"
+  fracas_answer="no"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script> Ο Γιάννης είναι ένας πρώην φοιτητής πανεπιστημίου. </script>
+    <translit> O Giannis einai enas proin foititis panepistimiou. </translit>  
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom] former student[m,nom] university[gen].</morph>  
+      <english>  John is a former university student. </english>
+  </p>
+  <q>
+   <script> Είναι ο Γιάννης ένας  φοιτητής πανεπιστημίου; </script>
+    <translit> Einai o Giannis enas foititis panepistimiou? </translit>  
+    <morph> Is[pres,3.Sg] the[m,nom] John[nom] a[m,nom] student[m,nom] university[gen]?</morph>  
+      <english> Is John a university student? </english>
+  </q>
+  <h>
+    <script> Ο Γιάννης είναι ένας φοιτητής πανεπιστημίου. </script>
+    <translit> O Giannis einai enas foititis panepistimiou. </translit>  
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom]  student[m,nom] university[gen].</morph>  
+      <english> John is a university student. </english>
+  </h>
+  <a>  
+  <script> Όχι / δεν ξέρω </script>
+   <translit> Ochi / den ksero  </translit>
+   <english>  No / don't know </english> 
+ </a>
+  <why>
+    Non-affirmative: Adj N =/=> N
+    (Opinions differ about whether "Adj N entails !N")
+  </why>
+</problem>
+
+
+<problem
+  id="199"
+  fracas_answer="yes"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script> Ο Γιάννης είναι ένας πετυχημένος πρώην φοιτητής πανεπιστημίου. </script>
+    <translit> O Giannis einai enas petychimenos proin foititis panepistimiou. </translit>  
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom] successful[m,nom] former student[m,nom] university[gen].</morph>  
+      <english> John is a successful former university student. </english> 
+  </p>
+  <q>
+    <script> Είναι ο Γιάννης πετυχημένος; </script>
+    <translit> Einai o Giannis petychimenos? </translit>  
+    <morph> Is[pres,3.Sg] the[m,nom] John[nom] successful[m,nom]?</morph>  
+      <english> Is John successful? </english> 
+  </q>
+  <h>
+    <script> Ο Γιάννης είναι πετυχημένος. </script>
+    <translit> O Giannis einai petychimenos. </translit>  
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] successful[m,nom].</morph>  
+      <english>  John is successful.  </english> 
+  </h>
+  <a> 
+     <script> Ναι (για πρώην φοιτητής πανεπιστημίου) </script>
+     <translit> Nai (gia proin foititis panepistimiou) </translit>
+     <english> Yes (for a former university student) </english> 
+  </a>
+  <why>
+    Ordering between affirmative and non-affirmative adjectives affects which
+    adjectival predications are and aren't affirmed
+  </why>
+</problem>
+
+<problem
+  id="200"
+  fracas_answer="unknown">
+  <p idx="1">
+     <script> Ο Γιάννης είναι ένας πρώην πετυχημένος φοιτητής πανεπιστημίου. </script>
+      <translit> O Giannis einai enas proin petychimenos foititis panepistimiou. </translit>  
+      <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom] former successful[m,nom] student[m,nom] university[gen].</morph>  
+      <english>  John is a former successful university student. </english>
+  </p>
+  <q>
+    <script> Είναι ο Γιάννης πετυχημένος; </script>
+    <translit> Einai o Giannis petychimenos? </translit>  
+    <morph> Is[pres,3.Sg] the[m,nom] John[nom] successful[m,nom]?</morph>  
+    <english> Is John successful? </english> 
+  </q>
+  <h>
+    <script> Ο Γιάννης είναι πετυχημένος. </script>
+    <translit> O Giannis einai petychimenos. </translit>  
+    <morph> The[m,nom] John[nom] is[pres,3.Sg] successful[m,nom].</morph>  
+    <english>  John is successful.  </english> 
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+</problem>
+
+<problem
+  id="201"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script> Ο Γιάννης είναι ένας πρώην πετυχημένος φοιτητής πανεπιστημίου. </script>
+      <translit> O Giannis einai enas proin petychimenos foititis panepistimiou. </translit>  
+      <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom] former successful[m,nom] student[m,nom] university[gen].</morph>  
+      <english>  John is a former successful university student. </english>
+  </p>
+  <q>
+     <script> Είναι ο Γιάννης ένας φοιτητής πανεπιστημίου; </script>
+    <translit> Einai o Giannis enas foititis panepistimiou? </translit>  
+    <morph> Is[pres,3.Sg] the[m,nom] John[nom] a[m,nom] student[m,nom] university[gen]?</morph>  
+    <english>  Is John a university student? </english>
+  </q>
+  <h>
+     <script> Ο Γιάννης είναι ένας φοιτητής πανεπιστημίου. </script>
+      <translit> O Giannis einai enas foititis panepistimiou. </translit>  
+      <morph> The[m,nom] John[nom] is[pres,3.Sg] a[m,nom] student[m,nom] university[gen].</morph>  
+      <english>John is a university student. </english>
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+  <why> John may currently be an unsuccessful university student </why>
+</problem>
+
+
+
+<note>  Working hours: 24/11/2012 - 30/11/2012 27 hours </note>
+
+
+
+</fracas-problems>

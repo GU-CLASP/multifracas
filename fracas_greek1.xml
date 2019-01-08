@@ -1,0 +1,4106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fracas-problems SYSTEM "fracas-problems.dtd">
+<?xml-stylesheet type="text/xsl" href="fracas-problems-to-html.xsl"?>
+
+<fracas-problems>
+
+<comment class="intro">
+
+=================================================================================
+THE FRACAS TEXTUAL INFERENCE PROBLEM SET
+=================================================================================
+
+
+</comment>
+
+<comment class="section"> 1 GENERALIZED QUANTIFIERS </comment>
+
+<comment class="subsection"> 1.1 Conservativity </comment>
+
+<comment> Q As are Bs == Q As are As who are Bs </comment>
+
+<problem id="001"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Ένας Ιταλός έγινε ο σπουδαιότερος τενόρος του κόσμου.
+     </script>
+     <translit> Enas Italos egine o spoudaioteros tenoros tou kosmou.</translit> 
+     <morph>
+     An[m,nom] Italian[m,nom] became[past,3.Sg] the[m,nom] greatest[m,nom] tenor[nom] the[m,gen] world[m,gen].
+     </morph>
+     <english>
+	    An Italian became the world's greatest tenor.
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπήρχε ένας Ιταλός που έγινε ο σπουδαιότερος τενόρος του κόσμου;
+     </script>
+     <translit>Ypirche enas Italos pou egine o spoudaioteros tenoros tou kosmou?</translit> 
+     <morph>
+     Exist[past,3.Sg] an[m,nom] Italian[m,nom] who became[past,3.Sg] the[m,nom] greatest[m,nom] tenor[nom] the[m,gen] world[m,gen]? 
+     </morph>
+     <english>
+	  Was there an Italian who became the world's greatest tenor? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπήρχε ένας Ιταλός που έγινε ο σπουδαιότερος τενόρος του κόσμου.
+     </script>
+     <translit>Ypirche enas Italos pou egine o spoudaioteros tenoros tou kosmou.</translit> 
+     <morph>
+     Exist[past,3.Sg] an[m,nom] Italian[m,nom] who became[past,3.Sg] the[m,nom] greatest[m,nom] tenor[nom] the[m,gen] world[m,gen]. 
+     </morph>
+     <english>
+	   There was an Italian who became the world's greatest tenor. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+ <problem id="002"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Iταλός θέλει να γίνει ένας σπουδαίος τενόρος.
+     </script>
+     <translit> Kathe Italos thelei na ginei enas spoudaios tenoros.</translit> 
+     <morph>
+     Every Italian[m.nom] want[pres,3.Sg] to be[pres,3.Sg,subj] a[m,nom] great[m,nom] tenor[nom].
+     </morph>
+     <english>
+	   Every Italian man wants to be a great tenor.
+     </english>
+  </p>
+    <p idx="2">
+    <script>
+     Ορισμένοι Iταλοί είναι σπουδαίοι τενόροι.
+     </script>
+     <translit> Orismenoi Italoi einai spoudaioi tenoroi</translit> 
+     <morph>
+     Some[m,pl] Italian[m,pl,nom] are[pres,3.Pl] great[m,pl,nom] tenors[nom].
+     </morph>
+     <english>
+	   Some Italian men are great tenors. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν  Iταλοί που θέλουν να γίνουν σπουδαίοι τενόροι;
+     </script>
+     <translit> Yparchoun Italoi pou theloun na ginoun spoudaioi tenoroi? </translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] who want[pr,3.Pl] to be[pres,3.Pl,subj] great[m,pl,nom] tenor[pl,nom]?
+     </morph>
+     <english>
+	 Are there Italian men who want to be a great tenor? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν Ιταλοί που θέλουν να γίνουν σπουδαίοι τενόροι.
+     </script>
+     <translit> Yparchoun Italoi pou theloun na ginoun spoudaioi tenoroi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] who want[pres,3.Pl] to be[pres,3.Pl,subj] great[m,pl,nom] tenor[pl,nom].
+     </morph>
+     <english>
+	   There are Italian men who want to be a great tenor. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  <note> The terms "man-men" are not necessary in the translation as they are defined by the form of the term "Italian" itself, which in this case is masculine, singular or plural. For the question and hypothesis, "a great tenor" is replaced by its plural form. </note>
+  </problem>
+
+
+ <problem id="003"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Όλοι οι Ιταλοί θέλουν να γίνουν σπουδαίοι τενόροι.
+     </script>
+     <translit> Oloi oi Italoi theloun na ginoun spoudaioi tenoroi.</translit> 
+     <morph>
+     All[m,pl,nom] Italian[m,pl,nom] want[pres,3.Pl] to be[pres,3.Pl,subj] great[m,pl,nom] tenor[pl,nom].
+     </morph>
+     <english>
+	  All Italian men want to be a great tenor. 
+     </english>
+  </p>
+    <p idx="2">
+    <script>
+     Ορισμένοι Ιταλοί είναι σπουδαίοι τενόροι.
+     </script>
+     <translit> Orismenoi Italoi einai spoudaioi tenoroi</translit> 
+     <morph>
+     Some[m,pl,nom] Italian[m,pl,nom] are[pres,3.Pl] great[m,pl,nom] tenors[nom].
+     </morph>
+     <english>
+	   Some Italian men are great tenors. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν  Ιταλοί που θέλουν να γίνουν σπουδαίοι τενόροι;
+     </script>
+     <translit> Yparchoun Italoi pou theloun na ginoun spoudaioi tenoroi? </translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] who want[pres,3.Pl] to be[pres,3.Pl,subj] great[m,pl,nom] tenor[pl,nom]?
+     </morph>
+     <english>
+	  Are there Italian men who want to be a great tenor? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν Ιταλοί που θέλουν να γίνουν σπουδαίοι τενόροι.
+     </script>
+     <translit> Yparchoun Italoi pou theloun na ginoun spoudaioi tenoroi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] who want[pres,3.Pl] to be[pres,3.Pl,subj] great[m,pl,nom] tenor[pl,nom].
+     </morph>
+     <english>
+	   There are Italian men who want to be a great tenor. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+ <problem id="004"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Ιταλός τενόρος θέλει να γίνει σπουδαίος.
+     </script>
+     <translit> Kathe Italos tenoros thelei na ginei spoudaios.</translit> 
+     <morph>
+     Each Italian[m,nom] tenor[nom] want[pres,3.Sg] to be[pres,3.Sg,subj] great[m,nom].
+     </morph>
+     <english>
+	   Each Italian tenor wants to be great. 
+     </english>
+  </p>
+    <p idx="2">
+    <script>
+     Ορισμένοι Ιταλοί τενόροι είναι σπουδαίοι.
+     </script>
+     <translit> Orismenoi Italoi tenoroi einai spoudaioi </translit> 
+     <morph>
+     Some[m,pl,nom] Italian[m,nom] tenors[nom] are[pres,3.Pl] great[m,pl,nom].
+     </morph>
+     <english>
+	   Some Italian tenors are great. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν  Ιταλοί τενόροι που θέλουν να γίνουν σπουδαίοι;
+     </script>
+     <translit> Yparchoun Italoi tenoroi pou theloun na ginoun spoudaioi? </translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] tenors[nom] who want[pres,3.Sg] to be[pr,3.Pl,subj] great[m,pl,nom]?
+     </morph>
+     <english>
+	   Are there Italian tenors who want to be great?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν Ιταλοί τενόροι  που θέλουν να γίνουν σπουδαίοι.
+     </script>
+     <translit> Yparchoun Italoi tenoroi pou theloun na ginoun spoudaioi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] Italian[m,pl,nom] tenors[nom] who want[pres,3.Sg] to be[pr,3.Pl,subj] great[m,pl,nom].
+     </morph>
+     <english>
+	  There are Italian tenors who want to be great. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <problem id="005"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Οι πραγματικά φιλόδοξοι τενόροι είναι Ιταλοί.
+     </script>
+     <translit> Oi pragmatika philodoxoi tenoroi einai Italoi.</translit> 
+     <morph>
+     The[m,pl,nom] really ambitious[m,pl,nom] tenors[nom] are[pres,3.Pl] Italian[m,pl,nom].
+     </morph>
+     <english>
+	   The really ambitious tenors are Italian. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν πραγματικά φιλόδοξοι τενόροι που είναι Ιταλοί;
+     </script>
+     <translit>Yparchoun pragmatika philodoxoi tenoroi pou einai Italoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] really ambitious[m,pl,nom] tenors[nom] who are[pres,3.Pl] Italian[m,pl,nom]? 
+     </morph>
+     <english>
+	  Are there really ambitious tenors who are Italian? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν πραγματικά φιλόδοξοι τενόροι που είναι Ιταλοί.
+     </script>
+     <translit>Yparchoun pragmatika philodoxoi tenoroi pou einai Italoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] really ambitious[m,pl,nom] tenors[nom] who are[pres,3.Pl] Italian[m,pl,nom]. 
+     </morph>
+     <english>
+	   There are really ambitious tenors who are Italian.  
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+ <problem id="006"
+  fracas_answer="no" language="el">
+  <p idx="1">
+    <script> Κανένας πραγματικά σπουδαίος τενόρος δεν είναι ταπεινός. </script>
+     <translit> Kanenas pragmatika spoudaios tenoros den einai tapeinos. </translit> 
+     <morph>
+     No[m,sg,nom] really great[m,nom] tenor[sg,nom] not is[pres,3.Sg] modest[m,nom].
+     </morph>
+     <english>
+	   No really great tenors are modest. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν πραγματικά σπουδαίοι τενόροι που είναι ταπεινοί;
+     </script>
+     <translit>Yparchoun pragmatika spoudaioi tenoroi pou einai tapeinoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] really great[m,pl,nom] tenors[nom] who are[pres,3.Pl] modest[m,pl,nom]? 
+     </morph>
+     <english>
+	   Are there really great tenors who are modest? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν πραγματικά σπουδαίοι τενόροι που είναι ταπεινοί.
+     </script>
+     <translit>Yparchoun pragmatika spoudaioi tenoroi pou einai tapeinoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] really great[m,pl,nom] tenors[nom] who are[pres,3.Pl] modest[m,pl,nom]. 
+     </morph>
+     <english>
+     There are really great tenors who are modest.  
+     </english>
+  </h>
+  <a>
+   <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english>
+  </a>
+  <note> Even if the subject "no" has a negative connotation, the negation "not" is still kept in the sentence. </note>
+  </problem>
+
+
+
+<problem id="007"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Ορισμένοι σπουδαίοι τενόροι είναι Σουηδοί. </script>
+     <translit> Orismenoi spoudaioi tenoroi einai Souidoi. </translit> 
+     <morph>
+     Some[m,pl,nom] great[m,pl,nom] tenors[nom] are[pres,3.Pl] Swedish[m,pl,nom].
+     </morph>
+     <english>
+	    Some great tenors are Swedish.  
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που είναι Σουηδοί;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Souidoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] Swedish[m,pl,nom]? 
+     </morph>
+     <english>
+	   Are there great tenors who are Swedish? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Υπάρχουν σπουδαίοι τενόροι που είναι Σουηδοί.
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Souidoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] Swedish[m,pl,nom]. 
+     </morph>
+     <english>
+     There are great tenors who are Swedish.   
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+  <problem id="008"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Πολλοί σπουδαίοι τενόροι είναι Γερμανοί. </script>
+     <translit> Polloi spoudaioi tenoroi einai Germanoi. </translit> 
+     <morph>
+     Many[m,pl,nom] great[m,pl,nom] tenors[nom] are[pres,3.Pl] German[m,pl,nom].
+     </morph>
+     <english>
+	   Many great tenors are German.   
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που είναι Γερμανοί;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Germanoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] German[m,pl,nom]? 
+     </morph>
+     <english>
+	   Are there great tenors who are German? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν σπουδαίοι τενόροι που είναι Γερμανοί. </script>
+     <translit> Yparchoun spoudaioi tenoroi pou einai Germanoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] German[m,pl,nom]. 
+     </morph>
+     <english>
+     There are great tenors who are German.  
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+
+    <problem id="009"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Αρκετοί σπουδαίοι τενόροι είναι Bρετανοί. </script>
+     <translit> Arketoi spoudaioi tenoroi einai Bretanoi. </translit> 
+     <morph>
+     Several[m,pl,nom] great[m,pl,nom] tenors[nom]  are[pres,3.Pl] British[m,pl,nom].
+     </morph>
+     <english>
+	   Several great tenors are British.  
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που είναι Bρετανοί;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Bretanoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] British[m,pl,nom]? 
+     </morph>
+     <english>
+	   Are there great tenors who are British? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν σπουδαίοι τενόροι που είναι Bρετανοί. </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Bretanoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] British[m,pl,nom]. 
+     </morph>
+     <english>
+      There are great tenors who are British.
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+
+
+    <problem id="010"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Οι περισσότεροι σπουδαίοι τενόροι είναι Ιταλοί. </script>
+     <translit> Oi perissoteroi spoudaioi tenoroi einai Italoi. </translit> 
+     <morph>
+     The[m,pl,nom] most[m,pl,nom] great[m,pl,nom] tenors[nom] are[pres,3.Pl] Italian[m,pl,nom].
+     </morph>
+     <english>
+	   Most great tenors are Italian. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που είναι Ιταλοί;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Italoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl]great[m,pl,nom] tenors[nom] who are[pres,3.Pl] Italian[m,pl,nom]? 
+     </morph>
+     <english>
+	    Are there great tenors who are Italian? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν σπουδαίοι τενόροι που είναι Ιταλοί. </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai Italoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl] Italian[m,pl,nom]. 
+     </morph>
+     <english>
+      There are great tenors who are Italian. 
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+
+
+    <problem id="011"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Μερικοί σπουδαίοι τενόροι τραγουδούν δημοφιλή μουσική. </script>
+     <translit> Merikoi megaloi spoudaioi tragoudoun dimofili mousiki. </translit> 
+     <morph>
+     A few[m,nom] great[m,pl,nom] tenors[nom] sing[pres,3.Pl] popular[acc] music[acc].
+     </morph>
+     <english>
+	   A few great tenors sing popular music. 
+     </english>
+  </p>
+  <p idx="2">
+    <script> Σε ορισμένους σπουδαίους τενόρους αρέσει η δημοφίλής μουσική. </script>
+     <translit> Se orismenous spoudaious tenorous aresei i dimofilis mousiki. </translit> 
+     <morph>
+     To some[m,pl,acc] great[m,pl,acc] tenors[acc] like[pres,3.Sg] the[nom] popular[nom] music[nom].
+     </morph>
+     <english>
+	   Some great tenors like popular music.
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που τραγουδούν δημοφιλή μουσική;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou tragoudoun dhmofilh mousikh?</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who sing[pres,3.Pl] popular[acc] music[acc]? 
+     </morph>
+     <english>
+	   Are there great tenors who sing popular music?  
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν σπουδαίοι τενόροι που τραγουδούν δημοφιλή μουσική. </script>
+     <translit>Yparchoun spoudaioi tenoroi pou tragoudoun dimofili mousiki.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who sing[pres,3.Pl] popular[acc] music[acc].    
+      </morph>
+     <english>
+      There are great tenors who sing popular music. 
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+  <problem id="012"
+  fracas_answer="undef" 
+  fracas_nonstandard="true" 
+  language="el">
+  <p idx="1">
+    <script> Λίγοι σπουδαίοι τενόροι είναι φτωχοί.</script>
+     <translit> Ligoi spoudaioi tenoroi einai phtochoi. </translit> 
+     <morph>
+     Few[m,pl,nom] great[m,pl,nom] tenors[nom] are[pres,3.Pl] poor[m,pl,nom].
+     </morph>
+     <english>
+	   Few great tenors are poor. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Υπάρχουν σπουδαίοι τενόροι που είναι φτωχοί;
+     </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai phtochoi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl]  poor[m,pl,nom]? 
+     </morph>
+     <english>
+	  Are there great tenors who are poor? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν σπουδαίοι τενόροι που είναι φτωχοί. </script>
+     <translit>Yparchoun spoudaioi tenoroi pou einai phtochoi.</translit> 
+     <morph>
+     Exist[pres,3.Pl] great[m,pl,nom] tenors[nom] who are[pres,3.Pl]  poor[m,pl,nom]. 
+     </morph>
+     <english>
+      There are great tenors who are poor. 
+     </english>
+  </h>
+  <a>
+   <script> Όχι πολλοί </script>
+   <translit> Ochi polloi  </translit>
+   <english> Not many   </english>
+  </a>
+  </problem>
+
+
+
+
+   <problem id="013"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Και οι δύο κύριοι τενόροι είναι εξαιρετικοί.</script>
+     <translit> Kai oi dyo kyrioi tenoroi einai exairetikoi. </translit> 
+     <morph>
+     And the[m,pl,nom] two leading[m,pl,nom] tenors[nom] are[pres,3.Pl] excellent[m,pl,nom].
+     </morph>
+     <english>
+       Both leading tenors are excellent. 	 
+     </english>
+  </p>
+  <p idx="2">
+    <script> Κύριοι τενόροι που είναι εξαιρετικοί ειναι απαραίτητοι. </script>
+     <translit> Kyrioi tenoroi pou einai exairetikoi einai aparaititoi. </translit> 
+     <morph>
+     Leading[m,pl,nom] tenors[nom] who are[pres,3.Pl] excellent[m,pl,nom] are[pres,3.Pl] indispensable[m,pl,nom].
+     </morph>
+     <english>
+       Leading tenors who are excellent are indispensable.  
+     </english>
+  </p>
+  <q>
+    <script>  Είναι και οι δύο κύριοι τενόροι απαραίτητοι; </script>
+     <translit>Einai kai oi dyo kyrioi tenoroi aparaititoi?</translit> 
+     <morph>
+     Are[pres,3.Pl] and the[m,pl,nom] two leading[m,pl,nom] tenors[nom] indispensable[m,pl,nom]? 
+     </morph>
+     <english>
+	    Are both leading tenors indispensable? 
+     </english>
+  </q>
+  <h>
+  <script> Και οι δυο κύριοι τενόροι είναι απαραίτητοι. </script>
+     <translit> Kai oi dyo kyrioi tenoroi einai aparaititoi.</translit> 
+     <morph>
+      And the[m,pl,nom] two leading[m,pl,nom] tenors[nom] are[pres,3.Pl] indispensable[m,pl,nom].
+     </morph>
+     <english>
+      Both leading tenors are indispensable.  
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai </translit>
+   <english> Yes  </english>
+  </a>
+  </problem>
+
+
+<problem id="014"
+  fracas_answer="no" language="el">
+  <p idx="1">
+    <script> Κανένας απο τους κύριους τενόρους δεν είναι φθηνός.</script>
+     <translit> Kanenas apo tous kyrious tenorous den einai phthinos. </translit> 
+     <morph>
+     Neither[m,nom] of the[m,pl,acc] leading[m,pl,acc] tenor[pl,acc] not is[pres,3.Sg] cheap[m,nom].
+     </morph>
+    <english>
+       Neither leading tenor comes cheap.  	 
+     </english>
+  </p>
+  <p idx="2">
+    <script> Ένας απο τους κορυφαίους τενόρους είναι ο Παβαρότι.  </script>
+     <translit> Enas apo tous kyrious tenorous einai o Pavaroti. </translit> 
+     <morph>
+     One[m,nom] of the[m,pl,acc] leading[m,pl,acc] tenors[m,acc] is[pres,3.Sg] the[m,nom] Pavarotti.
+     </morph>
+     <english>
+       One of the leading tenors is Pavarotti.   
+     </english>
+  </p>
+  <q>
+    <script>  Είναι ο Παβαρότι ένας κύριος τενόρος πού είναι φθηνός; </script>
+     <translit> Einai o Pavaroti enas kyrios tenoros pou einai phthinos ?</translit> 
+     <morph>
+     Is[pres,3.Sg] the[m,nom] Pavarotti a[m,nom] leading[m,nom] tenor[nom] who is[pres,3.Sg] cheap[m,nom]?
+     </morph>
+     <english>
+	   Is Pavarotti a leading tenor who comes cheap? 
+     </english>
+  </q>
+  <h>
+  <script> Ο Παβαρότι είναι ένας κύριος τενόρος πού είναι φθηνός. </script>
+     <translit> O Pavaroti einai enas kyrios tenoros pou einai phtinos.</translit> 
+     <morph>
+    The[m,nom] Pavarotti is[pres,3.Sg] a[m,nom] leading[m,nom] tenor[nom] who is[pres,3.Sg] cheap[m,nom].
+     </morph>
+     <english>
+      Pavarotti is a leading tenor who comes cheap.  
+     </english>
+  </h>
+  <a>
+   <script> Όχι </script>
+   <translit> Ochi </translit>
+   <english> No  </english>
+  </a>
+  </problem>
+
+
+    <problem id="015"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script> Τουλάχιστον τρεις τενόροι θα πάρουν μέρος στη συναυλία.</script>
+     <translit> Toulachiston tris tenoroi tha paroun meros stin synaulia
+ </translit> 
+     <morph>
+     At least three tenors[nom] will take[fut,3.Pl] part[nom] in the[contr,f,sg,acc] concert[acc].
+     </morph>
+    <english>
+       At least three tenors will take part in the concert.  	 
+     </english>
+  </p>
+  <q>
+    <script>  Υπάρχουν τενόροι που θα πάρουν μέρος στη συναυλία; </script>
+     <translit> Yparchoun tenoroi pou tha paroun meros sti synaulia?</translit> 
+     <morph>
+     Exist[pres,3.Pl] tenors[nom] who will take[fut,3.Pl] part[nom] in the[contr,f,sg,acc] concert[acc]?
+     </morph>
+     <english>
+	  Are there tenors who will take part in the concert? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν τενόροι που θα πάρουν μέρος στη συναύλία. </script>
+     <translit> Yparchoun tenoroi pou tha paroun meros sti synaulia.</translit> 
+     <morph>
+    Exist[pres,3.Pl] tenors[nom] who will take[fut,3.Pl] part[nom] in the[contr,f,sg,acc] concert[acc].
+     </morph>
+     <english>
+      There are tenors who will take part in the concert.   
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai </translit>
+   <english> Yes  </english>
+  </a>                                                             
+  </problem>
+
+
+    <problem id="016"
+  fracas_answer="undef" 
+  fracas_nonstandard="true"
+  language="el">
+  <p idx="1">
+    <script> Το πολύ δυο τενόροι θα συνεισφέρουν τις αμοιβές τους σε φιλανθρωπίες.</script>
+     <translit> To poly dyo tenoroi tha syneispheroun tis amoibes tous se philanthropies </translit> 
+     <morph>
+     At most two tenors[nom] will contribute[fut,3.Pl] the[f,pl,acc] fees[nom] their[pl,acc] to charity[pl,acc].
+     </morph>
+    <english>
+       At most two tenors will contribute their fees to charity.   	 
+     </english>
+  </p>
+  <q>
+    <script> Υπάρχουν τενόροι που θα συνεισφέρουν τις αμοιβές τους σε φιλανθρωπίες; </script>
+     <translit> Yparchoun tenoroi pou tha syneispheroun tis amoibes tous se philanthropies?</translit> 
+     <morph>
+     Exist[pres,3.Pl] tenors[nom] who will contribute[fut,3.Pl] the[f,pl,acc] fees[nom] their[pl,acc] to charity[pl,acc]?
+     </morph>
+     <english>
+	  Are there tenors who will contribute their fees to charity? 
+     </english>
+  </q>
+  <h>
+  <script> Υπάρχουν τενόροι που θα συνεισφέρουν τις αμοιβές τους σε φιλανθρωπίες. </script>
+     <translit> Yparchoun tenoroi pou tha syneispheroun tis amoibes tous se philanthropies.</translit> 
+     <morph>
+    Exist[pres,3.Pl] tenors[nom] who will contribute[fut,3.Pl] the[f,pl,acc] fees[nom] their[pl,acc] to charity[pl,acc].
+     </morph>
+     <english>
+      	There are tenors who will contribute their fees to charity.    
+     </english>
+  </h>
+  <a>
+   <script> Το πολύ δυο </script>
+   <translit> To poli dyo </translit>
+   <english> At most two   </english>
+  </a>                                                             
+  </problem>
+
+<comment class="subsection"> 1.2 Monotonicity (upwards on second argument) </comment>
+
+<comment> Q As are Bs and all Bs are Cs &lt; Q As are Cs </comment>
+
+<problem id="017"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Ένας Ιρλανδός κέρδισε το βραβείο Νόμπελ Λογοτεχνίας.
+     </script>
+     <translit> Enas Irlandos kerdise to vraveio Nobel Logotechnias.</translit> 
+     <morph>
+     An[m,nom] Irishman[m,nom] won[past,3.Sg] the[neutr,acc] prize[acc] Nobel Litterature[gen].
+     </morph>
+     <english>
+     An Irishman won the Nobel prize for literature. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κέρδισε ένας Ιρλανδός ένα βραβείο Νόμπελ;
+     </script>
+     <translit>Kerdise enas Irlandos ena vraveio Nobel?</translit> 
+     <morph>
+     Win[past,3.Sg] an[m,nom] Irishman[m,nom] a[neut,acc] prize[acc] Nobel? </morph>
+     <english>
+    Did an Irishman win a Nobel prize? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Ένας Ιρλανδός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit>Enas Irlandos kerdise ena vraveio Nobel.</translit> 
+     <morph>
+     An[m,nom] Irishman[m,nom] won[past,3.Sg] a[m,acc] prize[acc] Nobel.
+     </morph>
+     <english>
+    An Irishman won a Nobel prize.  
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+
+  <problem id="018"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη.
+     </script>
+     <translit> Kathe Evropaios echei to dikaioma na zei stin Evropi. </translit> 
+     <morph>
+     Every European[m,nom] has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3d.Sg,subj] in the[contr,f,sg,acc] Europe[acc]
+     </morph>
+     <english>
+    Every European has the right to live in Europe. 
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou exei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Μπορεί κάθε Ευρωπαίος να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporei kathe Evropaios na taxidevei elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Sg] every European[m,nom] to travel[pres3.Sg,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can every European travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάθε Ευρωπαίος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Kathe Evropaios mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Every European[m,nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     Every European can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+<problem id="019"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Όλοι οι Ευρωπαίοι έχουν το δικαίωμα να ζούν στην Ευρώπη.
+     </script>
+     <translit> Oloi oi Evropaioi echoun to dikaioma na zoun stin Evropi. </translit> 
+     <morph>
+     All[m,nom] Europeans[m,nom] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3d.Sg,subj] in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+    All Europeans have the right to live in Europe.  
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou exei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Μπορουν όλοι οι Ευρωπαίοι να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporoun oloi oi  Evropaioi na taxidevoun elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl] all[m,nom] the[m,pl,nom] Europeans[m,nom] to travel[pres,3.Pl,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can all Europeans travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Όλοι οι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Oloi oi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+     All[m,nom] Europeans[m,nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     All Europeans can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+  <problem id="020"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη.
+     </script>
+     <translit> Kathe Evropaios echei to dikaioma na zei stin Evropi. </translit> 
+     <morph>
+     Each European[m,nom] has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3d.Sg,subj] in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+     Each European has the right to live in Europe. 
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou exei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Μπορεί κάθε Ευρωπαίος να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporei kathe Evropaios na taxidevei elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl] each European[m,nom] to travel[pres,3.Sg,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can each European travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάθε Ευρωπαίος μπορει να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Kathe Evropaios  mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Each European[m,nom] can[pres,3.Pl] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+    Each European can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+<problem id="021"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Οι κάτοικοι των κρατών μελών έχουν το δικαίωμα να ζουν στην Ευρώπη.
+     </script>
+     <translit> Oi katoikoi ton kraton melon echoun to dikaioma na zoun stin Evropi. </translit> 
+     <morph>
+     The[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]</morph>
+     <english>
+    The residents of member states have the right to live in Europe.
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Όλοι οι κάτοικοι των κρατών μελών είναι άτομα.
+     </script>
+     <translit> Oloi oi katoikoi ton kraton melon einai atoma. </translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] are[pres,3.Pl] individuals[nom].
+     </morph>
+     <english>
+      All residents of member states are individuals.  
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άτομο που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe atomo pou exei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every individual[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every individual who has the right to live in Europe can travel freely within Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+     Μπορούν οι κάτοικοι των κρατών μελών να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporoun oi katoikoi ton kraton melon na taxidevoun elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl] the[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] to travel[pres,3.Pl,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can the residents of member states travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι κάτοικοι των κρατών μελών μπορούν να ταξιδεύουν ελεύθερα εντός  Ευρώπης.
+     </script>
+     <translit> Oi katoikoi ton kraton melon mporoun na taxedevoun elefthera entos Evropis.</translit> 
+     <morph>
+     The[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     The residents of member states can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+<problem id="022"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κανένας αντιπρόσωπος δεν τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit> Kanenas antiprosopos den teleiose tin anafora egkaira.</translit> 
+     <morph>
+     No[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc] on time.
+     </morph>
+     <english>
+     No delegate finished the report on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κανένας αντιπρόσωπος δεν τελείωσε την αναφορά;
+     </script>
+     <translit>Kanenas antirposopos den teleiose tin anafora?</translit> 
+     <morph>
+     No[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc] ? </morph>
+     <english>
+    Did no delegate finish the report?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Κανένας αντιπρόσωπος δεν τελείωσε την αναφορά.
+     </script>
+     <translit>Kanenas antiprosopos den teleiose tin anafora.</translit> 
+     <morph>
+     No[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc].
+     </morph>
+     <english>
+   No delegate finished the report.   
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <why> can't drop adjunct in negative context </why>
+  </problem>
+
+  <problem id="023"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Ορισμένοι αντιπρόσωποι τελειώσαν την έρευνα έγκαιρα.
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time.
+     </morph>
+     <english>
+     Some delegates finished the survey on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα;
+     </script>
+     <translit>Orismenoi antiprosopoi teleiosan tin erevna?</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc]? </morph>
+     <english>
+     Did some delegates finish the survey? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα.
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna.</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc].
+     </morph>
+     <english>
+     Some delegates finished the survey.   
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+   <why> OK to drop adjunct in positive context </why>
+  </problem>
+  
+ <problem id="024"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit> Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+      Many delegates obtained interesting results from the survey. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν αποτελέσματα απο την έρευνα;
+     </script>
+     <translit>Polloi antiprosopoi exygagan apotelesmata apo tin erevna?</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] results[acc] from the[f,acc] survey[acc]? </morph>
+     <english>
+  Did many delegates obtain results from the survey? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν αποτελέσματα απο την έρευνα.
+     </script>
+     <translit>Polloi antiprosopoi exygagan apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+     Many delegates obtained results from the survey. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai </translit>
+   <english>  Yes  </english>
+  </a>
+  <why> OK to drop adjunct in positive context </why>
+  </problem>
+
+
+   <problem id="025"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit> Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides.</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+      Several delegates got the results published in major national newspapers.
+     </english>
+  </p>
+  <q>
+    <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα ;
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata?</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc]? </morph>
+     <english>
+      Did several delegates get the results published? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα.
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata.</translit> 
+     <morph>
+    Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc].
+     </morph>
+     <english>
+    Several delegates got the results published. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai </translit>
+   <english>  Yes  </english>
+  </a>
+  <why> OK to drop adjunct in positive context </why>
+  <note> In the translation the term "get" is lost. </note>
+  </problem>
+
+  <problem id="026"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Οι περισσότεροι Ευρωπαίοι είναι κάτοικοι της Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi einai katoikoi tis Evropis.</translit> 
+     <morph>
+      The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] are[pres,3.Pl] resident[pl,nom] the[f,sg,gen] Europe[gen].
+     </morph>
+     <english>
+      Most Europeans are resident in Europe.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλοι οι Ευρωπαίοι είναι άνθρωποι.
+     </script>
+     <translit> Oloi oi Evropaioi einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] Europeans[nom] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All Europeans are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι κάτοικοι της Ευρώπης μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi anthropoi pou einai katoikoi tis Evropis mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] resident[pl,nom] the[f,sg,gen] Europe[gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      All people who are resident in Europe can travel freely within Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+     Μπορούν οι περισσότεροι Ευρωπαίοι να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporoun oi perissoteroi Evropaioi na taxidevoun elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl]  the[m,pl,nom] most[m,pl,nom] Europeans[nom] to travel[pres,3.Pl,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can most Europeans travel freely within Europe?
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι περισσότεροι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+      The[m,pl,nom] most[m,pl,nom] Europeans[nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      Most Europeans can travel freely within Europe.
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+   <problem id="027"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Μερικά μέλη της επιτροπής είναι απο τη Σουηδία.
+     </script>
+     <translit> Merika meli tis epitropis einai apo ti Souidia.</translit> 
+     <morph>
+      A few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Sweden[acc].
+     </morph>
+     <english>
+      A few committee members are from Sweden.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλα τα μέλη της επιτροπής είναι άνθρωποι.
+     </script>
+     <translit> Ola ta meli tis epitropis einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All committee members are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι απο τη Σουηδία είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Oloi oi anthropoi pou einai apo ti Souhdia einai apo ti Skandinavia.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] from the[f,acc] Sweden[acc] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      All people who are from Sweden are from Scandinavia.
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν τουλάχιστον μερικά μέλη της επιτροπής απο τη Σκανδιναβία;
+     </script>
+     <translit> Yparchoun toulachiston merika meli tis epitropis apo ti Skandinavia?</translit> 
+     <morph>
+     Exist[pres,3.Pl] at least a few[neut,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Scandinavia[acc]? </morph>
+     <english>
+     Are at least a few committee members from Scandinavia?
+     </english>
+  </q>
+  <h>
+  <script>
+      Τουλάχιστον μερικά μέλη της επιτροπής είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Toulachiston merika meli tis epitropis einai apo ti Skandinavia.</translit> 
+     <morph>
+      At least a few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      At least a few committee members are from Scandinavia.
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+   <problem id="028"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Λίγα μέλη της επιτροπής είναι απο τη Πορτογαλία.
+     </script>
+     <translit> Liga meli tis epitropis einai apo ti Portogalia.</translit> 
+     <morph>
+      Few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Portugal[acc].
+     </morph>
+     <english>
+      Few committee members are from Portugal.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλα τα μέλη της επιτροπής είναι άνθρωποι.
+     </script>
+     <translit> Ola ta meli tis epitropis einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All committee members are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι απο τη Πορτογαλία είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Oloi oi anthropoi pou einai apo ti Portogalia einai apo ti notia Evropi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] from the[f,acc] Portugal[acc] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      All people who are from Portugal are from southern Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν λίγα μέλη της επιτροπής απο τη νότια Ευρώπη;
+     </script>
+     <translit> Yparchoun liga  meli tis epitropis apo ti notia Evropi?</translit> 
+     <morph>
+     Exist[pres,3.Pl] few[neut,pl,nom] members[nom]the[f,gen] comittee[gen] from the[f,acc] southern[f,acc] Europe[acc]? </morph>
+     <english>
+     Are there few committee members from southern Europe?
+     </english>
+  </q>
+  <h>
+  <script>
+      Υπάρχουν λίγα μέλη της επιτροπής απο τη νότια Ευρώπη.
+     </script>
+     <translit> Yparchoun liga  meli tis epitropis apo ti notia Evropi.</translit> 
+     <morph>
+      Exist[pres,3.Pl] few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      There are few committee members from southern Europe.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="029"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Και οι δυο επίτροποι ήταν κορυφαίοι επιχειρηματίες.
+     </script>
+     <translit> Kai oi dyo epitropoi itan korifaioi epichirimaties.</translit> 
+     <morph>
+     And the[pl,m] two commissioners[nom] were[past,3.Pl] leading[m,pl,nom] businessmen[nom]. 
+     </morph>
+     <english>
+     Both commissioners used to be leading businessmen. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Και οι δυο επίτροποι ήταν επιχειρηματίες;
+     </script>
+     <translit>Kai oi dyo epitropoi itan epichirimaties?</translit> 
+     <morph>
+     And the[pl,m] two commissioners[nom] were[past,3.Pl]  businessmen[nom]?
+     </morph>
+     <english>
+      Did both commissioners used to be businessmen? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Και οι δυο επίτροποι ήταν επιχειρηματίες. 
+     </script>
+     <translit>Kai oi dyo epitropoi itan epichirimaties.</translit> 
+     <morph>
+      And the[pl,m] two commissioners[nom] were[past,3.Pl]  businessmen[nom].
+     </morph>
+     <english>
+      Both commissioners used to be businessmen.  
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  <note> "used to" can not be kept in the sentence, as in Greek it has more the sense of "have a habit" </note>
+  </problem>
+
+  <problem id="030"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κανένας απο τους επιτρόπους δεν περνάει πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Kanenas apo tous epitropous den pernaei poli chrono sto spiti.</translit> 
+     <morph>
+     Neither[m,nom] of the[m,pl,acc] commissioner[pl,acc] not spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     Neither commissioner spends a lot of time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κανένας απο τους επιτρόπους δεν περνάει πολύ χρόνο στο σπίτι;
+     </script>
+     <translit>Kanenas apo tous epitropous den pernaei poli chrono sto spiti?</translit> 
+     <morph>
+     Neither[m,nom] of the[m,pl,acc] commissioner[pl,acc] not spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Does neither commissioner spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Κανένας απο τους επιτρόπους δεν περνάει χρόνο στο σπίτι.
+     </script>
+     <translit>Kanenas apo tous epitropous den pernaei  chrono sto spiti.</translit> 
+     <morph>
+      Neither[m,nom] of the[m,pl,acc] commissioner[pl,acc] not spend[pres,3.Sg] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     Neither commissioner spends time at home.   
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <why> Not OK to drop [qualifier] in negative context </why>
+  </problem>
+
+  <problem id="031"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Τουλάχιστον τρείς επίτροποι περνάνε πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Toulachiston treis epitropoi pernane poli chrono sto spiti.</translit> 
+     <morph>
+     At least three commissioners[nom] spend[pres,3.Pl] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At least three commissioners spend a lot of time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Τουλάχιστον τρείς επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>Toulachiston treis epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At least three commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at least three commissioners spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Τουλάχιστον τρείς επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>Toulachiston treis epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At least three commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three commissioners spend time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <problem id="032"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Το πολύ δέκα επίτροποι περνάνε πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> To poli deka epitropoi pernane poli chrono sto spiti.</translit> 
+     <morph>
+     At most ten commissioners[nom] spend[pres,3.Pl] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend a lot of time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>To poli deka epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At most ten commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at most ten commissioners spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>To poli deka epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At most ten commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<comment class="subsection"> 1.3 Monotonicity (downwards on second argument) </comment>
+
+<comment> Q As are Bs and all Cs are Bs &lt; Q As are Cs </comment>
+
+<problem id="033"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Ένας Ιρλανδός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit> Enas Irlandos kerdise ena vraveio Nobel.</translit> 
+     <morph>
+     An[m,nom] Irishman[m,nom] won[past,3.Sg] a[m,acc] prize[acc] Nobel.
+     </morph>
+     <english>
+     An Irishman won a Nobel prize.
+     </english>
+  </p>
+  <q>
+    <script>
+     Κέρδισε ένας Ιρλανδός το βραβείο Νόμπελ Λογοτεχνίας;
+     </script>
+     <translit>Kerdise enas Irlandos to vraveio Nobel Logotechnias?</translit> 
+     <morph>
+     Win[past,3.Sg] an[m,nom] Irishman[m,nom] the[neut,acc] prize[acc] Nobel Litterature[gen]? </morph>
+     <english>
+   Did an Irishman win the Nobel prize for literature?
+     </english>
+  </q>
+  <h>
+  <script>
+     Ένας Ιρλανδός κέρδισε το βραβείο Νόμπελ Λογοτεχνίας.
+     </script>
+     <translit>Enas Irlandos kerdise to vraveio Nobel Logotechnias.</translit> 
+     <morph>
+     An[m,nom] Irishman[m,nom] won[past,3.Sg] the[neut,acc] prize[acc] Nobel Litterature[gen].
+     </morph>
+     <english>
+      An Irishman won the Nobel prize for literature.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<problem id="034"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Ευρωπαίος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Kathe Evropaios mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Every European[m,nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     Every European can travel freely within Europe. 
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou exei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη;
+     </script>
+     <translit> Kathe Evropaios echei to dikaioma na zei stin Evropi? </translit> 
+     <morph>
+     Every European[m,nom] has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc] ? </morph>
+     <english>
+     Does every European have the right to live in Europe?
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη.
+     </script>
+     <translit>Kathe Evropaios echei to dikaioma na zei stin Evropi.</translit> 
+     <morph>
+     Every European[m,nom] has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+      Every European has the right to live in Europe.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+
+  <problem id="035"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     'Ολοι οι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+     All[m,nom] Europeans[m,nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      All Europeans can travel freely within Europe. 
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou echei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Ολοι οι Ευρωπαίοι έχουν το δικαίωμα να ζούν στην Ευρώπη;
+     </script>
+     <translit> Oloi oi  Evropaioi echoun to dikaioma na zoun stin Evropi? </translit> 
+     <morph>
+     All[m,nom] Europeans[m,nom] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]? </morph>
+     <english>
+    Do all Europeans have the right to live in Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+    Ολοι οι Ευρωπαίοι έχουν το δικαίωμα να ζούν στην Ευρώπη.
+     </script>
+     <translit>Oloi oi  Evropaioi echoun to dikaioma na zoun stin Evropi.</translit> 
+     <morph>
+     All[m,nom] Europeans[m,nom] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc].
+    </morph>
+     <english>
+        All Europeans have the right to live in Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+   <problem id="036"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Ευρωπαίος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe Evropaios mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Each European[m,nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      Each European can travel freely within Europe. 
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Κάθε Ευρωπαίος είναι άνθρωπος.
+     </script>
+     <translit> Kathe Evropaios einai anthropos. </translit> 
+     <morph>
+     Every European[m,nom] is[pres,3.Sg] person[nom].
+     </morph>
+     <english>
+     Every European is a person. 
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Κάθε άνθρωπος που έχει το δικαίωμα να ζεί στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe anthropos pou echei to dikaioma na zei stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every person[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] in the[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every person who has the right to live in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+      Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη;
+     </script>
+     <translit> Kathe Evropaios echei to dikaioma na zei stin Evropi? </translit> 
+     <morph>
+     Each European[m,nom] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]? </morph>
+     <english>
+    Does each European have the right to live in Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+    Κάθε Ευρωπαίος έχει το δικαίωμα να ζεί στην Ευρώπη.
+     </script>
+     <translit>Kathe Evropaios echei to dikaioma na zei stin Evropi.</translit> 
+     <morph>
+     Each European[m,nom] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+      Each European has the right to live in Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="037"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Οι κάτοικοι των κρατών μελών μπορούν να ταξιδεύουν ελεύθερα εντός  Ευρώπης.
+     </script>
+     <translit> Oi katoikoi ton kraton melon mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+     The[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     The residents of member states can travel freely within Europe. 
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλοι οι κάτοικοι των κρατών μελών είναι άτομα.
+     </script>
+     <translit> Oloi oi katoikoi ton kraton melon einai atoma. </translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] are[pres,3.Pl] individuals[nom].
+     </morph>
+     <english>
+      All residents of member states are individuals.  
+     </english>
+  </p>
+    <p idx="3">
+    <script>
+     Κάθε άτομο που έχει το δικαίωμα να ζεί οπουδήποτε στην Ευρώπη μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe atomo pou exei to dikaioma na zei opoudipote stin Evropi mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every individual[nom] who has[pres,3.Sg] the[neut,acc] right[acc] to live[pres,3.Sg,subj] anywhere in[contr,f,sg,acc] Europe[acc] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+     Every individual who has the right to live anywhere  in Europe can travel freely within Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+    Οι κάτοικοι των κρατών μελών έχουν το δικαίωμα να ζούν οπουδήποτε στην Ευρώπη;
+     </script>
+     <translit> Oi katoikoi ton kraton melon echoun to dikaioma na zoun opoudipote stin Evropi? </translit> 
+     <morph>
+    The[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] anywhere in the[contr,f,sg,acc] Europe[acc] ? </morph>
+     <english>
+     Do the residents of member states have the right to live anywhere in Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι κάτοικοι των κρατών μελών έχουν το δικαίωμα να ζούν οπουδήποτε στην Ευρώπη.
+     </script>
+     <translit>Oi katoikoi ton kraton melon echoun to dikaioma na zoun opoudipote stin Evropi.</translit> 
+     <morph>
+     The[m,pl,nom] residents[m,nom] the[neut,pl,gen] states[gen] member[pl,gen] have[pres,3.Pl] the[neut,acc] right[acc] to live[pres,3.Pl,subj] anywhere in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+     The residents of member states have the right to live anywhere in Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="038"
+  fracas_answer="no" language="el">
+  <p idx="1">
+    <script>
+     Κανένας αντιπρόσωπος δεν τελείωσε την αναφορά.
+     </script>
+     <translit> Kanenas antiprosopos den teleiose tin anafora.</translit> 
+     <morph>
+     No[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc] .
+     </morph>
+     <english>
+     No delegate finished the report. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιος αντιπρόσωπος τελείωσε την αναφορά έγκαιρα;
+     </script>
+     <translit>Kapoios antirposopos teleiose tin anafora egkaira?</translit> 
+     <morph>
+     Any[m,nom] delegate[m,nom]  finished[past,3.Sg] the[f,acc] report[acc] on time? </morph>
+     <english>
+     Did any delegate finish the report on time?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάποιος αντιπρόσωπος τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit>Kapoios antirposopos teleiose tin anafora egkaira.</translit> 
+     <morph>
+     Some[m,nom] delegate[m,nom]  finished[past,3.Sg] the[f,acc] report[acc] on time.
+     </morph>
+     <english>
+     Some delegate finished the report on time. 
+     </english>
+  </h>
+  <a>
+   <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english>
+  </a>
+  </problem>
+
+  <problem id="039"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Ορισμένοι αντιπρόσωποι τελειώσαν την έρευνα.
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna.</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc].
+     </morph>
+     <english>
+     Some delegates finished the survey. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα;
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna egkaira?</translit> 
+     <morph>
+      Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time? </morph>
+     <english>
+     Did some delegates finish the survey on time?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα.
+     </script>
+     <translit>Orismenoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+    Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time.
+     </morph>
+     <english>
+     Some delegates finished the survey on time. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="040"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν αποτελέσματα απο την έρευνα.
+     </script>
+     <translit> Polloi antiprosopoi exygagan apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+      Many delegates obtained results from the survey. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα;
+     </script>
+     <translit>Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna?</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[pl,neut,acc] results[acc] from the[f,acc] survey[acc]? </morph>
+     <english>
+    Did many delegates obtain interesting results from the survey? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit>Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[pl,neut,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+    Many delegates obtained interesting results from the survey.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="041"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα.
+     </script>
+     <translit> Arketoi antiprosopoi dimosiefsan ta apotelesmata. </translit> 
+     <morph>
+      Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc].
+     </morph>
+     <english>
+      Several delegates got the results published.
+     </english>
+  </p>
+  <q>
+    <script>
+    Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες;
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides?</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[pres,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc]? </morph>
+     <english>
+      Did several delegates get the results published in major national newspapers? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides.</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+     Several delegates got the results published in major national newspapers.  
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  <note> In the translation the term "get" is lost. </note>
+  </problem>
+
+
+<problem id="042"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Οι περισσότεροι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+      The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      Most Europeans can travel freely within Europe.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλοι οι Ευρωπαίοι είναι άνθρωποι.
+     </script>
+     <translit> Oloi oi Evropaioi einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] Europeans[m,nom] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All Europeans are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι κάτοικοι της Ευρώπης μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi anthropoi pou einai katoikoi tis Evropis mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] resident[pl,nom] the[f,sg,gen] Europe[gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      All people who are resident in Europe can travel freely within Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+     Είναι οι περισσότεροι Ευρωπαίοι  κάτοικοι της Ευρώπης;
+     </script>
+     <translit>Einai oi perissoteroi Evropaioi  katoikoi tis Evropis?</translit> 
+     <morph>
+      Are[pres,3.Pl] the[m,pl,nom] most[m,pl,nom] Europeans[m,nom]  resident[pl,nom] the[f,sg,gen] Europe[gen].
+     </morph>
+     <english>
+      Are most Europeans resident in Europe?
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι περισσότεροι Ευρωπαίοι είναι κάτοικοι της Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi einai katoikoi tis Evropis.</translit> 
+     <morph>
+      The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] are[pres,3.Pl] resident[pl,nom] the[f,sg,gen] Europe[gen].
+     </morph>
+     <english>
+      Most Europeans are resident in Europe.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+
+  <problem id="043"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Μερικά μέλη της επιτροπής είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Merika meli tis epitropis einai apo ti Skandinavia.</translit> 
+     <morph>
+      A few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      A few committee members are from Scandinavia.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλα τα μέλη της επιτροπής είναι άνθρωποι.
+     </script>
+     <translit> Ola ta meli tis epitropis einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All committee members are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι απο τη Σουηδία είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Oloi oi anthropoi pou einai apo ti Souhdia einai apo ti Skandinavia.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] from the[f,acc] Sweden[acc] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      All people who are from Sweden are from Scandinavia.
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν τουλάχιστον μερικά μέλη της επιτροπής απο τη Σουηδία;
+     </script>
+     <translit> Yparchoun toulachiston merika meli tis epitropis apo ti Souidia?</translit> 
+     <morph>
+     Exist[pres,3.Pl] at least a few[neut,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Souidia[acc]? </morph>
+     <english>
+     Are at least a few committee members from Sweden?
+     </english>
+  </q>
+  <h>
+  <script>
+      Τουλάχιστον μερικά μέλη της επιτροπής είναι απο τη Σουηδία.
+     </script>
+     <translit> Toulachiston merika meli tis epitropis einai apo ti Souidia.</translit> 
+     <morph>
+      At least a few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Souidia[acc]
+     </morph>
+     <english>
+      At least a few committee members are from Sweden.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+   <problem id="044"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Λίγα μέλη της επιτροπής είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Liga meli tis epitropis einai apo ti notia Evropi.</translit> 
+     <morph>
+      Few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      Few committee members are from southern Europe.
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Όλα τα μέλη της επιτροπής είναι άνθρωποι.
+     </script>
+     <translit> Ola ta meli tis epitropis einai anthropoi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] people[nom].
+     </morph>
+     <english>
+      All committee members are people.
+     </english>
+  </p>
+  <p idx="3">
+    <script>
+     Όλοι οι άνθρωποι που είναι απο τη Πορτογαλία είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Oloi oi anthropoi pou einai apo ti Portogalia einai apo ti notia Evropi.</translit> 
+     <morph>
+      All[m,pl,nom] the[m,pl,nom] people[nom]  who are[pres,3.Pl] from the[f,acc] Portugal[acc] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      All people who are from Portugal are from southern Europe.
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν λίγα μέλη της επιτροπής απο τη Πορτογαλία;
+     </script>
+     <translit> Yparchoun liga  meli tis epitropis apo ti Portogalia?</translit> 
+     <morph>
+     Exist[pres,3.Pl] few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Portugal[acc]? </morph>
+     <english>
+     Are there few committee members from Portugal?
+     </english>
+  </q>
+  <h>
+  <script>
+      Υπάρχουν λίγα μέλη της επιτροπής απο τη Πορτογαλία.
+     </script>
+     <translit> Yparchoun liga  meli tis epitropis apo ti Portogalia.</translit> 
+     <morph>
+      Exist[pres,3.Pl] few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Portugal[acc].
+     </morph>
+     <english>
+      There are few committee members from Portugal.
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <problem id="045"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+      Και οι δυο επίτροποι ήταν επιχειρηματίες. 
+     </script>
+     <translit>Kai oi dyo epitropoi itan epichirimaties.</translit> 
+     <morph>
+      And the[pl,m] two commissioners[nom] were[past,3.Pl]  businessmen[nom].
+     </morph>
+     <english>
+      Both commissioners used to be businessmen.  
+     </english>
+  </p>
+  <q>
+    <script>
+     Και οι δυο επίτροποι ήταν κορυφαίοι επιχειρηματίες;
+     </script>
+     <translit>Kai oi dyo epitropoi itan korifaioi epichirimaties?</translit> 
+     <morph>
+     And the[pl,m] two commissioners[nom] were[past,3.Pl] leading[pl,nom]  businessmen[nom]?
+     </morph>
+     <english>
+       Did both commissioners used to be leading businessmen?
+     </english>
+  </q>
+  <h>
+  <script>
+      Και οι δυο επίτροποι ήταν κορυφαίοι επιχειρηματίες. 
+     </script>
+     <translit>Kai oi dyo epitropoi itan korifaioi epichirimaties.</translit> 
+     <morph>
+      And the[pl,m] two commissioners[nom] were[past,3.Pl] leading[pl,nom] businessmen[nom].
+     </morph>
+     <english>
+       Both commissioners used to be leading businessmen.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  <note> "used to" can not be kept in the sentence, as in Greek it has more the sense of "have a habit" </note>
+  </problem>
+
+
+<problem id="046"
+  fracas_answer="no" language="el">
+  <p idx="1">
+    <script>
+     Κανένας απο τους επίτροπους δεν περνάει χρόνο στο σπίτι.
+     </script>
+     <translit> Kanenas apo tous epitropous den pernaei  chrono sto spiti.</translit> 
+     <morph>
+     Neither[m,nom] of the[m,pl,acc] commissioner[pl,acc] not spend[pres,3.Sg]  time at the[const,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     Neither commissioner spends  time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιος απο τους επίτροπους περνάει πολύ χρόνο στο σπίτι;
+     </script>
+     <translit>Kapoios apo tous epitropous pernaei poli chrono sto spiti?</translit> 
+     <morph>
+     Either[m,nom] of the[m,pl,acc] commissioner[pl,acc] spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Does either commissioner spend a lot of time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Ένας απο τους επίτροπους περνάει πολύ χρόνο στο σπίτι.
+     </script>
+     <translit>Enas apo tous epitropous pernaei poli chrono sto spiti.</translit> 
+     <morph>
+      One[m,nom] of the[m,pl,acc] commissioners[acc] spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     One of the commissioners spends a lot of time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Όχι </script>
+   <translit> Ochi  </translit>
+   <english>  No  </english>
+  </a>
+  </problem>
+
+  <problem id="047"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Τουλάχιστον τρεις επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit> Toulachiston treis epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+     At least three[m,nom] commissioners[acc]  spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three commissioners spend time at home.
+     </english>
+  </p>
+  <q>
+    <script>
+     Τουλάχιστον τρείς επίτροποι περνάνε πολύ χρόνο στο σπίτι;
+     </script>
+     <translit>Toulachiston treis epitropoi pernane poli chrono sto spiti?</translit> 
+     <morph> 
+     At least three[m,nom] commissioners[acc] spend[pres,3.Pl] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at least three commissioners spend a lot of time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Τουλάχιστον τρείς επίτροποι περνάνε πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Toulachiston treis epitropoi pernane poli chrono sto spiti.</translit> 
+     <morph>
+     At least three[m,nom] commissioners[acc]  spend[pres,3.Pl] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three commissioners spend a lot of time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+   <problem id="048"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit> To poli deka epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+     At most ten commissioners[acc] spend[pres,3.Sg] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Το πολύ δέκα επίτροποι περνάνε πολύ χρόνο στο σπίτι;
+    </script>
+     <translit>To poli deka epitropoi pernane poli chrono sto spiti?</translit> 
+     <morph>
+     At most ten commissioners[acc] spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at most ten commissioners spend a lot of time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Το πολύ δέκα επίτροποι περνάνε πολύ χρόνο στο σπίτι.
+     </script>
+     <translit>To poli treis epitropoi pernane poli chrono sto spiti.</translit> 
+     <morph>
+      At most ten commissioners[acc] spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend a lot of time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <comment class="subsection"> 1.4 Monotonicity (upwards on first argument) </comment>
+
+<comment> Q As are Bs and all As are Cs &lt; Q Cs are Bs </comment>
+
+<problem id="049"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Ένας Σουηδός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit> Enas Souidos kerdise ena vraveio Nobel.</translit> 
+     <morph>
+     A[m,nom] Swede[m,nom] won[past,3.Sg] a[neutr,acc] prize[acc] Nobel.
+     </morph>
+     <english>
+     A Swede won a Nobel prize. 
+     </english>
+  </p>
+  <p idx="2">
+    <script>
+     Κάθε Σουηδός είναι Σκανδιναβός.
+     </script>
+     <translit> Kathe Souidos einai Skandinavos.</translit> 
+     <morph>
+     Every Swede[m,nom] is[pres,3.Sg] Scandinavian[m,nom]
+     </morph>
+     <english>
+     Every Swede is a Scandinavian. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κέρδισε ένας Σκανδιναβός ένα βραβείο Νόμπελ;
+     </script>
+     <translit>Kerdise enas Skandinavos ena vraveio Nobel?</translit> 
+     <morph>
+     Win[past,3.Sg] a[m,nom] Scandinavian[m,nom] a[neut,acc] prize[acc] Nobel? </morph>
+     <english>
+     Did a Scandinavian win a Nobel prize? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Ένας Σκανδιναβός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit>Enas Skandinavos kerdise ena vraveio Nobel.</translit> 
+     <morph>
+     A[m,nom] Scandinavian[m,nom] won[past,3.Sg] a[m,acc] prize[acc] Nobel.
+     </morph>
+     <english>
+    A Scandinavian won a Nobel prize. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <problem id="050"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Καναδός κάτοικος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης. 
+     </script>
+     <translit> Kathe Kanados katoikos mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Every Canadian[m,nom] resident[nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].     
+     </morph>
+     <english>
+     Every Canadian resident can travel freely within Europe. 
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katokos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph>
+     Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,gen] North American[gen] continent[gen].
+     </morph>
+     <english>
+     Every Canadian resident is a resident of the North American continent. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Μπορεί κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporei kathe katoikos tis Voreioamerikanikis ipeirou na taxidevei elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Sg] every resident[nom] the[f,gen] North American[gen] continent[gen] to travel[pres3.Sg,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can every resident of the North American continent travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Kathe katoikos tis Voreioamerikanikis ipeirou mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Every resident[nom] the[f,gen] North American[gen] continent[gen] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     Every resident of the North American continent can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<problem id="051"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Όλοι οι Καναδόί κάτοικοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης. 
+     </script>
+     <translit> Oloi oi  Kanadoi katoikoi mporoun na taxidevoun elefthera entos Evropis. </translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] Canadian[m,pl,nom] residents[nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].     
+     </morph>
+     <english>
+      All Canadian residents can travel freely within Europe.
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katoikos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph>
+     Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,gen] North American[gen] continent[gen].
+     </morph>
+     <english>
+     Every Canadian resident is a resident of the North American continent. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Μπορούν όλοι οι κάτοικοι της Βορειοαμερικάνικης ηπείρου να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporoun oloi oi  katoikoi tis Voreioamerikanikis ipeirou na taxidevoun elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl] all[m,pl,nom] the[m,pl,nom] residents[nom] the[f,gen] North American[gen] continent[gen] to travel[pres3.Pl,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can all residents of the North American continent travel freely within Europe?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Όλοι οι κάτοικοι της Βορειοαμερικάνικης ηπείρου μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi  katoikoi tis Voreioamerikanikis ipeirou mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+     All[m,pl,nom] the[m,pl,nom] residents[nom] the[f,gen] North American[gen] continent[gen] can[pres,3.Pl] to travel[pres3.Pl,subj] freely within Europe[gen]
+     </morph>
+     <english>
+      All residents of the North American continent can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<problem id="052"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κάθε Καναδός κάτοικος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης. 
+     </script>
+     <translit> Kathe Kanados katoikos mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph>
+     Each Canadian[m,nom] resident[nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].     
+     </morph>
+     <english>
+     Each Canadian resident can travel freely within Europe. 
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katokos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph>
+     Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,gen] North American[gen] continent[gen].
+     </morph>
+     <english>
+     Every Canadian resident is a resident of the North American continent. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Μπορεί κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporei kathe katoikos tis Voreioamerikanikis ipeirou na taxidevei elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Sg] each resident[nom] the[f,gen] North American[gen] continent[gen] to travel[pres3.Sg,subj] freely within Europe[gen]? </morph>
+     <english>
+     Can each resident of the North American continent travel freely within Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Kathe katoikos tis Voreioamerikanikis ipeirou mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>
+     Each resident[nom] the[f,gen] North American[gen] continent[gen] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      Each resident of the North American continent can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+
+<problem id="053"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Οι κάτοικοι των μεγάλων δυτικών χωρών μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi katoikoi ton megalon ditikon choron mporoun na taxidevoun elefthera entos Evropis. </translit> 
+     <morph>
+     The[m,pl,nom] residents[nom] the[f,pl,gen] major[f,pl,gen] western[f,pl,gen] countries[pl,gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].     
+     </morph>
+     <english>
+     The residents of major western countries can travel freely within Europe. 
+     </english>
+  </p>
+   <p idx="2">
+    <script>
+     Όλοι οι κάτοικοι των μεγάλων δυτικών χωρών είναι κάτοικοι δυτικών χωρών.
+     </script>
+     <translit> Oloi oi katoikoi ton megalon ditikon choron einai katoikoi ditikon choron. </translit> 
+     <morph>
+     All[m,nom] the[m,pl,nom] residents[nom] the[f,pl,gen] major[f,pl,gen] western[f,pl,gen] countries[pl,gen] are[pres,3.Pl] residents[nom] western[f,pl,gen] countries[pl,gen].
+     </morph>
+     <english>
+     All residents of major western countries are residents of western countries. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Έχουν όλοι οι κάτοικοι των δυτικών χωρών το δικαίωμα να ζούν στην Ευρώπη;
+     </script>
+     <translit>Echoun oloi oi katoikoi ton ditikon choron to dikaioma na zoun stin Evropi?</translit> 
+     <morph>
+     Have[pres,3.Pl] all[m,pl,nom] the[m,pl,nom] residents[nom] the[f,pl,gen] western[f,pl,gen] countries[pl,gen] the[m,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]? </morph>
+     <english>
+     Do the residents of western countries have the right to live in Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι κάτοικοι των δυτικών χωρών έχουν το δικαίωμα να ζούν στην Ευρώπη.
+     </script>
+     <translit>Oi katoikoi ton ditikon choron echoun to dikaioma na zoun stin Evropi. </translit> 
+     <morph>
+     The[m,pl,nom] residents[nom] the[f,pl,gen] western[f,pl,gen] countries[pl,gen] have[pres,3.Pl] the[m,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc].
+     </morph>
+     <english>
+      The residents of western countries have the right to live in Europe. 
+    </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<problem id="054"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Κανένας Σκανδιναβός αντιπρόσωπος δεν τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit> Kanenas Skandinavos antiprosopos den teleiose tin anafora egkaira.</translit> 
+     <morph>
+     No[m,nom] Scandinavian[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc] on time.
+     </morph>
+     <english>
+     No Scandinavian delegate finished the report on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιος αντιπρόσωπος τελείωσε την αναφορά έγκαιρα;
+     </script>
+     <translit>Kapoios antirposopos teleiose tin anafora egkaira?</translit> 
+     <morph>
+     Any[m,nom] delegate[m,nom]  finished[past,3.Sg] the[f,acc] report[acc] on time? </morph>
+     <english>
+     Did any delegate finish the report on time?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Κάποιος αντιπρόσωπος τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit>Kapoios antirposopos teleiose tin anafora egkaira.</translit> 
+     <morph>
+     Some[m,nom] delegate[m,nom]  finished[past,3.Sg] the[f,acc] report[acc] on time.
+     </morph>
+     <english>
+     Some delegate finished the report on time. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+   <problem id="055"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Ορισμένοι Ιρλανδοί αντιπρόσωποι τελειώσαν την έρευνα έγκαιρα.
+     </script>
+     <translit> Orismenoi Irlandoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+     Some[m,pl,nom] Irish[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time.
+     </morph>
+     <english>
+     Some Irish delegates finished the survey on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιοι αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα; 
+     </script>
+     <translit>Kapoioi antiprosopoi teleiosan tin erevna egkaira?</translit> 
+     <morph>
+     Any[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time? </morph>
+     <english>
+     Did any delegates finish the survey on time? 
+   </english>
+  </q>
+  <h>
+  <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα.
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time.
+     </morph>
+     <english>
+     Some delegates finished the survey on time. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+  <problem id="056"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Πολλοί Βρετανοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit> Polloi Bretanoi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] British[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+      Many British delegates obtained interesting results from the survey. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα;
+     </script>
+     <translit>Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna?</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc]? </morph>
+     <english>
+      Did many delegates obtain interesting results from the survey? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit>Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Sg] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+   Many delegates obtained interesting results from the survey.
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+<problem id="057"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+      Αρκετοί Πορτογάλοι αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit> Arketoi Portogaloi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides. </translit> 
+     <morph>
+      Several[nom] Portuguese[m,pl,nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+      Several Portuguese delegates got the results published in major national newspapers. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες;
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides?</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[pres,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc]? </morph>
+     <english>
+      Did several delegates get the results published in major national newspapers? 
+     </english>
+  </q>
+  <h>
+  <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides.</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+     Several delegates got the results published in major national newspapers.   
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  </problem>
+
+
+<problem id="058"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Οι περισσότεροι Ευρωπάιοι που είναι κάτοικοι της Ευρώπης μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi pou einai katoikoi tis Evropis mporoun na taxidevoun elefthera entos Evropis. </translit> 
+     <morph>
+     The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] who are[pres,3.Pl] resident[pl,nom] the[f,sg,gen] Europe[gen] can[pres,3.Pl]  to travel[pres,3.Pl,subj] freely within Europe[gen]. 
+     </morph>
+     <english>
+       Most Europeans who are resident in Europe can travel freely within Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+    Μπορούν οι περισσότεροι Ευρωπαίοι να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit>Mporoun oi perissoteroi Evropaioi na taxidevoun elefthera entos Evropis?</translit> 
+     <morph>
+     Can[pres,3.Pl] the[m,pl,nom] most[m,pl,nom] Europeans[m,nom] to travel[pres3.Pl,subj] freely within Europe[gen]? </morph>
+     <english>
+      Can most Europeans travel freely within Europe?  
+     </english>
+  </q>
+  <h>
+  <script>
+     Οι περισσότεροι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit>Oi perissoteroi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+     The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+     Most Europeans can travel freely within Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  </problem>
+
+  <problem id="059"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Μερικές γυναίκες μέλη της επιτροπής είναι απο τη Σουηδία.
+     </script>
+     <translit> Merikes gynaikes meli tis epitropis einai apo ti Skanidnavia.</translit> 
+     <morph>
+      A few[f,pl,nom] women[nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      A few female committee members are from Scandinavia. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Υπάρχουν τουλάχιστον μερικά μέλη της επιτροπής απο τη Σκανδιναβία;
+     </script>
+     <translit> Yparchoun toulachiston merika meli tis epitropis apo ti Skandinavia?</translit> 
+     <morph>
+     Exist[pres,3.Pl] at least a few[neut,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Scandinavia[acc]? </morph>
+     <english>
+     Are at least a few committee members from Scandinavia?
+     </english>
+  </q>
+  <h>
+  <script>
+      Τουλάχιστον μερικά μέλη της επιτροπής είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Toulachiston merika meli tis epitropis einai apo ti Skandinavia.</translit> 
+     <morph>
+      At least a few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc]
+     </morph>
+     <english>
+      At least a few committee members are from Scandinavia.
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  <note> The term "female" is replaced by the term "women". </note>
+  </problem>
+
+
+  <problem id="060"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Λίγeς γυναίκες μέλη της επιτροπής είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Liges gynaikes meli tis epitropis einai apo ti notia Evropi.</translit> 
+     <morph>
+      Few[f,pl,nom] women[nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      Few female committee members are from southern Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Είναι λίγα μέλη της επιτροπής απο τη νότια Ευρώπη;
+     </script>
+     <translit> Einai liga meli tis epitropis apo ti notia Evropi?</translit> 
+     <morph>
+     Are[pres,3.Pl] few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] southern[f,acc] Europe[acc]? </morph>
+     <english>
+     Are few committee members from southern Europe? 
+     </english>
+  </q>
+  <h>
+  <script>
+    Λίγα μέλη της επιτροπής είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Liga meli tis epitropis apo ti notia Evropi.</translit> 
+     <morph>
+      Few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      Few committee members are from southern Europe. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <note> The term "female" is replaced by the term "women". </note>
+  </problem>
+
+  <problem id="061"
+  fracas_answer="undef" 
+  fracas_nonstandard="true"
+  language="el">
+  <p idx="1">
+    <script>
+     Και οι δυο γυναίκες επίτροποι ήταν στο χώρο των επιχειρήσεων.
+     </script>
+     <translit> Kai oi dyo gynaikes epitropoi itan sto choro ton epichiriseon.</translit> 
+     <morph>
+     And the[f,pl,nom] two women[nom] commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen].
+     </morph>
+     <english>
+     Both female commissioners used to be in business. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Και οι δυο επίτροποι ήταν στο χώρο των επιχειρήσεων;
+     </script>
+     <translit>Kai oi dyo epitropoi itan sto choro ton epichiriseon?</translit> 
+     <morph>
+     And the[m,pl,nom] two commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen]?
+     </morph>
+     <english>
+      Did both commissioners used to be in business? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Και οι δυο επίτροποι ήταν στο χώρο των επιχειρήσεων. 
+     </script>
+     <translit>Kai oi dyo epitropoi itan sto choro ton epichiriseon.</translit> 
+     <morph>
+     And the[m,pl,nom] two commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen].
+     </morph>
+     <english>
+     Both commissioners used to be in business. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι, αν και οι δυο επίτροποι είναι γυναίκες, αλλιώς υπάρχουν πάνω απο δυο επίτροποι. </script>
+   <translit> Nai, an kai oi dyo epitropoi einai gynaikes, allios yparchoun pano apo dyo epitropoi. </translit>
+   <english> Yes, if both commissioners are female; otherwise there are more than two commissioners.   </english>
+  </a>
+  <note> "used to" can not be kept in the sentence, as in Greek it has more the sense of "have a habit". The term "female" is replaced by the term "women".
+  </note>
+  </problem>
+
+ <problem id="062"
+  fracas_answer="undef" 
+  fracas_nonstandard="true" 
+  language="el">
+  <p idx="1">
+    <script>
+     Καμία απο τις γυναίκες επίτροπους δεν περνάει πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Kamia apo tis gynaikes epitropous den pernaei poli chrono sto spiti.</translit> 
+     <morph>
+     Neither[f,nom] of the[f,pl,acc]  women[acc] commissioner[pl,acc] not spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     Neither female commissioner spends a lot of time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+      Κάποιος απο τους επίτροπους περνάει πολύ χρόνο στο σπίτι;
+     </script>
+     <translit>Kapoios apo tous epitropous  pernaei poli chrono sto spiti?</translit> 
+     <morph>
+     Either[m,nom] of the[m,pl,acc] commissioner[pl,acc]  spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Does either commissioner spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Ένας απο τους επίτροπους περνάει χρόνο στο σπίτι.
+     </script>
+     <translit>Enas apo tous epitropous  pernaei  chrono sto spiti.</translit> 
+     <morph>
+      One[m,nom] of the[m,pl,acc] commissioners[acc] spend[pres,3.Sg] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     One of the commissioners spends a lot of time at home.    
+     </english>
+  </h>
+  <a>
+   <script> Όχι αν και οι δύο επίτροποι είναι γυναίκες, αλλιώς υπάρχουν πάνω απο δυο επίτροποι.</script>
+   <translit> Ochi an kai oi dyo epitropoi einai gynaikes, allios yparchoun pano apo dyo epitropoi.  </translit>
+   <english>    No, if both commissioners are female; otherwise there are more than two commissioners. Yes  </english>
+  </a>
+  </problem>
+
+
+ <problem id="063"
+  fracas_answer="yes" language="el">
+  <p idx="1">
+    <script>
+     Τουλάχιστον τρείς γυναίκες επίτροποι περνάνε πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Toulachiston treis gynaikes epitropoi pernane poli chrono sto spiti.</translit> 
+     <morph>
+     At least three women[nom] commissioners[nom] spend[pres,3.Pl] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At least three female commissioners spend time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Τουλάχιστον τρείς επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>Toulachiston treis epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At least three commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at least three commissioners spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Τουλάχιστον τρείς επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>Toulachiston treis epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At least three commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three commissioners spend time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Nαι </script>
+   <translit> Nai  </translit>
+   <english>  Yes  </english>
+  </a>
+  <note> The term "female" is replaced by the term "women" </note>
+  </problem>
+
+  <problem id="064"
+  fracas_answer="unknown" language="el">
+  <p idx="1">
+    <script>
+     Το πολύ δέκα γυναίκες επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit> To poli deka gynaikes epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+     At most ten women[nom] commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten female commissioners spend  time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>To poli deka epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At most ten commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at most ten commissioners spend time at home? 
+     </english>
+  </q>
+  <h>
+  <script>
+      Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>To poli deka epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At most ten commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend time at home. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <note> The term "female" is replaced by the term "women" </note>
+  </problem>
+
+  <comment class="subsection"> 1.5 Monotonicity (downwards on first argument) </comment>
+
+<comment> Q As are Bs and all Cs are As &lt; Q Cs are Bs </comment>
+
+<problem
+  id="065"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+     Ένας Σκανδιναβός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit> Enas Skandinavos kerdise ena vraveio Nobel.</translit> 
+     <morph>
+     A[m,nom] Scandinavian[nom] won[past,3.Sg] a[neut,acc] prize[acc] Nobel.
+     </morph>
+     <english>
+    A Scandinavian won a Nobel prize.
+    </english>
+  </p>
+  <p idx="2">
+    <script>
+     Κάθε Σουηδός είναι Σκανδιναβός.
+     </script>
+     <translit> Kathe Souidos einai Skandinavos.</translit> 
+     <morph>
+     Every Swede[m,nom] is[pres,3.Sg] Scandinavian[m,nom].
+     </morph>
+     <english>
+    Every Swede is a Scandinavian.
+    </english>
+  </p>
+  <q>
+    <script>
+     Ένας Σουηδός κέρδισε ενα βραβείο Νόμπελ;
+     </script>
+     <translit> Enas Souidos kerdise ena vraveio Nobel?</translit> 
+     <morph>
+     A[m,nom] Swede[nom] won[past,3.Sg] a[neut,acc] prize[acc] Nobel?
+     </morph>
+     <english>
+    Did a Swede win a Nobel prize?
+    </english>
+  </q>
+  <h>
+    <script>
+     Ένας Σουηδός κέρδισε ενα βραβείο Νόμπελ.
+     </script>
+     <translit> Enas Souidos kerdise ena vraveio Nobel.</translit> 
+     <morph> A[m,nom] Swede[nom] won[past,3.Sg] a[m,acc] prize[acc] Nobel. </morph>
+     <english> A Swede won a Nobel prize. </english>
+  </h>
+  <a> 
+    <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+ </a>
+</problem>
+
+<problem
+  id="066"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe katoikos tis Voreioamerikanikis ipeirou mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph>   Every resident[nom] the[f,sg,gen] North American[gen] continent[gen] can[pres,3.Sg]  to travel[pres,3.Sg,subj] freely within Europe[gen].  </morph>
+     <english>  Every resident of the North American continent can travel freely within Europe. </english>
+  </p>
+  <p idx="2">
+    <script>
+    Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katoikos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph> Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,sg,gen] North American[gen] continent[gen]. </morph>
+     <english>  Every Canadian resident is a resident of the North American continent.  </english>
+  </p>
+  <q>
+    <script>
+     Μπορεί κάθε Καναδός κάτοικος να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporei kathe Kanados katoikos na taxidevei elefthera entos Evropis?</translit> 
+     <morph> Can[pres,3.Sg] every Canadian[m,nom] resident[nom] to travel[pres,3.Sg,subj] freely within Europe[gen]. </morph>
+     <english>   Can every Canadian resident travel freely within Europe?  </english>
+  </q>
+  <h>
+    <script>
+    Κάθε Καναδός κάτοικος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe Kanados katoikos mporei na taxidevei elefthera entos Evropis?</translit> 
+     <morph> Every Canadian[m,nom] resident[nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. </morph>
+     <english>  Every Canadian resident can travel freely within Europe. </english>
+  </h>
+  <a> 
+    <script> Ναι </script>
+   <translit> Nai  </translit>
+   <english>  Yes </english>
+   </a>
+</problem>
+
+<problem
+  id="067"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Όλοι οι κάτοικοι της Βορειοαμερικάνικης ηπείρου μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi katoikoi tis Voreioamerikanikis ipeirou mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph> All[m,pl,nom] the[m,pl,nom] residents[nom] the[f,sg,gen] North American[gen] continent[gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].  
+      </morph>
+     <english>
+    All residents of the North American continent can travel freely within Europe. 
+  </english>
+  </p>
+  <p idx="2">
+   <script>
+    Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katoikos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph> Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,sg,gen] North American[gen] continent[gen]. </morph>
+     <english>  Every Canadian resident is a resident of the North American continent.  </english>
+  </p>
+  <q>
+    <script>
+     Μπορούν όλοι οι Καναδοί κάτοικοι να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporoun oloi oi Kanadoi katoikoi na taxidevoun elefthera entos Evropis?</translit> 
+     <morph> Can[pres,3.Pl] all[m,pl,nom] the[m,pl,nom] Canadian[m,pl,nom] residents[nom] to travel[pres,3.Pl,subj] freely within Europe[gen]. </morph>
+     <english> 
+    Can all Canadian residents travel freely within Europe?
+     </english>
+  </q>
+  <h>
+    <script>
+      Όλοι οι Καναδοί κάτοικοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oloi oi Kanadoi katoikoi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>  All[m,pl,nom] the[m,pl,nom]  Canadian[m,pl,nom] residents[nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen]. </morph>
+     <english>
+    All Canadian residents can travel freely within Europe.
+     </english>
+  </h>
+  <a> 
+      <script> Ναι </script>
+      <translit> Nai  </translit>
+      <english>  Yes </english>
+    </a>
+</problem>
+
+<problem
+  id="068"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+     Κάθε κάτοικος της Βορειοαμερικάνικης ηπείρου μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe katoikos tis Voreioamerikanikis ipeirou mporei na taxidevei elefthera entos Evropis.</translit> 
+     <morph> Each resident[nom] the[f,sg,gen] North American[gen] continent[gen] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen].  
+      </morph>
+     <english>
+    Each resident of the North American continent can travel freely within Europe.
+    </english>
+  </p>
+  <p idx="2">
+   <script>
+    Κάθε Καναδός κάτοικος είναι κάτοικος της Βορειοαμερικάνικης ηπείρου.
+     </script>
+     <translit> Kathe Kanados katoikos einai katoikos tis Voreioamerikanikis ipeirou. </translit> 
+     <morph> Every Canadian[m,nom] resident[nom] is[pres,3.Sg] resident[nom] the[f,sg,gen] North American[gen] continent[gen]. </morph>
+     <english>  Every Canadian resident is a resident of the North American continent.  </english>
+  </p>
+  <q>
+    <script>
+     Μπορεί κάθε Καναδός κάτοικος να ταξιδεύει ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporei kathe Kanados katoikos na taxidevei elefthera entos Evropis?</translit> 
+     <morph> Can[pres,3.Sg] each Canadian[m,nom] resident[nom] to travel[pres,3.Sg,subj] freely within Europe[gen]. </morph>
+     <english>
+      Can each Canadian resident travel freely within Europe? 
+    </english>
+  </q>
+  <h>
+    <script>
+    Κάθε Καναδός κάτοικος μπορεί να ταξιδεύει ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Kathe Kanados katoikos mporei na taxidevei elefthera entos Evropis. </translit> 
+     <morph> Each Canadian[m,nom] resident[nom] can[pres,3.Sg] to travel[pres,3.Sg,subj] freely within Europe[gen]. </morph>
+     <english> 
+    Each Canadian resident can travel freely within Europe.
+    </english>
+  </h>
+  <a> 
+      <script> Ναι </script>
+      <translit> Nai  </translit>
+      <english>  Yes </english> 
+    </a>
+</problem>
+
+<problem
+  id="069"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+    Οι κάτοικοι των δυτικών χωρών μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi katoikoi ton dytikon choron mporoun na taxidevoun elefthera entos Evropis. </translit> 
+     <morph> The[m,pl,nom] residents[nom] the[f,pl,gen] western[f,pl,gen] countries[pl,gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+      </morph>
+     <english> 
+      The residents of western countries can travel freely within Europe.
+      </english>  
+  </p>
+  <p idx="2">
+    <script>
+    Όλοι οι κάτοικοι των μεγάλων δυτικών χωρών είναι κάτοικοι δυτικών χωρών.
+     </script>
+    <translit> Oloi oi katoikoi ton megalon dytikon choron einai katoikoi dytikon choron. </translit> 
+    <morph> All[m,nom] the[m,pl,nom] residents[nom] the[f,pl,gen] major[f,pl,gen] western[f,pl,gen] countries[gen] are[pres,3.Pl] residents[nom] western[f,pl,gen] countries[pl,gen]. </morph>
+     <english> 
+    All residents of major western countries are residents of western countries.
+     </english>
+  </p>
+  <q>
+    <script>
+     Έχουν οι κάτοικοι των μεγάλων δυτικών χωρών το δικαίωμα να ζούν στην Ευρώπη;
+     </script>
+     <translit>Echoun oi katoikoi ton megalon dytikon choron to dikaioma na zoun stin Evropi?</translit> 
+     <morph>
+     Have[pres,3.Pl] the[m,pl,nom] residents[nom] the[f,pl,gen] major[f,pl,gen] western[f,pl,gen] countries[gen] the[m,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]? </morph>
+     <english>
+      Do the residents of major western countries have the right to live in Europe?
+     </english>
+  </q>
+  <h>
+    <script>
+     Οι κάτοικοι των μεγάλων δυτικών χωρών έχουν το δικαίωμα να ζούν στην Ευρώπη.
+     </script>
+     <translit> Oi katoikoi ton megalon dytikon choron echoun to dikaioma na zoun stin Evropi.</translit> 
+     <morph>
+    The[m,pl,nom] residents[nom] the[f,pl,gen] major[f,pl,gen] western[f,pl,gen] countries[gen] have[pres,3.Pl] the[m,acc] right[acc] to live[pres,3.Pl,subj] in the[contr,f,sg,acc] Europe[acc]. </morph>
+     <english>
+    The residents of major western countries have the right to live in Europe.
+    </english>
+  </h>
+  <a> 
+      <script> Ναι </script>
+      <translit> Nai  </translit>
+      <english>  Yes </english> 
+   </a>
+</problem>
+
+<problem
+  id="070"
+  fracas_answer="no">
+    <p idx="1">
+    <script>
+     Κανένας αντιπρόσωπος δεν τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit> Kanenas antiprosopos den teleiose tin anafora egkaira.</translit> 
+     <morph>
+     No[m,nom] delegate[m,nom] not finished[past,3.Sg] the[f,acc] report[acc] on time.
+     </morph>
+     <english>
+     No delegate finished the report on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιος Σκανδιναβός αντιπρόσωπος τελείωσε την αναφορά έγκαιρα;
+     </script>
+     <translit>Kapoios Skandinavos antirposopos teleiose tin anafora egkaira?</translit> 
+     <morph>
+     Any[m,nom] Scandinavian[m,nom] delegate[m,nom] finished[past,3.Sg] the[f,acc] report[acc] on time? </morph>
+     <english>
+     Did any Scandinavian delegate finish the report on time?
+      </english>
+  </q>
+  <h>
+    <script>
+     Κάποιος Σκανδιναβός αντιπρόσωπος τελείωσε την αναφορά έγκαιρα.
+     </script>
+     <translit>Kapoios Skandinavos antirposopos teleiose tin anafora egkaira.</translit> 
+     <morph>
+     Some[m,nom] Scandinavian[m,nom] delegate[m,nom] finished[past,3.Sg] the[f,acc] report[acc] on time. </morph>
+     <english>
+     Some Scandinavian delegate finished the report on time.
+     </english>
+  </h>
+  <a> 
+      <script> Όχι </script>
+      <translit> Ochi  </translit>
+      <english>  No </english> 
+  </a>
+</problem>
+
+
+<problem
+  id="071"
+  fracas_answer="unknown">
+  <p idx="1">
+   <script>
+     Ορισμένοι αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα.
+     </script>
+     <translit> Orismenoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+     Some[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time.
+     </morph>
+     <english>
+     Some delegates finished the survey on time. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Κάποιοι Ιρλανδοί αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα; 
+     </script>
+     <translit>Kapoioi Irlandoi antiprosopoi teleiosan tin erevna egkaira?</translit> 
+     <morph>
+     Any[m,pl,nom] Irish[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time? </morph>
+     <english>
+      Did any Irish delegates finish the survey on time? 
+   </english>
+  </q>
+  <h>
+    <script>
+     Κάποιοι Ιρλανδοί αντιπρόσωποι τελείωσαν την έρευνα έγκαιρα.
+     </script>
+     <translit>Kapoioi Irlandoi antiprosopoi teleiosan tin erevna egkaira.</translit> 
+     <morph>
+     Some[m,pl,nom] Irish[m,pl,nom] delegates[m,nom] finished[past,3.Pl] the[f,acc] survey[acc] on time. </morph>
+     <english>
+    Some Irish delegates finished the survey on time.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+   </a>
+</problem>
+
+<problem
+  id="072"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+     Πολλοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit>Polloi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+     Many delegates obtained interesting results from the survey.
+     </english>
+  </p>
+  <q>
+    <script>
+     Πολλοί Βρετανοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα;
+     </script>
+     <translit>Polloi Bretanoi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna?</translit> 
+     <morph>
+     Many[m,pl,nom] British[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[pl,neut,acc] results[acc] from the[f,acc] survey[acc]? </morph>
+     <english>
+    Did many British delegates obtain interesting results from the survey?
+     </english>
+  </q>
+  <h>
+    <script>
+     Πολλοί Βρετανοί αντιπρόσωποι εξήγαγαν ενδιαφέροντα αποτελέσματα απο την έρευνα.
+     </script>
+     <translit>Polloi Bretanoi antiprosopoi exygagan endiaferonta apotelesmata apo tin erevna.</translit> 
+     <morph>
+     Many[m,pl,nom] British[m,pl,nom] delegates[m,nom] obtained[past,3.Pl] interesting[neut,pl,acc] results[acc] from the[f,acc] survey[acc].
+     </morph>
+     <english>
+     Many British delegates obtained interesting results from the survey.
+     </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+</problem>
+
+<problem
+  id="073"
+  fracas_answer="unknown">
+  <p idx="1">
+   <script>
+     Αρκετοί αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit>Arketoi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides.</translit> 
+     <morph>
+     Several[nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+     Several delegates got the results published in major national newspapers.   
+     </english>
+  </p>
+  <q>
+    <script>
+    Αρκετοί Πορτογάλοι αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες;
+     </script>
+     <translit>Arketoi Portogaloi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides?</translit> 
+     <morph>
+     Several[nom] Portuguese[m,pl,nom] delegates[nom] published[pres,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc]? </morph>
+     <english>
+    Did several Portuguese delegates get the results published in major national newspapers?
+    </english>
+  </q>
+  <h>
+    <script>
+      Αρκετοί Πορτογάλοι αντιπρόσωποι δημοσίευσαν τα αποτελέσματα σε μεγάλες εθνικές εφημερίδες.
+     </script>
+     <translit> Arketoi Portogaloi antiprosopoi dimosiefsan ta apotelesmata se megales ethnikes efimerides. </translit> 
+     <morph>
+      Several[nom] Portuguese[m,pl,nom] delegates[nom] published[past,3.Pl] the[neut,pl,acc] results[acc] in major[f,pl,acc] national[pl,acc] newspapers[acc].
+     </morph>
+     <english>
+      Several Portuguese delegates got the results published in major national newspapers. 
+     </english>
+  </h>
+  <a>
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+</problem>
+
+<problem
+  id="074"
+  fracas_answer="unknown">
+  <p idx="1">
+   <script>
+     Οι περισσότεροι Ευρωπαίοι μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi mporoun na taxidevoun elefthera entos Evropis.</translit> 
+     <morph>
+      The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+      Most Europeans can travel freely within Europe.
+      </english>
+  </p>
+  <q>
+    <script>
+     Μπορούν οι περισσότεροι Ευρωπαίοι που είναι κάτοικοι εκτός Ευρώπης να ταξιδεύουν ελεύθερα εντός Ευρώπης;
+     </script>
+     <translit> Mporoun oi perissoteroi Evropaioi pou einai katoikoi ektos Evropis na taxidevoun elefthera entos Evropis?</translit>
+     <morph>
+      Can[pres,3.Pl] the[m,pl,nom] most[m,pl,nom] Europeans[m,nom] who are[pres,3.Pl] resident[pl,nom] outside Europe[gen] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english> 
+    Can most Europeans who are resident outside Europe travel freely within Europe?
+    </english>
+  </q>
+  <h>
+    <script>
+     Οι περισσότεροι Ευρωπαίοι που είναι κάτοικοι εκτός Ευρώπης μπορούν να ταξιδεύουν ελεύθερα εντός Ευρώπης.
+     </script>
+     <translit> Oi perissoteroi Evropaioi pou einai katoikoi ektos Evropis mporoun na taxidevoun elefthera entos Evropis.</translit>
+     <morph>
+    The[m,pl,nom] most[m,pl,nom] Europeans[m,nom] who are[pres,3.Pl] resident[pl,nom] outside Europe[gen] can[pres,3.Pl] to travel[pres,3.Pl,subj] freely within Europe[gen].
+     </morph>
+     <english>
+    Most Europeans who are resident outside Europe can travel freely within Europe.
+    </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+   </a>
+</problem>
+
+<problem
+  id="075"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+      Μερικά μέλη της επιτροπής είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Merika meli tis epitropis einai apo ti Skandinavia.</translit> 
+     <morph>
+      A few[neut,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+      A few committee members are from Scandinavia.
+     </english>
+  </p>
+  <q>
+   <script>
+     Είναι τουλάχιστον μερικές γυναίκες μέλη της επιτροπής απο τη Σκανδιναβία;
+     </script>
+     <translit> Yparchoun toulachiston merikes gynaikes meli tis epitropis apo ti Skandinavia?</translit> 
+     <morph>
+     Are[pres,3.Pl] at least a few[f,nom] women[nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] Scandinavia[acc]? </morph>
+     <english>
+     Are at least a few female committee members from Scandinavia?
+     </english> 
+  </q>
+  <h>
+     <script>
+      Τουλάχιστον μερικές γυναίκες μέλη της επιτροπής είναι απο τη Σκανδιναβία.
+     </script>
+     <translit> Toulachiston merikes gynaikes meli tis epitropis einai apo ti Skandinavia.</translit> 
+     <morph>
+      At least a few[f,nom] women[nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] Scandinavia[acc].
+     </morph>
+     <english>
+     At least a few female committee members are from Scandinavia.
+    </english> 
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+   </a>
+</problem>
+
+<problem
+  id="076"
+  fracas_answer="yes">
+  <p idx="1">
+    <script>
+      Λίγα μέλη της επιτροπής είναι απο τη νότια Ευρώπη.
+     </script>
+     <translit> Liga meli tis epitropis einai apo ti notia Evropi.</translit> 
+     <morph>
+      Few[neut,pl,nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc].
+     </morph>
+     <english>
+      Few committee members are from southern Europe. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Είναι λίγες γυναίκες μέλη της επιτροπής απο τη νότια Ευρώπη;
+     </script>
+     <translit> Einai liges gynaikes meli tis epitropis apo ti notia Evropi?</translit> 
+     <morph>
+     Are[pres,3.Pl] few[f,pl,nom]  women[nom] members[nom] the[f,gen] comittee[gen] from the[f,acc] southern[f,acc] Europe[acc]? </morph>
+     <english>
+     Are few female committee members from southern Europe?
+     </english>
+  </q>
+  <h>
+    <script>
+     Λίγες γυναίκες μέλη της επιτροπής είναι απο τη νότια Ευρώπη;
+     </script>
+     <translit> Liges gynaikes meli tis epitropis einai apo ti notia Evropi.</translit> 
+     <morph>
+     Few[f,pl,nom] women[nom] members[nom] the[f,gen] comittee[gen] are[pres,3.Pl] from the[f,acc] southern[f,acc] Europe[acc]. </morph>
+     <english>
+     Few female committee members are from southern Europe.
+     </english>
+  </h>
+  <a> 
+      <script> Ναι </script>
+      <translit> Nai  </translit>
+      <english>  Yes </english> 
+  </a>
+</problem>
+
+<problem
+  id="077"
+  fracas_answer="undef"
+  fracas_nonstandard="true">
+  <p idx="1">
+   <script>
+      Και οι δυο επίτροποι ήταν στο χώρο των επιχειρήσεων. 
+     </script>
+     <translit>Kai oi dyo epitropoi itan sto choro ton epichiriseon.</translit> 
+     <morph>
+     And the[m,pl,nom] two commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen].
+     </morph>
+     <english>
+     Both commissioners used to be in business. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Και οι δυο γυναίκες επίτροποι ήταν στο χώρο των επιχειρήσεων;
+     </script>
+     <translit>Kai oi dyo gynaikes epitropoi itan sto choro ton epichiriseon?</translit> 
+     <morph>
+     And the[f,pl,nom] two women[nom] commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen]?
+     </morph>
+     <english>
+      Did both female commissioners used to be in business?
+     </english>
+  </q>
+  <h>
+    <script>
+      Και οι δυο γυναίκες επίτροποι ήταν στο χώρο των επιχειρήσεων. 
+     </script>
+     <translit>Kai oi dyo gynaikes epitropoi itan sto choro ton epichiriseon.</translit> 
+     <morph>
+     And the[f,pl,nom] two women[nom] commissioners[nom] were[past,3.Pl] in the[contr,m,sg,acc] area[acc] the[pl,gen] business[pl,gen].
+     </morph>
+     <english>
+     Both female commissioners used to be in business. 
+     </english>
+  </h>
+  <a> 
+       <script> Ναι αν και οι δυο επίτροποι είναι γυναίκες, αλλιώς υπάρχουν πάνω απο δυο επίτροποι.</script>
+      <translit> Nai an kai oi dyo gynaikes epitropoi einai gynaikes, allios yparchoun pano apo dyo epitropoi.  </translit>
+      <english>  Yes, if both commissioners are female; otherwise there are more than two commissioners. </english> 
+    </a>
+</problem>
+
+<problem
+  id="078"
+  fracas_answer="undef"
+  fracas_nonstandard="true">
+  <p idx="1">
+    <script>
+     Κανένας απο τους επίτροπους δεν περνάει πολύ χρόνο στο σπίτι.
+     </script>
+     <translit> Kanenas apo tous epitropous den pernaei poli chrono sto spiti.</translit> 
+     <morph>
+     Neither[m,nom] of the[m,pl,acc] commissioner[pl,acc] not spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     Neither commissioner spends a lot of time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+      Κάποια απο τις γυναίκες επίτροπους περνάει πολύ χρόνο στο σπίτι;
+     </script>
+     <translit>Kapoia apo tis gynaikes epitropous pernaei poli chrono sto spiti?</translit> 
+     <morph>
+     Either[m,nom] of the[f,pl,acc] women[acc] commissioner[pl,acc] spend[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+       Does either female commissioner spend a lot of time at home?
+     </english>
+  </q>
+  <h>
+    <script>
+      Μια απο τις γυναίκες επίτροπους περνάει πολύ χρόνο στο σπίτι.
+     </script>
+     <translit>Mia apo tis gynaikes epitropous pernaei poli chrono sto spiti.</translit> 
+     <morph>
+      One[f,nom] of the[f,pl,acc] women[acc] commissioners[acc] spends[pres,3.Sg] a lot of time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+    One of the female commissioners spends a lot of time at home.
+    </english>
+  </h>
+  <a>
+     <script> Όχι αν και οι δυο επίτροποι είναι γυναίκες, αλλιώς υπάρχουν πάνω απο δυο επίτροποι.</script>
+      <translit> Ochi an kai oi dyo gynaikes epitropoi einai gynaikes, allios yparchoun pano apo dyo epitropoi.  </translit>
+      <english>  No, if both commissioners are female; otherwise there are more than two commissioners. </english> 
+ </a>
+</problem>
+
+<problem
+  id="079"
+  fracas_answer="unknown">
+  <p idx="1">
+    <script>
+      Τουλάχιστον τρείς επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>Toulachiston treis epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At least three commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three commissioners spend time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Τουλάχιστον τρείς άνδρες επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>Toulachiston treis antres epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At least three men[nom] commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at least three male commissioners spend time at home?
+     </english>
+  </q>
+  <h>
+    <script>
+      Τουλάχιστον τρείς άνδρες επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>Toulachiston treis antres epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At least three men[nom] commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+     At least three male commissioners spend time at home. 
+     </english>
+  </h>
+  <a> 
+   <script> Δεν ξέρω </script>
+   <translit> Den xero  </translit>
+   <english>  Don't know  </english>
+  </a>
+  <note> The term "male" was substituted by the term "men" in the translation. </note>
+</problem>
+
+<problem
+  id="080"
+  fracas_answer="yes">
+  <p idx="1">
+   <script>
+      Το πολύ δέκα επίτροποι περνάνε χρόνο στο σπίτι.
+     </script>
+     <translit>To poli deka epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+      At most ten commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten commissioners spend time at home. 
+     </english>
+  </p>
+  <q>
+    <script>
+     Το πολύ δέκα γυναίκες επίτροποι περνάνε χρόνο στο σπίτι;
+    </script>
+     <translit>To poli deka gynaikes epitropoi pernane chrono sto spiti?</translit> 
+     <morph>
+     At most ten women[nom] commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc]?
+     </morph>
+     <english>
+      Do at most ten female commissioners spend time at home?
+     </english>
+  </q>
+  <h>
+    <script>
+     Το πολύ δέκα γυναίκες επίτροποι περνάνε χρόνο στο σπίτι.
+    </script>
+     <translit>To poli deka gynaikes epitropoi pernane chrono sto spiti.</translit> 
+     <morph>
+     At most ten women[nom] commissioners[nom] spend[pres,3.Pl] time[acc] at the[contr,neut,sg,acc] home[acc].
+     </morph>
+     <english>
+      At most ten female commissioners spend time at home.
+     </english>
+  </h>
+  <a> 
+      <script> Ναι </script>
+      <translit> Nai  </translit>
+      <english>  Yes </english> 
+   </a>
+</problem>
+
+ 
+<note>  Working hours: 16/12/2012 - 23/12/2012 23 hours </note>
+
+
+</fracas-problems>
