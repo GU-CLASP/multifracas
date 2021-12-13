@@ -42,6 +42,9 @@
 <!-- transliteration of the target language translation -->
 <!ELEMENT translit (#PCDATA)>
 
+<!-- ipa transcription for the target language -->
+<!ELEMENT ipa (#PCDATA)>
+
 <!-- morphological representation of the target language -->
 <!ELEMENT morph (#PCDATA)>
 
