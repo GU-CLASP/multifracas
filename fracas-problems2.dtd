@@ -48,3 +48,7 @@
 <!-- original English sentence -->
 <!ELEMENT english (#PCDATA)>
 
+<!-- ipa transcription -->
+<!ELEMENT ipa (#PCDATA)>
+
+
