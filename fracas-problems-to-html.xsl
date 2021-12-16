@@ -182,6 +182,12 @@
       </td>
 	</tr>
 	<tr>
+	<td valign="top"> ipa </td>
+	  <td colspan="2">
+        <xsl:value-of select="ipa"/>
+      </td>
+	</tr>
+	<tr>
 	<td valign="top"> morph </td>	
       <td colspan="2">
         <xsl:value-of select="morph"/>
