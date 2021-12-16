@@ -39,6 +39,8 @@
 <!-- translation in the target language script -->
 <!ELEMENT script (#PCDATA)>
 
+<!-- transliteration of the target language translation -->
+<!ELEMENT translit (#PCDATA)>
 
 <!-- ipa transcription for the target language -->
 <!ELEMENT ipa (#PCDATA)>
