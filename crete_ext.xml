@@ -4646,12 +4646,6 @@ Discourse Markers
     <morph> The [f, Nom] non-governmental organizations supposedly helped [past, 3 Pl] the refugees in the [f, Acc] Eidomeni. </morph>
     <english> The non-governmental organizations supposedly helped  the refugees at  Eidomeni. </english>
  </p>
- <problem idx="2">
-    <script> Οι πρωτοβουλίες πολιτών έδειχναν πραγματικό ενδιαφέρον για τους πρόσφυγες στην Ειδομένη. </script>
-    <translit> Oi prwtovouliew politwn edeixnan pragmatiko endiaferon gia tous prosfuges stin Eidomeni. </translit>
-    <ipa> I protovu’lies poli’ton ‘eðixnan praɣmati’ko enðia’feron ʝa tus ‘prosfiɣes stin iðo’meni.  </ipa>
-    <morph> The [f, Nom] initiatives of citizens showed [past, 3 Sg] real interest for the [m, Acc] refugees in  the [f, Acc] Eidomeni.  </morph>
-    <english> The initiatives of citizens showed real interest for therefugees at Eidomeni.     </english>
  <q>
     <script> Βοήθησε κάποιος τους πρόσφυγες στην Ειδομένη; </script>
     <translit> Voithise kapoios tous prosfiges stin Eidomeni? </translit>
@@ -15617,7 +15611,6 @@ Clitics
     <english> No </english>
  </a>
 
-</problem>
 
 </problem>
 
