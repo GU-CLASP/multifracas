@@ -5,9 +5,6 @@
 <fracas-problems>
 
 <comment class="intro">
-=================================================================================
-ALL
-=================================================================================
 
 =================================================================================
 NPIs
@@ -1706,6 +1703,7 @@ fracas_answer="no" language="el">
 </a>
 <note> PPI in the habitual sentence. </note>
 </problem>
+</comment>
 
 <comment> Inference with ute kan </comment>
 
@@ -7224,7 +7222,7 @@ Is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[n
 
 
 <problem id="552"
-  fracas_answer="no" language="el">
+  fracas_answer="unknown" language="el">
   <p idx="1">
     <script> Eίναι αναγκαίο να πάνε οι μαθητές σπίτι και βρέχει. </script>
      <translit> Einai anagkaio na pane oi mathites spiti kai vrechei. </translit> 
@@ -15621,215 +15619,8 @@ Clitics
 
 </problem>
 
-<problem
-  id="769"
-  fracas_answer="uknown">
-  <p idx="1">
-    <script> Την Μαρία την στεναχώρησε το παιδί της.  </script>
-    <translit> Tin Maria tin stenaxorise to paidi tis </translit> 
-    <ipa> tin ma'ria tin stena'xorise to pe'ði tis. </ipa>
-    <morph> the [f,acc, sg] Maria[acc,sg] her[clitic] make sad [past, 3, sg] the[n,nom,sg] child [nom,sg] her [possesive] </morph>
-    <english> Maria's child made her sad. </english>
-  </p>
-  <q>
-    <script> Στεναχώρησε κάποιος το παιδί της Μαρίας; </script>
-    <translit> Stenaxorise kapoios to paidi tis Marias? </translit> 
-    <ipa> stena'xorise 'kapʝos to pe'ði tis Ma'rias? </ipa>
-    <morph> Make sad [past, 3,sg] somobody the [n,acc,sg] child [acc,sg] the[f, gen, sg] Maria [gen, sg,possesive] </morph>
-    <english> Did somobody make Maria's child sad? </english>
-  </q>
-  <h>
-    <script> Κάποιος στεναχώρησε το παιδί της Μαρίας </script>
-    <translit>  Kapoios stenaxorise to paidi tis Marias </translit> 
-    <ipa> 'kapʝos stena'xorise  to pe'ði tis Ma'rias </ipa>
-    <morph> somobody make sad [past, 3,sg] the [n,acc,sg] child [acc,sg] the[f, gen, sg] Maria [gen, sg,possesive]  </morph>
-    <english> Somebody made Maria's child sad. </english>
-  </h>
-  <a> 
-    <script> Δεν ξέρω </script>
-    <translit> Den xero </translit>
-    <ipa> ðen ksero </ipa>
-    <english> Don't know </english> 
- </a>
-
 </problem>
 
 
-<problem
-  id="770"
-  fracas_answer="yes">
-  <p idx="1">
-    <script> Της στεναχώρησε το παιδί, ο Γιώργος. </script>
-    <translit> tis stenaxorise to paidi, o Giorgos. </translit> 
-    <ipa> tis stena'xorise to pe'ði o 'ʝorɣos. </ipa>
-    <morph> her [clitic] make sad [past, 3, sg] the [n, acc, sg] child [acc, sg] the [m, nom, sg] Giorgos[nom, sg]. </morph>
-    <english> Giorgos made her child sad. </english>
-  </p>
-  <q>
-    <script> Ο Γιωργος στεναχώρησε το παιδί της; </script>
-    <translit> O Giorgos stenaxorise to paidi tis? </translit> 
-    <ipa> o 'ʝorɣos stena'xorise to pe'ði tis ? </ipa>
-    <morph> the [m, nom, sg] Giorgos[nom, sg] make sad [past, 3, sg] the [n, acc, sg] child [acc, sg] her [possesive] </morph>
-    <english> Did Giorgos make her child sad? </english>
-  </q>
-  <h>
-    <script> Ο Γιώργος στεναχώρησε το παιδί της </script>
-    <translit> O Giorgos stenaxorise to paidi tis </translit> 
-    <ipa> o 'ʝorɣos stena'xorise to pe'ði tis  </ipa>
-    <morph> the [m, nom, sg] Giorgos[nom, sg] make sad [past, 3, sg] the [n, acc, sg] child [acc, sg] her [possesive] </morph>
-    <english> Giorgos made her child sad. </english>
-  </h>
-  <a> 
-    <script> Ναι </script>
-    <translit> Nai </translit>
-    <ipa> Ne </ipa>
-    <english> Yes </english> 
- </a>
-</problem>
-
-<problem
-  id="771"
-  fracas_answer="uknown">
-  <p idx="1">
-    <script> Της στεναχώρησε το παιδί, ο Γιώργος. </script>
-    <translit> tis stenaxorise to paidi, o Giorgos. </translit> 
-    <ipa> tis stena'xorise to pe'ði o 'ʝorɣos. </ipa>
-    <morph> her [clitic] make sad [past, 3, sg] the [n, acc, sg] child [acc, sg] the [m, nom, sg] Giorgos[nom, sg]. </morph>
-    <english> Giorgos made her child sad. </english>
-  </p>
-  <q>
-    <script> Την στεναχώρησε ο Γιώργος; </script>
-    <translit>  tin stenaxorise o Giorgos? </translit> 
-    <ipa> tin stena'xorise o 'ʝorɣos? </ipa>
-    <morph> the [f, acc] make sad [past, 3, sg] the [m, nom, sg] Giorgos[nom, sg] </morph>
-    <english> Did Giorgos make her sad? </english>
-  </q>
-  <h>
-    <script> Ο Γιώργος την στεναχώρησε. </script>
-    <translit>  O Giorgos tin stenaxorise. </translit> 
-    <ipa>  o 'ʝorɣos tin stena'xorise </ipa>
-    <morph> the [m, nom, sg] Giorgos[nom, sg] the [f, acc] make sad [past, 3, sg]  </morph>
-    <english> Giorgos made her sad. </english>
-  </h>
-  <a> 
-    <script> Δεν ξέρω </script>
-    <translit> Den xero </translit>
-    <ipa> ðen ksero </ipa>
-    <english> Don't know </english>  
- </a>
-</problem>
-
-<problem
-  id="772"
-  fracas_answer="no">
-  <p idx="1">
-    <script> Της στεναχώρησε το παιδί, ο Γιώργος. </script>
-    <translit> tis stenaxorise to paidi, o Giorgos. </translit> 
-    <ipa> tis stena'xorise to pe'ði o 'ʝorɣos. </ipa>
-    <morph> her [clitic] make sad [past, 3, sg] the [n, acc, sg] child [acc, sg] the [m, nom, sg] Giorgos[nom, sg]. </morph>
-    <english> Giorgos made her child sad. </english>
-  </p>
-  <q>
-    <script> Στεναχώρησε κάποιον ο Γιώργος; </script>
-    <translit> Stenaxorise kapoion o Giorgos?  </translit> 
-    <ipa> stena'xorise 'kapʝon o 'ʝorɣos? </ipa>
-    <morph> make sad [past, 3, sg] somebody the [m, nom, sg] Giorgos[nom, sg]? </morph>
-    <english> Did Giorgos make somebody sad? </english>
-  </q>
-  <h>
-    <script> Ο Γιώργος δεν στεναχώρησε κανέναν. </script>
-    <translit> O Giorgos den stenaxorise kanenan.   </translit> 
-    <ipa> o 'ʝorɣos ðen stena'xorise ka'nenan. </ipa>
-    <morph> the [m, nom, sg] Giorgos[nom, sg] not [neg] make sad [past, 3, sg] n-body </morph>
-    <english> Giorgos did not make anyone sad. </english>
-  </h>
-  <a> 
-    <script> Όχι </script>
-    <translit> Ochi </translit>
-    <ipa>'Oçi </ipa>
-    <english> No </english>
- </a>
-</problem>
-
-
-<problem
-  id="773"
-  fracas_answer="">
-  <p idx="1">
-    <script> Ο Γιώργος είναι ερωτευμένος με μια κανίβαλο.  </script>
-    <translit> O Giorgos einai erotevmenos me mia kanivalo. </translit> 
-    <ipa> o 'ʝorɣos 'ine erote'vmenos me 'mia ka'nivalo. </ipa>
-    <morph> the [m, nom,sg] Giorgos[nom, sg] be [pers, 3, sg] in love [adject] with a [f, acc, sg] cannibal [acc, sg] </morph>
-    <english> Giorgos is in love with a cannibal. </english>
-  </p>
-  <p idx="2">
-    <script> Στο πρώτο ραντεβού του έκανε μπριζόλα για δείπνο.  </script>
-    <translit> Sto proto rantevou tou ekane mprizola gia deipno. </translit> 
-    <ipa> sto 'proto rade'vu tu 'ekane bri'zola ʝa 'ðipno. </ipa>
-    <morph> at first date[acc,sg] him[clitic] make [past, 3,sg]  steak [acc, sg] for dinner [acc, sg]</morph>
-    <english> At the first date she made him dinner. </english>
-  </p>
-  <q>
-    <script> O Γιώργος και η κανίβαλος φάγανε μπριζόλα για δείπνο; </script>
-    <translit> O Giorgos kai i kanivalos fagane brizola gia dipno? </translit> 
-    <ipa> o 'ʝorɣos ce i ka'nivalos 'faɣane bri'zola ʝa 'ðipno?  </ipa>
-    <morph> the [m, nom,sg] Giorgos[nom, sg] and the [f, nom,sg] cannibal [nom, sg] eat [past, 3, pl] for dinner [acc, sg] </morph>
-    <english> Did Giorgos and the kannibal eat steak for dinner? </english>
-  </q>
-  <h>
-    <script> O Γιώργος και η κανίβαλος φάγανε μπριζόλα για δείπνο. </script>
-    <translit> O Giorgos kai i kanivalos fagane brizola gia dipno  </translit> 
-    <ipa>  o 'ʝorɣos ce i ka'nivalos 'faɣane bri'zola ʝa 'ðipno </ipa>
-    <morph> the [m, nom,sg] Giorgos[nom, sg] and the [f, nom,sg] cannibal [nom, sg] eat [past, 3, pl] for dinner [acc, sg] </morph>
-    <english> Giorgos and the cannibal ate steak for dinner. </english>
-  </h>
-  <a> 
-    <script> Ναι </script>
-    <translit> Nai </translit>
-    <ipa> Ne </ipa>
-    <english> Yes </english> 
- </a>
-</problem>
-
-<problem
-  id="774"
-  fracas_answer="">
-  <p idx="1">
-    <script> Ο Γιώργος είναι ερωτευμένος με μια κανίβαλο.  </script>
-    <translit> O Giorgos einai erotevmenos me mia kanivalo. </translit> 
-    <ipa> o 'ʝorɣos 'ine erote'vmenos me 'mia ka'nivalo. </ipa>
-    <morph> the [m, nom,sg] Giorgos[nom, sg] be [pers, 3, sg] in love [adject] with a [f, acc, sg] cannibal [acc, sg] </morph>
-    <english> Giorgos is in love with a cannibal. </english>
-  </p>
-  <p idx="2">
-    <script>  Στο πρώτο ραντεβού τον έκανε μπριζόλα για δείπνο. </script>
-    <translit> Sto proto rantevou ton ekane mprizola gia deipno. </translit> 
-    <ipa> sto 'proto rade'vu ton 'ekane bri'zola ʝa 'ðipno. </ipa>
-    <morph> at first date[acc,sg] him make [past, 3,sg]  steak [acc, sg] for dinner [acc, sg]</morph>
-    <english> At the first date she made him dinner. </english>
-  </p>
-  <q>
-    <script> Η κανίβαλος έφαγε τον Γιώργο για δείπνο; </script>
-    <translit> I kanivalos efage ton Giorgo gia deipno? </translit> 
-    <ipa> i ka'nivalos 'efaɣe ton 'ʝorɣo ʝa 'ðipno? </ipa>
-    <morph> the [f, nom,sg] cannibal [nom, sg] eat [past, 3, sg] the[m,acc,sg] Giorgos [acc,sg] for dinner [acc, sg]? </morph>
-    <english> Did the cannibal eat Giorgos for dinner? </english>
-  </q>
-  <h>
-    <script> Η κανίβαλος έφαγε τον Γιώργο για δείπνο. </script>
-    <translit>  I kanivalos efage ton Giorgo gia deipno </translit> 
-    <ipa> i ka'nivalos 'efaɣe ton 'ʝorɣo ʝa 'ðipno </ipa>
-    <morph> the [f, nom,sg] cannibal [nom, sg] eat [past, 3, sg] the[m,acc,sg] Giorgos [acc,sg] for dinner [acc, sg] </morph>
-    <english> The cannibal ate Giorgios for dinner. </english>
-  </h>
-  <a> 
-    <script> Ναι </script>
-    <translit> Nai </translit>
-    <ipa> Ne </ipa>
-    <english> Yes </english> 
- </a>
-</problem>
-</problem>
-</comment>
 </fracas-problems>
 
