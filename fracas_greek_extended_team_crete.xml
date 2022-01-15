@@ -6,9 +6,18 @@
 
 <comment class="intro">
 
-=================================================================================
-NPIs
-=================================================================================
+=============================================================================================================================
+NPIs: 
+puthena ”nowhere”, kanenas ”nobody”, tipota ”nothing”, pote ”never”, kan ”even”, 
+oute kan ”not even”, oute ”neither”, oudeis ”no one”, kanena ”anything” (existential), pouthena ­ tipota ”nowhere ­ nothing”
+
+NPIs that mean in dialogs:
+oute kan ”not even”, pouthena kai tipota ”nothing and nowhere”, thelondas kai min ”wanting or not"
+
+Minimizers, free choice items and PPIs: 
+mia stalia ”a little”, kati ”something”, opoiondipote ”whoever”,toulaxiston ”at least” and mono ”just” 
+
+==============================================================================================================================
 
 
 <problem
@@ -2915,7 +2924,8 @@ NPIs
 
 
 =================================================================================
-Discourse Markers
+Discourse Markers:
+siga "it is doubtful", taxa "supposedly" , kai kala "and well"
 =================================================================================
 
 <problem id="428"
@@ -6111,7 +6121,7 @@ Discourse Markers
 </problem>
 
 ====================================================================================
-ke
+ke "and"
 ====================================================================================
 
 <problem id="529"
@@ -6165,8 +6175,7 @@ ke
     <translit> chionizei. </translit> 	
     <ipa> ço’nizi. </ipa> 
     <morph> Snow[pres,3.Sg].</morph>
-    <english> It’s snowing. 
-     </english>
+    <english> It’s snowing. </english>
  </h>
   <a>
    <script> Nαι </script>
@@ -6211,7 +6220,7 @@ ke
     <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
      <translit> I Anna troei kai o Kostas pinei. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas ‘pini . </ipa>
-     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas drink[pres,3.Sg]. </morph>
+     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom,sg] Kostas[nom,sg] drink[pres,3.Sg]. </morph>
      <english> Anne is eating and Kostas is drinking. </english>
   </p>
   <q>
@@ -6238,24 +6247,24 @@ ke
 <problem id="533"
   fracas_answer="yes" language="el">
   <p idx="1">
-    <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
+     <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
      <translit> I Anna troei kai o Kostas pinei. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas ‘pini . </ipa>
-     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas drink[pres,3.Sg]. </morph>
+     <morph> The[f,nom,sg] Anne[nom,sg] eat[pres,3.Sg] and the[m,nom,sg] Kostas[nom,sg] drink[pres,3.Sg]. </morph>
      <english> Anne is eating and Kostas is drinking. </english>
   </p>
   <q>
     <script> Πίνει ο Κώστας; </script>
     <translit> Pinei o Kostas? </translit> 
     <ipa> ‘pini o ‘kostas? </ipa>
-    <morph> Drink[pres,3.Sg] the[m,nom] Kostas[m,nom]? </morph>
+    <morph> Drink[pres,3.Sg] the[m,nom,sg] Kostas[nom,sg]? </morph>
     <english> Is Kostas drinking? </english>
   </q>
   <h>
     <script> Ο Κώστας πίνει. </script>
      <translit> O Kostas pinei.</translit> 
      <ipa> o ‘kostas ‘pini. </ipa>
-     <morph> The[m,nom] Kostas[m,nom] drink[pres,3.Sg]. </morph>
+     <morph> The[m,nom,sg] Kostas[nom, sg] drink[pres,3.Sg]. </morph>
      <english> Kostas is drinking. </english>
   </h>
   <a>
@@ -6268,10 +6277,10 @@ ke
 <problem id="534"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
+     <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
      <translit> I Anna troei kai o Kostas pinei. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas ‘pini . </ipa>
-     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas drink[pres,3.Sg]. </morph>
+     <morph> The[f,nom,sg] Anne[nom,sg] eat[pres,3.Sg] and the[m,nom,sg] Kostas[nom, sg] drink[pres,3.Sg]. </morph>
      <english> Anne is eating and Kostas is drinking. </english>
   </p>
   <q>
@@ -6285,7 +6294,7 @@ ke
     <script> Η Άννα πίνει. </script>
     <translit> I Anna pinei.</translit> 
     <ipa> i ‘ana ‘pini. </ipa>
-    <morph> The[f,nom] Anne[f,nom] drink[pres,3.Sg]. </morph>
+    <morph> The[f,nom,sg] Anne[nom,sg] drink[pres,3.Sg]. </morph>
     <english> Anne is drinking. </english>
   </h>
   <a>
@@ -6299,35 +6308,25 @@ ke
 <problem id="535"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script>
-     Η Άννα τρώει και ο Κώστας πίνει. </script>
+     <script> Η Άννα τρώει και ο Κώστας πίνει. </script>
      <translit> I Anna troei kai o Kostas pinei. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas ‘pini . </ipa>
-     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas drink[pres,3.Sg].</morph>
+     <morph> The[f,nom, sg] Anne[nom, sg] eat[pres,3.Sg] and the[m,nom,sg] Kostas [nom, sg] drink[pres,3.Sg].</morph>
      <english> Anne is eating and Kostas is drinking. </english>
   </p>
   <q>
     <script> Τρώει ο Κώστας; </script>
      <translit> Troei o Kostas? </translit> 
      <ipa> ‘troi o ‘kostas? </ipa>
-     <morph> Eat[pres,3.Sg] the[m,nom] Kostas[m,nom]?
-     </morph>
-     <english>
-	   Is Kostas eating?  
-     </english>
+     <morph> Eat[pres,3.Sg] the[m,nom] Kostas[nom, sg]? </morph>
+     <english> Is Kostas eating?  </english>
   </q>
   <h>
-  <script>
-     Ο Κώστας τρώει.
-     </script>
+     <script> Ο Κώστας τρώει. </script>
      <translit> O Kostas troei.</translit> 
      <ipa> o ‘kostas ‘troi. </ipa>
-     <morph>
-     The[m,nom] Kostas[m,nom] eat[pres,3.Sg].
-     </morph>
-     <english>
-	  Kostas is eating.
-     </english>
+     <morph> The[m,nom] Kostas[m,nom] eat[pres,3.Sg]. </morph>
+     <english> Kostas is eating. </english>
   </h>
   <a>
    <script> Δεν ξέρω </script>
@@ -6340,7 +6339,7 @@ ke
 <problem id="536"
   fracas_answer="yes" language="el">
   <p idx="1">
-    <script> Ο Μιχάλης αγόρασε ένα μαρούλι και η Ευγενία έσωσε ένα κουταβάκι.  </script>
+     <script> Ο Μιχάλης αγόρασε ένα μαρούλι και η Ευγενία έσωσε ένα κουταβάκι.  </script>
      <translit> O Michalis agorase ena marouli kai i Eugenia esose ena koutavaki. </translit> 
      <ipa> o mi’xalis a’ ɣorase ‘ena ma’ruli ce i evje’nia ‘esose ‘ena kuta’vaci. </ipa> 
      <morph> The[m,nom] Michael[m,nom] bought[past,3.Sg] a[neut,acc] lettuce[acc] and the[m,nom] Eugenia[nom] saved[past,3.Sg] a[neut,acc] puppy[acc]. </morph>
@@ -6354,10 +6353,10 @@ ke
      <english> Was a lettuce bought by Michael? </english>
   </q>
   <h>
-    <script> Αγοράστηκε ένα μαρούλι από τον Μιχάλη. </script>
-    <translit> Agorastike ena marouli apo to Michali.</translit> 
-    <ipa> aɣo’rastice ‘ena ma’ruli a’po to mi’xali. </ipa>
-    <morph> Bought[past,3.Sg,passive] a[neut,acc] lettuce[acc] by the[m,acc] Michael[m,acc].</morph>
+    <script> Ένα μαρούλι αγοράστηκε από τον Μιχάλη. </script>
+    <translit> Ena marouli agorastike apo to Michali.</translit> 
+    <ipa>  ‘ena ma’ruli aɣo’rastice a’po to mi’xali. </ipa>
+    <morph> A[neut,acc] lettuce[acc] bought[past,3.Sg,passive] by the[m,acc] Michael[m,acc].</morph>
     <english> A lettuce was bought by Michael. </english>
   </h>
   <a>
@@ -6371,24 +6370,24 @@ ke
  <problem id="537"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Ο Μιχάλης αγόρασε ένα μαρούλι και η Ευγενία έσωσε ένα κουταβάκι. </script>
+     <script> Ο Μιχάλης αγόρασε ένα μαρούλι και η Ευγενία έσωσε ένα κουταβάκι. </script>
      <translit> O Michalis agorase ena marouli kai i Eugenia esose ena koutavaki. </translit> 
      <ipa> o mi’xalis a’ ɣorase ‘ena ma’ruli ce i evje’nia ‘esose ‘ena kuta’vaci. </ipa> 
-     <morph> The[m,nom] Michael[m,nom] bought[past,3.Sg] a[neut,acc] lettuce[acc] and the[m,nom] Eugenia[nom] saved[past,3.Sg] a[neut,acc] puppy[acc]. </morph>
+     <morph> The[m,nom,sg] Michael[nom,sg] bought[past,3.Sg] a[neut,acc] lettuce[acc] and the[m,nom,sg] Eugenia[nom,sg] saved[past,3.Sg] a[neut,acc, sg] puppy[acc,sg]. </morph>
      <english> Michael bought a lettuce and Eugenia saved a puppy. </english>
   </p>
   <q>
-    <script> Σώθηκε ένα κουταβάκι από τον Μιχάλη; </script>
+     <script> Σώθηκε ένα κουταβάκι από τον Μιχάλη; </script>
      <translit> Sothike ena koutavaki apo to Michali? </translit> 
      <ipa> ‘soθice ‘ena kuta’vaci a’po to mi’xali? </ipa> 
      <morph> Saved[past,3.Sg,passive] a[neut,acc] puppy[acc] by the[m,acc] Michael[m,acc]? </morph>
      <english> Was a puppy saved by Michael? </english>
   </q>
   <h>
-    <script> Σώθηκε ένα κουταβάκι από τον Μιχάλη. </script>
-    <translit> Sothike ena koutavaki apo to Michali. </translit> 
-    <ipa> ‘soθice ‘ena kuta’vaci a’po to mi’xali. </ipa> 
-    <morph> Saved[past,3.Sg,passive] a[neut,acc] puppy[acc] by the[m,acc] Michael[m,acc]. </morph>
+    <script> 'Ενα κουταβάκι σώθηκε από τον Μιχάλη. </script>
+    <translit> Ena koutavaki sothike apo to Michali. </translit> 
+    <ipa>  ‘ena kuta’vaci ‘soθice a’po to mi’xali. </ipa> 
+    <morph>Aa[neut,acc] puppy[acc] saved[past,3.Sg,passive]  by the[m,acc] Michael[m,acc]. </morph>
     <english> A puppy was saved by Michael. </english> 
  </h>
   <a>
@@ -6402,41 +6401,25 @@ ke
 <problem id="538"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Η καθηγήτρια έδωσε στους μαθητές ασκήσεις και το παιδί παρέλαβε από τους γονείς του ένα γράμμα. </script>
+     <script> Η καθηγήτρια έδωσε στους μαθητές ασκήσεις και το παιδί παρέλαβε από τους γονείς του ένα γράμμα. </script>
      <translit> I kathigitria edose stous mathites askiseis kai to paidi parelave apo tous goneis tou ena gramma. </translit> 
      <ipa> i kaθi’jitria ‘eðose stus maθi’tes a’scisis ce to pe’ði pa’relave a’po tus ɣo’nis tu ‘ena ‘ɣrama. </ipa>
-     <morph>
-     The[f,nom] teacher[f,nom] gave[past,3.Sg] to the[contr,m,pl,acc] students[m,acc] exercises[acc] and the[neut,nom] kid[neut,nom] received[past,3.Sg] from the[m,pl,acc] parents[acc] his[gen] a[neut,acc] letter[acc].
-     </morph>
-     <english>
-	    The teacher gave exercises to the students and the kid received a letter from their parents.  
-     </english>
+     <morph> The[f,nom,sg] teacher[nom,sg] gave[past,3.Sg] to the[contr,m,pl,acc] students[m,acc] exercises[acc,pl] and the[neut,nom] kid[nom,sg] received[past,3.Sg] from the[m,pl,acc] parents[acc,pl] his[gen] a[neut,acc,sg] letter[acc,sg].</morph>
+     <english> The teacher gave exercises to the students and the kid received a letter from his parents.  </english>
   </p>
   <q>
-    <script>
-    Έδωσε η καθηγήτρια ένα γράμμα;
-     </script>
+     <script> Έδωσε η καθηγήτρια ένα γράμμα; </script>
      <translit> Edose i kathigitria ena gramma?</translit> 
      <ipa> ‘eðose i kaθi’jitria ‘ena ‘ɣrama? </ipa> 
-     <morph>
-     Gave[past,3.Sg] the[f,nom] teacher[f,nom] a[neut,acc] letter[acc]?
-   </morph>
-     <english>
-	   Did the teacher give a letter? 
-     </english>
+     <morph> Gave[past,3.Sg] the[f,nom] teacher[f,nom] a[neut,acc] letter[acc]? </morph>
+     <english> Did the teacher give a letter? </english>
   </q>
   <h>
-  <script>
-    Η καθηγήτρια έδωσε ένα γράμμα.
-     </script>
+     <script> Η καθηγήτρια έδωσε ένα γράμμα. </script>
      <translit> I kathigitria  edose ena gramma.</translit> 
-     <ipa> i kaθi’jitria ‘eðose ‘ena ‘ɣrama. </ipa> 
-     <morph>
-     The[f,nom] teacher[f,nom] gave[past,3.Sg] a[neut,acc] letter[acc].
-   </morph>
-     <english>
-	   The teacher gave a letter. 
-     </english> 
+     <ipa> i kaθi’jitria ‘eðose ‘ena ‘ɣrama. </ipa>  
+	 <morph> The[f,nom] teacher[f,nom] gave[past,3.Sg] a[neut,acc] letter[acc]. </morph>
+     <english> The teacher gave a letter.  </english> 
  </h>
  <a>
    <script> Δεν ξέρω </script>
@@ -6449,85 +6432,58 @@ ke
   <problem id="539"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
+     <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
      <translit> I Anna troei kai o Kostas to idio. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas to ‘iðjo. </ipa> 
-     <morph>
-     The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas[nom] the[neut,acc] same[acc].
-     </morph>
-     <english>
-	   Anne is eating and Kostas is doing the same.   
-     </english>
+     <morph> The[f,nom,sg] Anne[nom, sg] eat[pres,3.Sg] and the[m,nom, sg] Kostas[nom, sg] the[neut,acc] same[acc]. </morph>
+     <english> Anne is eating and Kostas is doing the same.    </english>
   </p>
   <q>
-    <script>
-    Ο Κώστας δεν τρώει;     </script>
-     <translit> O Kostas den troei? </translit> 
-     <ipa> o ‘kostas ðen ‘troi? </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not eat[pres,3.Sg]? 
-     </morph>
-     <english>
-	   Isn’t Kostas eating? 
-     </english>
+     <script> Δεν τρώει ο Κώστας;     </script>
+     <translit> Den troei o Kostas? </translit> 
+     <ipa>  ðen ‘troi o ‘kostas? </ipa>
+     <morph>  not eat[pres,3.Sg] the[m,nom] Kostas[nom] ?  </morph>
+     <english> Isn’t Kostas eating? </english>
   </q>
   <h>
-  <script> Ο Κώστας δεν τρώει. </script>
+     <script> Ο Κώστας δεν τρώει. </script>
      <translit> O Kostas den troei. </translit> 
      <ipa> o ‘kostas ðen ‘troi. </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not eat[pres,3.Sg]. 
-     </morph>
-     <english>
-     Kostas isn’t eating.  
-     </english>
+     <morph> The[m,nom, sg] Kostas[nom, sg] not eat[pres,3.Sg].  </morph>
+     <english> Kostas isn’t eating.   </english>
   </h>
-    <a>
+  <a>
    <script> Όχι </script>
    <translit> Ochi </translit>
    <ipa> 'oçi </ipa>
    <english> No </english>
   </a>
   </problem>
+  
 <problem id="540"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
+     <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
      <translit> I Anna troei kai o Kostas to idio. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas to ‘iðjo. </ipa> 
-     <morph>
-     The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas[nom] the[neut,acc] same[acc].
-     </morph>
-     <english>
-	   Anne is eating and Kostas is doing the same.   
-     </english>
+     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas[nom] the[neut,acc] same[acc]. </morph>
+     <english> Anne is eating and Kostas is doing the same.    </english>
   </p>
   <q>
-    <script>
-    Ο Κώστας δεν κάνει τίποτα;     </script>
-     <translit> O Kostas den kanei tipota? </translit> 
-     <ipa> o ‘kostas ðen ‘kani ‘tipota? </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not do[pres,3.Sg] anything[neut,acc]? 
-     </morph>
-     <english>
-	   Isn’t Kostas doing nothing? 
-     </english>
+     <script> Δεν κάνει τίποτα ο Κώστας;     </script>
+     <translit> Den kanei tipota o Kostas? </translit> 
+     <ipa>  ðen ‘kani ‘tipota o ‘kostas? </ipa>
+     <morph> not do[pres,3.Sg] anything[neut,acc] the[m,nom, sg] Kostas[nom,sg] ?  </morph>
+     <english> Isn’t Kostas doing anything?  </english>
   </q>
   <h>
-  <script>
-    Ο Κώστας δεν κάνει τίποτα.
-     </script>
+     <script> Ο Κώστας δεν κάνει τίποτα. </script>
      <translit> O Kostas den kanei tipota. </translit> 
      <ipa> o ‘kostas ðen ‘kani ‘tipota. </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not do[pres,3.Sg] anything[neut,acc]. 
-     </morph>
-     <english>
-	   Kostas isn’t doing anything. 
-     </english>
+     <morph> The[m,nom, sg] Kostas[nom, sg] not do[pres,3.Sg] anything[neut,acc].  </morph>
+     <english> Kostas isn’t doing anything. </english>
   </h>
-    <a>
+  <a>
    <script> Όχι </script>
    <translit> Ochi </translit>
    <ipa> 'oçi </ipa>
@@ -6539,41 +6495,27 @@ ke
 <problem id="541"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
+     <script> Η Άννα τρώει και ο Κώστας το ίδιο. </script>
      <translit> I Anna troei kai o Kostas to idio. </translit> 
      <ipa> i ‘ana ‘troi ce o ‘kostas to ‘iðjo. </ipa> 
-     <morph>
-     The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas[nom] the[neut,acc] same[acc].
-     </morph>
-     <english>
-	   Anne is eating and Kostas is doing the same.   
-     </english>
+     <morph> The[f,nom] Anne[f,nom] eat[pres,3.Sg] and the[m,nom] Kostas[nom] the[neut,acc] same[acc]. </morph>
+     <english> Anne is eating and Kostas is doing the same.    </english>
   </p>
   <q>
-    <script>
-     Τρώει ο Κώστας το ίδιο πράγμα με την Άννα;    
- </script>
+     <script> Τρώει ο Κώστας το ίδιο πράγμα με την Άννα;     </script>
      <translit> Troei ο Kostas to idio pragma me tin Anna? </translit> 
      <ipa> ‘troi o ‘kostas to ‘iðjo ‘praɣma me tin ‘ana? </ipa>
-     <morph>
-     Eat[pres,3.Sg] the[m,nom] Kostas[nom] the[neut,acc] same[acc] thing[neut,acc] with the[f,acc] Anne[f,acc]? 
-     </morph>
-     <english>
-	   Is Kostas eating the same thing as Anne is? 
-     </english>
+     <morph> Eat[pres,3.Sg] the[m,nom,sg] Kostas[nom, sg] the[neut,acc] same[acc] thing[neut,acc] with the[f,acc, sg] Anne[acc, sg]?  </morph>
+     <english> Is Kostas eating the same thing as Anne?  </english>
   </q>
   <h>
-  <script> Ο Κώστας τρώει το ίδιο πράγμα με την Άννα. </script>
+     <script> Ο Κώστας τρώει το ίδιο πράγμα με την Άννα. </script>
      <translit> O Kostas troei to idio pragma me tin Anna. </translit> 
      <ipa> o ‘kostas ‘troi to ‘iðjo ‘praɣma me tin ‘ana. </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] eat[pres,3.Sg] the[neut,acc] same[acc] thing[neut,acc] with the[f,acc] Anne[f,acc]. 
-     </morph>
-     <english>
-	   Kostas is eating the same thing as Anne is. 
-     </english>
+     <morph> The[m,nom, sg] Kostas[nom, sg] eat[pres,3.Sg] the[neut,acc] same[acc] thing[neut,acc] with the[f,acc, sg] Anne[acc, sg].  </morph>
+     <english> Kostas is eating the same thing as Anne.  </english>
   </h>
-    <a>
+  <a>
    <script> Δεν ξέρω </script>
    <translit> Den xero  </translit>
    <ipa> ðeŋ 'ksero </ipa>
@@ -6585,40 +6527,27 @@ ke
 <problem id="542"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Τρώει η ‘Άννα και ο Κώστας. </script>
+     <script> Τρώει η ‘Άννα και ο Κώστας. </script>
      <translit> Τroei i Anna kai o Kostas. </translit> 
      <ipa> ‘troi i ‘ana ce o ‘kostas. </ipa> 
-     <morph>
-     Eat[pres,3.Sg] the[f,nom] Anne[f,nom] and the[m,nom] Kostas[nom].
-     </morph>
-     <english>
-	   Anne and Kostas is eating.   
-     </english>
+     <morph> Eat[pres,3.Sg] the[f,nom, sg] Anne[nom, sg] and the[m,nom, sg] Kostas[nom, sg]. </morph>
+     <english> Anne and Kostas are eating.    </english>
   </p>
   <q>
-    <script>
-     O Κώστας δεν τρώει;     </script>
-     <translit> Ο Kostas den troei? </translit> 
-     <ipa> o ‘kostas ðen ‘troi? </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not eat[pres,3.Sg]? 
-     </morph>
-     <english>
-	   Isn’t Kostas eating? 
-     </english>
+     <script> Δεν τρώει ο Κώστας;     </script>
+     <translit> Den troei o Kostas? </translit> 
+     <ipa>  ðen ‘troi o ‘kostas? </ipa>
+     <morph>  not eat[pres,3.Sg] the[m,nom] Kostas[nom]?  </morph>
+     <english> Isn’t Kostas eating?  </english>
   </q>
   <h>
-  <script> Ο Κώστας δεν τρώει. </script>
-     <translit> O Kostas den troei? </translit> 
-     <ipa> o ‘kostas ðen ‘troi? </ipa>
-     <morph>
-     The[m,nom] Kostas[nom] not eat[pres,3.Sg]?
-     </morph>
-     <english>
-	   Kostas isn’t eating. 
-     </english>
+     <script> Ο Κώστας δεν τρώει. </script>
+     <translit> O Kostas den troei </translit> 
+     <ipa> o ‘kostas ðen ‘troi </ipa>
+     <morph> The[m,nom] Kostas[nom] not eat[pres,3.Sg] </morph>
+     <english> Kostas isn’t eating.  </english>
   </h>
-    <a>
+  <a>
    <script> Όχι </script>
    <translit> Ochi </translit>
    <ipa> 'oçi </ipa>
@@ -6630,83 +6559,56 @@ ke
 <problem id="543"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
+     <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
      <translit> O mathitis paei sto sxoleio kai o Giannis sti douleia. </translit> 
      <ipa> o maθi’tis ‘pai sto sxo’lio ce o ‘janis sti ðu'ʎa. </ipa>
-     <morph>			
-     The[m,nom] student[nom] go[pres,3.Sg] to the[contr,neut,sg,acc] school[acc] and the[m,nom] John[nom] to the[contr,f,sg,acc] work[acc].
-     </morph>
-     <english>
-	   The student is going to school and John is going to work.  
-     </english>
+     <morph> The[m,nom, sg] student[nom, sg] go[pres,3.Sg] to the[contr,neut,sg,acc] school[acc] and the[m,nom, sg] John[nom, sg] to the[contr,f,sg,acc] work[acc, sg]. </morph>
+     <english> The student is going to school and John is going to work.   </english>
   </p>
   <q>
-    <script>
-    Είναι η δουλειά του Γιάννη στο σχολείο;
-     </script>
+     <script> Είναι η δουλειά του Γιάννη στο σχολείο; </script>
      <translit> Einai i douleia tou Gianni sto sxoleio? </translit> 
      <ipa> ‘ine i ðu'ʎa tu ‘jani sto sxo’lio? </ipa>
-     <morph>
-     Is[[pres,3.Sg] the[f,nom] job[nom] the[m,gen] John[gen] to the[contr,neut,sg,acc] school[acc]?
-     </morph>
-     <english>
-	   Does John work at school? 
-     </english>
+     <morph> Is[[pres,3.Sg] the[f,nom, sg] job[nom, sg] the[m,gen, sg] John[gen, sg] to the[contr,neut,sg,acc] school[acc, sg]? </morph>
+     <english> Does John work at school?  </english>
   </q>
   <h>
-  <script> H δουλειά του Γιάννη είναι στο σχολείο. </script>
+     <script> H δουλειά του Γιάννη είναι στο σχολείο. </script>
      <translit> I douleia tou Gianni einai sto sxoleio. </translit> 
      <ipa> i ðu'ʎa tu ‘jani ‘ine sto sxo’lio. </ipa>
-     <morph>
-     The[f,nom] job[nom] the[m,gen] John[gen] is[[pres,3.Sg] to the[contr,neut,sg,acc] school[acc].
-     </morph>    
- <english>
-      John’s job is at school.
-     </english>
+     <morph> The[f,nom, sg] job[nom, sg] the[m,gen,sg] John[gen, sg] is[[pres,3.Sg] to the[contr,neut,sg,acc] school[acc, sg]. </morph>    
+     <english> John’s job is at school. </english>
   </h>
-      <a>
+  <a>
    <script> Δεν ξέρω </script>
    <translit> Den xero  </translit>
    <ipa> ðeŋ 'ksero </ipa>
    <english>  Don't know  </english>
   </a>
  </problem>
+ 
 <problem id="544"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
+     <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
      <translit> O mathitis paei sto sxoleio kai o Giannis sti douleia. </translit> 
      <ipa> o maθi’tis ‘pai sto sxo’lio ce o ‘janis sti ðu'ʎa. </ipa>
-     <morph>			
-     The[m,nom] student[nom] go[pres,3.Sg] to the[contr,neut,sg,acc] school[acc] and the[m,nom] John[nom] to the[contr,f,sg,acc] work[acc].
-     </morph>
-     <english>
-	   The student is going to school and John is going to work.  
-     </english>
+     <morph> The[m,nom, sg] student[nom, sg] go[pres,3.Sg] to the[contr,neut,sg,acc] school[acc] and the[m,nom, sg] John[nom, sg] to the[contr,f,sg,acc] work[acc, sg]. </morph>
+     <english> The student is going to school and John is going to work.   </english>
   </p>
   <q>
-    <script>
-    Πάει ο μαθητής και στο σχολείο και στη δουλειά;
-     </script>
+     <script> Πάει ο μαθητής και στο σχολείο και στη δουλειά; </script>
      <translit> Paei o mathitis kai sto sxoleio kai sti douleia? </translit> 
      <ipa> ‘pai o maθi’tis ce sto sxo’lio ce sti ðu'ʎa? </ipa>
-     <morph>			
-     Go[pres,3.Sg] the[m,nom] student[nom] and to the[contr,neut,sg,acc] school[acc] and to the[contr,f,sg,acc] work[acc]?
-     </morph>
-     <english>
-	   Is the student going to both school and work? 
-     </english>
+     <morph> Go[pres,3.Sg] the[m,nom, sg] student[nom, sg] and to the[contr,neut,sg,acc] school[acc,sg] and to the[contr,f,sg,acc] work[acc, sg]?  </morph>
+     <english> Is the student going to both school and work?  </english>
   </q>
   <h>
-  <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
+     <script> Ο μαθητής πάει στο σχολείο και ο Γιάννης στη δουλειά. </script>
      <translit> O mathitis paei kai sto sxoleio kai sti douleia. </translit> 
      <ipa> o maθi’tis ‘pai ce sto sxo’lio ce sti ðu'ʎa. </ipa>
-     <morph>			
-     The[m,nom] student[nom] go[pres,3.Sg] and to the[contr,neut,sg,acc] school[acc] and to the[contr,f,sg,acc] work[acc].
-     </morph>
-     <english>
-	   The student is going to both school and work. 
-     </english>
+     <morph> The[m,nom, sg] student[nom, sg] go[pres,3.Sg] and to the[contr,neut,sg,acc] school[acc, sg] and to the[contr,f,sg,acc] work[acc, sg]. </morph>
+     <english> The student is going to both school and work.  </english>
   </h>
    <a>
    <script> Όχι </script>
@@ -6720,38 +6622,27 @@ ke
 <problem id="545"
   fracas_answer="yes" language="el">
   <p idx="1">
-    <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
+     <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
      <translit> Vrexei kai einai anagkaio na pane oi mathites spiti. </translit> 
      <ipa> ‘vreçi ce ‘ine ana’ɟeo na ‘pane i maθi’tes ‘spiti. </ipa>
      <morph> Rain[pres,3.Sg] and is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc].</morph>
      <english> It’s raining and it is necessary for the students to go home. </english>
   </p>
   <q>
-    <script>
-    Πρώτα ξεκίνησε να βρέχει;
-     </script>
+     <script> Πρώτα ξεκίνησε να βρέχει; </script>
      <translit> Prota ksekinise na vrechei? </translit> 
      <ipa> ‘prota kse’cinise na ‘vreçi? </ipa>
-     <morph>
-     First started[past,3.Sg] to rain[pres,3.Sg,subj]?
-     </morph>
-     <english>
-	    Did the rain come first? 
-     </english>
+     <morph> First started[past,3.Sg] to rain[pres,3.Sg,subj]? </morph>
+     <english> Did the rain come first?  </english>
   </q>
   <h>
-  <script> Πρώτα ξεκίνησε να βρέχει. 
-     </script>
+     <script> Πρώτα ξεκίνησε να βρέχει.  </script>
      <translit> Prota ksekinise na vrechei. </translit> 
      <ipa> ‘prota kse’cinise na ‘vreçi. </ipa>
-     <morph>
-     First started[past,3.Sg] to rain[pres,3.Sg,subj].
-     </morph>
-     <english>
-	    The rain came first. 
-     </english>  
+     <morph> First started[past,3.Sg] to rain[pres,3.Sg,subj]. </morph>
+     <english> The rain came first.  </english>  
  </h>
-    <a>
+ <a>
    <script> Ναι </script>
    <translit> Nai  </translit>
    <ipa> ne </ipa>
@@ -6762,39 +6653,27 @@ ke
 <problem id="546"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
+     <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
      <translit> Vrexei kai einai anagkaio na pane oi mathites spiti. </translit> 
      <ipa> ‘vreçi ce ‘ine ana’ɟeo na ‘pane i maθi’tes ‘spiti. </ipa>
      <morph> Rain[pres,3.Sg] and is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc]. </morph>
      <english> It’s raining and it is necessary for the students to go home. </english>
   </p>
   <q>
-    <script>
-    Την ώρα που είναι αναγκαίο να πάνε οι μαθητές σπίτι δεν βρέχει;
-     </script>
+     <script> Την ώρα που είναι αναγκαίο να πάνε οι μαθητές σπίτι δεν βρέχει; </script>
      <translit> Tin ora pou einai anagkaio na pane oi mathites spiti den vrechei? </translit> 
      <ipa> tin ‘ora pu ‘ine ana’ɟeo na ‘pane I maθi’tes ‘spiti ðen ‘vreçi? </ipa>
-     <morph>
-     The[f,acc] time[acc] that is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg]?
-     </morph>
-     <english>
-	    Isn’t it raining the time that is necessary for the students to go home? 
-     </english>
+     <morph> The[f,acc] time[acc] that is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg]? </morph>
+     <english> Isn’t it raining the time that is necessary for the students to go home? </english>
   </q>
   <h>
-  <script>
-    Την ώρα που είναι αναγκαίο να πάνε οι μαθητές σπίτι δεν βρέχει.
-     </script>
+     <script> Την ώρα που είναι αναγκαίο να πάνε οι μαθητές σπίτι δεν βρέχει. </script>
      <translit> Tin ora pou einai anagkaio na pane oi mathites spiti den vrechei. </translit> 
      <ipa> tin ‘ora pu ‘ine ana’ɟeo na ‘pane I maθi’tes ‘spiti ðen ‘vreçi. </ipa>
-     <morph>
-     The[f,acc] time[acc] that is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg].
-     </morph>
-     <english>
-	    It’s not raining the time that is necessary for the students to go home. 
-     </english>
+     <morph> The[f,acc] time[acc] that is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg]. </morph>
+     <english> It’s not raining the time that is necessary for the students to go home.  </english>
  </h>
-    <a>
+ <a>
    <script> Όχι </script>
    <translit> Ochi </translit>
    <ipa> 'oçi </ipa>
@@ -6806,40 +6685,27 @@ ke
 <problem id="547"
   fracas_answer="yes" language="el">
   <p idx="1">
-    <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
+     <script> Βρέχει και είναι αναγκαίο να πάνε οι μαθητές σπίτι. </script>
      <translit> Vrexei kai einai anagkaio na pane oi mathites spiti. </translit> 
      <ipa> ‘vreçi ce ‘ine ana’ɟeo na ‘pane i maθi’tes ‘spiti. </ipa>
-     <morph> Rain[pres,3.Sg] and is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc].
-     </morph>
-     <english>
-	   It’s raining and it is necessary for the students to go home. 
-     </english>
+     <morph> Rain[pres,3.Sg] and is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc]. </morph>
+     <english> It’s raining and it is necessary for the students to go home.  </english>
   </p>
   <q>
-    <script>
-     Είναι αναγκαίο να  πάνε οι μαθητές σπίτι επειδή βρέχει;
-     </script>
-      <translit> Einai anagkaio na pane oi mathites spiti epeidi vrechei? </translit> 
+     <script> Είναι αναγκαίο να  πάνε οι μαθητές σπίτι επειδή βρέχει; </script>
+     <translit> Einai anagkaio na pane oi mathites spiti epeidi vrechei? </translit> 
      <ipa> ‘ine ana’ɟeo na ‘pane i maθi’tes ‘spiti epi’ ði ‘vreçi? </ipa>
-     <morph> Is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] because rain[pres,3.Sg]?
-     </morph>
-     <english>
-	   Is it necessary for the students to go home because it is raining? 
-     </english> 
+     <morph> Is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] because rain[pres,3.Sg]?</morph>
+     <english> Is it necessary for the students to go home because it is raining?  </english> 
  </q>
-  <h>
-  <script>
-     Oι μαθητές είναι αναγκαίο να πάνε σπίτι επειδή βρέχει.
-     </script>
-      <translit> Oi mathites einai anagkaio na pane spiti epeidi vrechei. </translit> 
+ <h>
+     <script> Oι μαθητές είναι αναγκαίο να πάνε σπίτι επειδή βρέχει. </script>
+     <translit> Oi mathites einai anagkaio na pane spiti epeidi vrechei. </translit> 
      <ipa> i maθi’tes ‘ine ana’ɟeo na ‘pane ‘spiti epi’ ði ‘vreçi. </ipa>
-     <morph> The[m,pl,nom] students[nom] is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] home[acc] because rain[pres,3.Sg].
-     </morph>
-     <english>
-	   It is necessary for the students to go home because it is raining. 
-     </english> 
-     </h>
-    <a>
+     <morph> The[m,pl,nom] students[nom, pl] is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] home[acc, sg] because rain[pres,3.Sg]. </morph>
+     <english> It is necessary for the students to go home because it is raining.  </english> 
+ </h>
+ <a>
    <script> Ναι </script>
    <translit> Nai  </translit>
    <ipa> ne </ipa>
@@ -6853,38 +6719,27 @@ ke
 <problem id="548"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Βρέχει και πρέπει να πάνε και οι μαθητές σπίτι. </script>
+     <script> Βρέχει και πρέπει να πάνε και οι μαθητές σπίτι. </script>
      <translit> Vrexei kai prepei na pane kai oi mathites spiti. </translit> 
      <ipa> ‘vreçi ce ‘prepi na ‘pane ce i maθi’tes ‘spiti. </ipa>
-     <morph> Rain[pres,3.Sg] and should[pres,3.Sg] to go[pres,3.Pl,subj] and the[m,pl,nom] students[nom] home[acc].
-     </morph>
-     <english>
-	   It is raining and the students should go home. 
-     </english>
+     <morph> Rain[pres,3.Sg] and should[pres,3.Sg] to go[pres,3.Pl,subj] and the[m,pl,nom] students[nom, pl] home[acc, sg]. </morph>
+     <english> It is raining and the students should go home.  </english>
   </p>
   <q>
-    <script>
-     Πρέπει να  πάνε οι μαθητές σπίτι επειδή βρέχει;
-     </script>
-      <translit> Prepei na pane oi mathites spiti, epeidi vrechei? </translit> 
+     <script> Πρέπει να  πάνε οι μαθητές σπίτι επειδή βρέχει; </script>
+     <translit> Prepei na pane oi mathites spiti, epeidi vrechei? </translit> 
      <ipa> ‘prepi na ‘pane i maθi’tes ‘spiti epi’ ði ‘vreçi? </ipa>
-     <morph>Should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] because rain[pres,3.Sg]?
-     </morph>
-     <english>
-	   Should the students go home because it is raining? 
-     </english> 
+     <morph>Should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] because rain[pres,3.Sg]? </morph>
+     <english> Should the students go home because it is raining?  </english> 
  </q>
-  <h>
-  <script>
-     Oι μαθητές πρέπει να πάνε σπίτι επειδή βρέχει.
-     </script><translit> Oi mathites prepei na pane spiti epeidi vrechei. </translit> 
+ <h>
+     <script> Oι μαθητές πρέπει να πάνε σπίτι επειδή βρέχει. </script>
+	 <translit> Oi mathites prepei na pane spiti epeidi vrechei. </translit> 
      <ipa> i maθi’tes ‘prepi na ‘pane ‘spiti epi’ ði ‘vreçi. </ipa>
-     <morph>The[m,pl,nom] students[nom] should[pres,3.Sg] to go[pres,3.Pl,subj] home[acc] because rain[pres,3.Sg].
-     </morph>
-     <english>
-	   The students should go home because it is raining. 
-     </english> </h>
-      <a>
+     <morph>The[m,pl,nom] students[nom] should[pres,3.Sg] to go[pres,3.Pl,subj] home[acc] because rain[pres,3.Sg]. </morph>
+     <english> The students should go home because it is raining.  </english> 
+</h>
+ <a>
    <script> Δεν ξέρω </script>
    <translit> Den xero  </translit>
    <ipa> ðeŋ 'ksero </ipa>
@@ -6896,41 +6751,27 @@ ke
 <problem id="549"
   fracas_answer="no" language="el">
   <p idx="1">
-    <script> Βρέχει και πρέπει να πάνε και οι μαθητές σπίτι. </script>
+     <script> Βρέχει και πρέπει να πάνε και οι μαθητές σπίτι. </script>
      <translit> Vrexei kai prepei na pane kai oi mathites spiti. </translit> 
      <ipa> ‘vreçi ce ‘prepi na ‘pane ce i maθi’tes ‘spiti. </ipa>
-     <morph> Rain[pres,3.Sg] and should[pres,3.Sg] to go[pres,3.Pl,subj] and the[m,pl,nom] students[nom] home[acc].
-     </morph>
-     <english> It is raining and the students should go home. 
-     </english>
-  </p>
+     <morph> Rain[pres,3.Sg] and should[pres,3.Sg] to go[pres,3.Pl,subj] and the[m,pl,nom] students[nom] home[acc]. </morph>
+     <english> It is raining and the students should go home.  </english>
+ </p>
  <q>
-    <script>
-    Την ώρα που πρέπει να πάνε οι μαθητές σπίτι δεν βρέχει;
-     </script>
-     <translit> Tin ora pou prepei na pane oi mathites spiti den vrechei? </translit> 
-     <ipa> tin ‘ora pu ‘prepi na ‘pane I maθi’tes ‘spiti ðen ‘vreçi? </ipa>
-     <morph>
-     The[f,acc] time[acc] that should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg]?
-     </morph>
-     <english>
-	    Isn’t it raining the time that the students should go home? 
-     </english>
+     <script> Δε βρέχει την ώρα που πρέπει να πάνε οι μαθητές σπίτι;  </script>
+     <translit> den vrechei tin ora pou prepei na pane oi mathites spiti? </translit> 
+     <ipa> ðen ‘vreçi tin ‘ora pu ‘prepi na ‘pane I maθi’tes ‘spiti ? </ipa>
+     <morph> not  rain[pres,3.Sg] the[f,acc, sg] time[acc, sg] that should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom, pl] home[acc, sg] ? </morph>
+     <english> Isn’t it raining the time that the students should go home?  </english>
   </q>
   <h>
-  <script>
-    Την ώρα που πρέπει να πάνε οι μαθητές σπίτι δεν βρέχει.
-     </script>
+     <script> Την ώρα που πρέπει να πάνε οι μαθητές σπίτι δεν βρέχει. </script>
      <translit> Tin ora pou prepei na pane oi mathites spiti den vrechei. </translit> 
      <ipa> tin ‘ora pu ‘prepi na ‘pane I maθi’tes ‘spiti ðen ‘vreçi. </ipa>
-     <morph>
-     The[f,acc] time[acc] that should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] not  rain[pres,3.Sg].
-     </morph>
-     <english>
-	    It is not raining the time that the students should go home. 
-     </english>
+     <morph> The[f,acc, sg] time[acc, sg] that should[pres,3.Sg] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom, pl] home[acc, sg] not  rain[pres,3.Sg]. </morph>
+     <english> It is not raining the time that the students should go home.  </english>
  </h>
-    <a>
+ <a>
    <script> Όχι </script>
    <translit> Ochi </translit>
    <ipa> 'oçi </ipa>
@@ -6942,41 +6783,27 @@ ke
 <problem id="550"
   fracas_answer="unknown" language="el">
   <p idx="1">
-    <script> Eίναι αναγκαίο να πάνε οι μαθητές σπίτι και βρέχει. </script>
+     <script> Eίναι αναγκαίο να πάνε οι μαθητές σπίτι και βρέχει. </script>
      <translit> Einai anagkaio na pane oi mathites spiti kai vrechei. </translit> 
      <ipa> ‘ine ana’ɟeo na ‘pane i maθi’tes ‘spiti ce ‘vreçi. </ipa>
-     <morph>Is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] and  rain[pres,3.Sg].
-     </morph>
-     <english>
-	   It is necessary for the students to go home and it is raining. 
-     </english>
+     <morph> Is[pres,3.Sg] necessary[neut,acc] to go[pres,3.Pl,subj] the[m,pl,nom] students[nom] home[acc] and  rain[pres,3.Sg]. </morph>
+     <english> It is necessary for the students to go home and it is raining.  </english>
   </p>
   <q>
-    <script>
-    Πρώτα ξεκίνησε να βρέχει;
-     </script>
+     <script> Πρώτα ξεκίνησε να βρέχει; </script>
      <translit> Prota ksekinise na vrechei? </translit> 
      <ipa> ‘prota kse’cinise na ‘vreçi? </ipa>
-     <morph>
-     First started[past,3.Sg] to rain[pres,3.Sg,subj]?
-     </morph>
-     <english>
-	    Did the rain come first? 
-     </english>
+     <morph> First started[past,3.Sg] to rain[pres,3.Sg,subj]? </morph>
+     <english> Did the rain come first?  </english>
   </q>
   <h>
-  <script> Πρώτα ξεκίνησε να βρέχει. 
-     </script>
+     <script> Πρώτα ξεκίνησε να βρέχει.  </script>
      <translit> Prota ksekinise na vrechei. </translit> 
      <ipa> ‘prota kse’cinise na ‘vreçi. </ipa>
-     <morph>
-     First started[past,3.Sg] to rain[pres,3.Sg,subj].
-     </morph>
-     <english>
-	    The rain came first. 
-     </english>  
+     <morph> First started[past,3.Sg] to rain[pres,3.Sg,subj]. </morph>
+     <english> The rain came first.  </english>  
  </h>
-      <a>
+ <a>
    <script> Δεν ξέρω </script>
    <translit> Den xero  </translit>
    <ipa> ðeŋ 'ksero </ipa>
