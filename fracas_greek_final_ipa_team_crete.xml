@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE fracas-problems SYSTEM "fracas-problems2.dtd">
+<!DOCTYPE fracas-problems SYSTEM "fracas-problems.dtd">
 <?xml-stylesheet type="text/xsl" href="fracas-problems-to-html.xsl"?>
 
 <fracas-problems>
