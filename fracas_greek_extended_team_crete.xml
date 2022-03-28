@@ -2860,14 +2860,14 @@ mia stalia ”a little”, kati ”something”, opoiondipote ”whoever”,toul
     <english> If we do'nt want to get sick, independently of our will. </english>
   </p>
   <q>
-    <script> Είναι αλήθεια ότι μπορούμε παραβιάζουμε τα μέτρα προστασίας κατά του κορωνοϊού,αν δε θέλουμε να κολλήσουμε; </script>
+    <script> Είναι αλήθεια ότι μπορούμε να παραβιάζουμε τα μέτρα προστασίας κατά του κορωνοϊού,αν δε θέλουμε να κολλήσουμε; </script>
     <translit> Ine alithia oti mporoume na paraviazoume ta metra prostasias kata tou koronoioy, an den theloume na kolisoume? </translit>
     <ipa> 'ine a'liθça 'oti bo'rume na paravi'azume ta 'metra prosta'sias ka'ta tu koronoi'u, an ðen 'θelume na ko'lisume? </ipa>
     <morph> Be [pres,3.Sg] true[nom] that can[[pres,1.pl,] to violate[pres,1.pl,subj] he[neut,acc] measures[neut,acc] protection[gen] against of coronavirus[gen]? </morph> 
    <english> Is it true that we are able to violate the protection's measures against coronavirus, if we don't want to get sick? </english>
   </q>
   <h>
-   <script> Είναι αλήθεια ότι μπορούμε παραβιάζουμε τα μέτρα προστασίας κατά του κορωνοϊού,αν δε θέλουμε να κολλήσουμε; </script>
+   <script> Είναι αλήθεια ότι μπορούμε να παραβιάζουμε τα μέτρα προστασίας κατά του κορωνοϊού,αν δε θέλουμε να κολλήσουμε; </script>
    <translit> Ine alithia oti mporoume na paraviazoume ta metra prostasias kata tou koronoioy, an den theloume na kolisoume. </translit>
    <ipa> 'ine a'liθça 'oti bo'rume na paravi'azume ta 'metra prosta'sias ka'ta tu koronoi'u, an ðen 'θelume na ko'lisume. </ipa>
    <morph> Be [pres,3.Sg] true[nom] that can[[pres,1.pl,] to violate[pres,1.pl,subj] he[neut,acc, pl] measures[neut,acc, pl] protection[gen, sg] against of coronavirus[gen, sg]. </morph> 
@@ -2938,18 +2938,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that Giannis would come for a coffee. </english>
   </p>
  <q>
-    <script> Είναι αλήθεια ότι ο Γιάννης ήρθε για καφέ; </script>
-    <translit> Einai alitheia oti o Giannis irthe gia kafe?  </translit>
-    <ipa> ‘ine a’liθça ‘oti o ‘janis ‘irΘe [past, 3 Sg] ja ka’fe ? </ipa>
-    <morph> is [present, 3 Sg] truth that the [m, nom] Giannis came for coffee? </morph>
-    <english> Is is true that Giannis came for a coffee? </english>
+    <script> Ο Γιάννης ήρθε για καφέ; </script>
+    <translit>  o Giannis irthe gia kafe?  </translit>
+    <ipa>  o ‘janis ‘irΘe [past, 3 Sg] ja ka’fe ? </ipa>
+    <morph> the [m, nom] Giannis came for coffee? </morph>
+    <english> Did Giannis come for a coffee? </english>
  </q>
  <h>
-    <script> Ο Γιάννης δεν ήρθε για καφέ. </script>
+    <script> Ο Γιάννης ήρθε για καφέ. </script>
     <translit> O Giannis den irthe gia kafe. </translit>
-    <ipa> o ‘janis ðen ‘irθe ja ka’fe. </ipa>
-    <morph> the [m, nom] Giannis not came [past, 3 Sg]  for coffee. </morph>
-    <english> Giannis didn’t come for a coffee? </english>
+    <ipa> o ‘janis ‘irθe ja ka’fe. </ipa>
+    <morph> the [m, nom] Giannis came [past, 3 Sg]  for coffee. </morph>
+    <english> Giannis came for a coffee </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3007,11 +3007,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> I think this time she studied though. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι η Άννα έγραψε καλά; </script>
-    <translit> Einai alitheia oti i Anna egrapse kala? </translit>
-    <ipa> ‘ine a’liθçα ‘oti i ‘ana ‘eɣrapse ka’la? </ipa>
-    <morph> is [present, 3 Sg] true that the [f, nom] Anna wrote [past, 3 Sg] well? </morph>
- <english> Is it true that Anna wrote well? </english>
+    <script> H Άννα έγραψε καλά; </script>
+    <translit>  i Anna egrapse kala? </translit>
+    <ipa>  i ‘ana ‘eɣrapse ka’la? </ipa>
+    <morph> the [f, nom] Anna wrote [past, 3 Sg] well? </morph>
+ <english> Did Anna write well? </english>
  </q>
  <h>
     <script>  Η Άννα έγραψε καλά στις εξετάσεις. </script>
@@ -3038,11 +3038,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that they wouldn’t write a new book. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι έγραψε νέο βιβλίο;</script>
-    <translit> Einai alitheia oti egrapse neo vivlio? </translit>
-    <ipa>  ‘ine a’liθçα ‘oti ‘eɣrapse ‘neo vi’vlio? </ipa>
-    <morph> is [present, 3 Sg] true that wrote [past, 3 Sg] new book? </morph>
-    <english> Is it true that they wrote a new book? </english>
+    <script> Έγραψε νέο βιβλίο;</script>
+    <translit>  egrapse neo vivlio? </translit>
+    <ipa>  ‘eɣrapse ‘neo vi’vlio? </ipa>
+    <morph> wrote [past, 3 Sg] new book? </morph>
+    <english> Did s/he write a new book? </english>
  </q>
  <h>
     <script> Έγραψε νέο βιβλίο. </script>
@@ -3069,18 +3069,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that they wasn’t in the bar after working. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ήταν στο μπαρ μετά την δουλειά; </script>
-    <translit> Einai alitheia oti itan sto bar meta ti douleia? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
-    <morph> is [present, 3 Sg] true that was [past, 3 Sg] in the [n, acc]  bar after the [f, acc] job. </morph>
-    <english> Is it true that they was in the bar after working? </english>
+    <script> Ήταν στο μπαρ μετά την δουλειά; </script>
+    <translit> itan sto bar meta ti douleia? </translit>
+    <ipa> ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
+    <morph>  was [past, 3 Sg] in the [n, acc]  bar after the [f, acc] job. </morph>
+    <english> Were they at the bar after working? </english>
  </q>
  <h>
     <script> Ήταν στο μπαρ μετά την δουλειά.</script>
     <translit> Itan sto bar meta ti douleia. </translit>
     <ipa> ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
     <morph> was [past, 3 Sg] in the [n, acc] bar after the [f, acc] job. </morph>
-    <english> They was in the bar after working. </english>
+    <english> They were at the bar after working. </english>
  </h>
  <a> 
     <script> Ναι </script>
@@ -3100,18 +3100,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english>  It is doubtful that they was in the bar after working. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ήταν στο μπαρ μετά την δουλειά; </script>
-    <translit> Einai alitheia oti itan sto bar meta ti douleia? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘itan sto bar me’ta ti ðu’ʎa? </ipa>
-    <morph> is [present, 3 Sg] true that was [past, 3 Sg] in the [n, acc] bar after the [f, acc] job? </morph>
-    <english> Is it true that they was in the bar after working? </english>
+     <script> Ήταν στο μπαρ μετά την δουλειά; </script>
+    <translit> itan sto bar meta ti douleia? </translit>
+    <ipa> ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
+    <morph>  was [past, 3 Sg] in the [n, acc]  bar after the [f, acc] job. </morph>
+    <english> Were they at the bar after working? </english>
  </q>
  <h>
-    <script> Δεν ήταν στο μπαρ μετά την δουλειά.</script>
-    <translit> Den itan sto bar meta ti douleia. </translit>
-    <ipa>  ðen ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
-    <morph> not was [past, 3 Sg] in the [n, acc] bar after the [f, acc] job. </morph>
-    <english> They wasn’t in the bar after working. </english>
+    <script> Ήταν στο μπαρ μετά την δουλειά.</script>
+    <translit> Ιtan sto bar meta ti douleia. </translit>
+    <ipa>  ‘itan sto bar me’ta ti ðu’ʎa. </ipa>
+    <morph>  was [past, 3 Sg] in the [n, acc] bar after the [f, acc] job. </morph>
+    <english> They were in the bar after working. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3131,11 +3131,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that Kostas doesn’t smoke. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ο Κώστας καπνίζει; </script>
-    <translit> Einai alitheia oti o Kostas kapnizei? </translit>
-    <ipa> ‘ine a’liθçα ‘oti o ‘kostas ka’pnizi? </ipa>
-    <morph> is [present, 3 Sg] true that the [m, nom] Kostas smokes [present, 3 Sg]? </morph>
-    <english> Is it true that Kostas smokes? </english>
+    <script>  O Κώστας καπνίζει; </script>
+    <translit> o Kostas kapnizei? </translit>
+    <ipa> o ‘kostas ka’pnizi? </ipa>
+    <morph>  the [m, nom] Kostas smokes [present, 3 Sg]? </morph>
+    <english> Does Kostas smokes? </english>
  </q>
  <h>
     <script> Ο Κώστας καπνίζει. </script>
@@ -3162,11 +3162,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that Kostas smokes. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ο Κώστας καπνίζει; </script>
-    <translit> Einai alitheia oti o Kostas kapnizei? </translit>
-    <ipa> ‘ine a’liθçα ‘oti o ‘kostas ka’pnizi? </ipa>
-    <morph> is [present, 3 Sg] true that the [m, nom] Kostas smokes [present, 3 Sg]? </morph>
-    <english> Is it true that Kostas smokes? </english>
+     <script>  O Κώστας καπνίζει; </script>
+    <translit> o Kostas kapnizei? </translit>
+    <ipa> o ‘kostas ka’pnizi? </ipa>
+    <morph>  the [m, nom] Kostas smokes [present, 3 Sg]? </morph>
+    <english> Does Kostas smokes? </english>
  </q>
  <h>
     <script> Ο Κώστας δεν καπνίζει. </script>
@@ -3207,18 +3207,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> Nikos doesn’t have a rich vocabulary. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ο Νίκος έχει σπουδάσει Φιλολογία; </script>
-    <translit> Einai alitheia oti o Nikos exei spoudasei filologia? </translit>
-    <ipa> ‘ine a’liθçα ‘oti o ‘nikos ‘eçi spu’ðasi filolo’ʝia? </ipa>
-    <morph> is [present, 3 Sg] true that the [m, nom] Nikos has [present, 3Sg] studied [present, 3Sg] philology? </morph>
-    <english> Is it true that Nikos has studied philology? </english>
+    <script>  O Νίκος έχει σπουδάσει Φιλολογία; </script>
+    <translit>  o Nikos exei spoudasei filologia? </translit>
+    <ipa> o ‘nikos ‘eçi spu’ðasi filolo’ʝia? </ipa>
+    <morph> the [m, nom] Nikos has [present, 3Sg] studied [present, 3Sg] philology? </morph>
+    <english>  Has Nikos studied philology? </english>
  </q>
  <h>
-    <script> Ο Νίκος δεν έχει σπουδάσει Φιλολογία. </script>
-    <translit> O Nikos den exei spoudasei filologia. </translit>
-    <ipa> o ‘nikos ðen ‘eçi spu’ðasi filolo’ʝia. </ipa>
-    <morph> the [m, nom] Nikos not has [present, 3Sg] studied [present, 3Sg] philology. </morph>
-    <english> Nikos hasn’t studied philology. </english>
+    <script> Ο Νίκος έχει σπουδάσει Φιλολογία. </script>
+    <translit> O Nikos exei spoudasei filologia. </translit>
+    <ipa> o ‘nikos  ‘eçi spu’ðasi filolo’ʝia. </ipa>
+    <morph> the [m, nom] Nikos has [present, 3Sg] studied [present, 3Sg] philology. </morph>
+    <english> Nikos has studied philology. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3245,18 +3245,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> Last month’s sales went really well. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι έγραψε νέο βιβλίο; </script>
-    <translit> Einai alitheia oti egrapse neo vivlio? </translit>
-    <ipa> ‘ine a’liθçα ‘oti  ‘eɣrapse ‘neo vi’vlio? </ipa>
-    <morph> is [present, 3 Sg] true that wrote [past, 3 Sg] new book? </morph>
-    <english> Is it true that they wrote a new book? </english>
+    <script> Έγραψε νέο βιβλίο; </script>
+    <translit>  egrapse neo vivlio? </translit>
+    <ipa>  ‘eɣrapse ‘neo vi’vlio? </ipa>
+    <morph>  wrote [past, 3 Sg] new book? </morph>
+    <english> Did s/he write a new book? </english>
  </q>
  <h>
     <script> Έγραψε νέο βιβλίο. </script>
     <translit> Egrapse neo vivlio. </translit>
     <ipa> ‘eɣrapse ‘neo vi’vlio. </ipa>
     <morph> wrote [past, 3 Sg] new book. </morph>
-    <english> They wrote a new book. </english>
+    <english> S/He wrote a new book. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3283,18 +3283,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> Last month’s sales went really well. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι έγραψε νέο βιβλίο; </script>
-    <translit> Einai alitheia oti egrapse neo vivlio? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘eɣrapse ‘neo vi’vlio? </ipa>
-    <morph> is [present, 3 Sg] true that wrote [past, 3 Sg] new book? </morph>
-    <english> Is it true that they wrote a new book? </english>
+   <script> Έγραψε νέο βιβλίο; </script>
+    <translit>  egrapse neo vivlio? </translit>
+    <ipa>  ‘eɣrapse ‘neo vi’vlio? </ipa>
+    <morph>  wrote [past, 3 Sg] new book? </morph>
+    <english> Did s/he write a new book? </english>
  </q>
  <h>
-    <script> Δεν έγραψε νέο βιβλίο. </script>
-    <translit> Den egrapse neo vivlio. </translit>
-    <ipa> ðen ‘eɣrapse ‘neo vi’vlio. </ipa>
-    <morph> not wrote [past, 3 Sg] new book. </morph>
-    <english> They didn’t write a new book. </english>
+    <script> Έγραψε νέο βιβλίο. </script>
+    <translit> egrapse neo vivlio. </translit>
+    <ipa>  ‘eɣrapse ‘neo vi’vlio. </ipa>
+    <morph>  wrote [past, 3 Sg] new book. </morph>
+    <english> S/he wrote a new book. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3321,17 +3321,17 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> Last month’s sales didn’t go well. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι έγραψε νέο βιβλίο; </script>
-    <translit> Einai alitheia oti egrapse neo vivlio? </translit>
-    <ipa> ‘ine a’liθçα ‘oti  ‘eɣrapse ‘neo vi’vlio? </ipa>
-    <morph> is [present, 3 Sg] true that wrote [past, 3 Sg] new book? </morph>
-    <english> Is it true that they wrote s new book? </english>
+  <script> Έγραψε νέο βιβλίο; </script>
+    <translit>  egrapse neo vivlio? </translit>
+    <ipa>  ‘eɣrapse ‘neo vi’vlio? </ipa>
+    <morph>  wrote [past, 3 Sg] new book? </morph>
+    <english> Did s/he write a new book? </english>
  </q>
  <h>
-    <script> Δεν έγραψε νέο βιβλίο.  </script>
-    <translit> Den egrapse neo vivlio. </translit>
-    <ipa>  ðen ‘eɣrapse ‘neo vi’vlio. </ipa>
-    <morph> not wrote [past, 3 Sg] new book. </morph>
+    <script>  Έγραψε νέο βιβλίο.  </script>
+    <translit>  egrapse neo vivlio. </translit>
+    <ipa>   ‘eɣrapse ‘neo vi’vlio. </ipa>
+    <morph>  wrote [past, 3 Sg] new book. </morph>
     <english> They didn’t write a new book. </english>
  </h>
  <a> 
@@ -3352,15 +3352,15 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that he will accept the job, considering the wage offered! </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι έχει σκοπό να δεχτεί την νέα δουλειά; </script>
-    <translit> Einai alitheia oti exei skopo na dextei ti nea douleia? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘eçi sko’po na ðe’xti ti ‘nea ðu’ʎa? </ipa>
-    <morph> is [present, 3 Sg] true that has [present, 3 Sg] aim to accept [future, 3 Sg] the [f, Acc] new job ? </morph>
-    <english> Is it true that he intends to accept the new job? </english>
+    <script> Έχει σκοπό να δεχτεί την νέα δουλειά; </script>
+    <translit> exei skopo na dextei ti nea douleia? </translit>
+    <ipa> ‘eçi sko’po na ðe’xti ti ‘nea ðu’ʎa? </ipa>
+    <morph> has [present, 3 Sg] aim to accept [future, 3 Sg] the [f, Acc] new job ? </morph>
+    <english> Does he intend to accept the new job? </english>
  </q>
  <h>
-    <script> Δεν έχει σκοπό να δεχτεί την νέα δουλειά.  </script>
-    <translit> Den exei skopo na dextei ti nea douleia. </translit>
+    <script> Έχει σκοπό να δεχτεί την νέα δουλειά.  </script>
+    <translit> exei skopo na dextei ti nea douleia. </translit>
     <ipa> ðen ‘eçi sko’po na ðe’xti ti ‘nea ðu’ʎa. </ipa>
     <morph> not has [present, 3 Sg] aim to accept [future, 3 Sg] the [f, Acc] new job. </morph>
     <english> He has no intention of accepting the new job. </english>
@@ -3383,18 +3383,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It's not even that big of a house that they bought. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι το σπίτι είναι τεράστιο; </script>
-    <translit> Einai alitheia oti to spiti einai terastio? </translit>
-    <ipa> ‘ine a’liθçα ‘oti to ‘spiti ‘ine te’rastio? </ipa>
-    <morph> is [present, 3 Sg] true that the [n, Nom] house is [present, 3 Sg] huge? </morph>
-    <english> Is it true that the house is huge? </english>
+    <script> To σπίτι είναι τεράστιο; </script>
+    <translit> to spiti einai terastio? </translit>
+    <ipa> to ‘spiti ‘ine te’rastio? </ipa>
+    <morph> the [n, Nom] house is [present, 3 Sg] huge? </morph>
+    <english> Is the house huge? </english>
  </q>
  <h>
-    <script> Το σπίτι δεν είναι τεράστιο. </script>
-    <translit> To spiti den einai terastio. </translit>
-    <ipa> to ‘spiti ðen ‘ine te’rastio. </ipa>
-    <morph> the [n, Nom] house not is [present, 3 Sg] huge. </morph>
-    <english> The house is not huge. </english>
+    <script> Το σπίτι είναι τεράστιο. </script>
+    <translit> To spiti einai terastio. </translit>
+    <ipa> to ‘spiti  ‘ine te’rastio. </ipa>
+    <morph> the [n, Nom] house  is [present, 3 Sg] huge. </morph>
+    <english> The house is  huge. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3414,18 +3414,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It's not even that long of the road we walked. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι η διαδρομή ήταν μεγάλη; </script>
-    <translit> Einai alitheia oti i diadromi itan megali? </translit>
-    <ipa> ‘ine a’liθçα ‘oti  i ðiaðro’mi ‘itan me’ɣali? </ipa>
-    <morph> is [present, 3 Sg] true that the [f, Nom] road was [past, 3 Sg] long? </morph>
-    <english> Is it true that the road was long? </english>
+    <script> Η διαδρομή ήταν μεγάλη; </script>
+    <translit> i diadromi itan megali? </translit>
+    <ipa> i ðiaðro’mi ‘itan me’ɣali? </ipa>
+    <morph> the [f, Nom] road was [past, 3 Sg] long? </morph>
+    <english> Was the ride long? </english>
  </q>
  <h>
-    <script> Η διαδρομή δεν ήταν καλή. </script>
-    <translit> I diadromi den itan kali. </translit>
-    <ipa> i ðiaðro’mi  ðen ‘itan ka’li </ipa>
-    <morph> the [f, Nom] road not was [past, 3 Sg] good </morph>
-    <english> The road was not long. </english>
+    <script> Η διαδρομή ήταν μεγάλη. </script>
+    <translit> I diadromi den itan megali. </translit>
+    <ipa> i ðiaðro’mi ‘itan me’ɣali </ipa>
+    <morph> the [f, Nom] road  was [past, 3 Sg] long </morph>
+    <english> The ride was long. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3452,11 +3452,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> Is it true that the coffee was good? </english>
  </q>
  <h>
-    <script> Ο καφές δεν ήταν καλός. </script>
-    <translit> o kafes den itan kalos. </translit>
-    <ipa> o ka’fes ðen ‘itan ka’los. </ipa>
-    <morph> the [m, Nom] coffee not was [past, 3 Sg] good. </morph>
-    <english> The coffee was not good. </english>
+    <script> Ο καφές ήταν καλός. </script>
+    <translit> o kafes itan kalos. </translit>
+    <ipa> o ka’fes ‘itan ka’los. </ipa>
+    <morph> the [m, Nom] coffee was [past, 3 Sg] good. </morph>
+    <english> The coffee was good. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3476,11 +3476,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that they bought new clothes for the wedding. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι πήρε νέα ρούχα για τον γάμο; </script>
-    <translit> Einai alitheia oti pire nea rouxa gia ton gamo? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘pire ‘nea ‘ruxa ʝa ton ‘ɣamo? </ipa>
-    <morph> is [present, 3 Sg] true that took [past, 3 Sg] new clothes for the [m, Acc] wedding? </morph>
-    <english> Is it true that they bought new clothes for the wedding? </english>
+    <script> Πήρε νέα ρούχα για τον γάμο; </script>
+    <translit> pire nea rouxa gia ton gamo? </translit>
+    <ipa> ‘pire ‘nea ‘ruxa ʝa ton ‘ɣamo? </ipa>
+    <morph> took [past, 3 Sg] new clothes for the [m, Acc] wedding? </morph>
+    <english> Did s/he buy new clothes for the wedding? </english>
  </q>
  <h>
     <script> Πήρε νέα ρούχα για τον γάμο. </script>
@@ -3538,18 +3538,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It’s not even that white the shirt that they wore. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι το πουκάμισο είναι άσπρο; </script>
-    <translit> Einai alitheia oti to poukamiso einai aspro? </translit>
-    <ipa> ‘ine a’liθçα ‘oti to pu’kamiso ‘ine ‘aspro? </ipa>
-    <morph> is [present, 3 Sg] true that the [n, Nom] shirt is [present, 3 Sg] white? </morph>
-    <english> Is it true that the shirt is white? </english>
+    <script> Το πουκάμισο είναι άσπρο; </script>
+    <translit>  to poukamiso einai aspro? </translit>
+    <ipa> to pu’kamiso ‘ine ‘aspro? </ipa>
+    <morph> the [n, Nom] shirt is [present, 3 Sg] white? </morph>
+    <english> Is the shirt white? </english>
  </q>
  <h>
-    <script> Το πουκάμισο δεν είναι άσπρο. </script>
-    <translit> To poukamiso den einai aspro. </translit>
-    <ipa> to pu’kamiso ðen ‘ine ‘aspro. </ipa>
-    <morph> the [n, Nom] shirt not is [present, 3 Sg] white. </morph>
-    <english> The shirt is not white. </english>
+    <script> Το πουκάμισο είναι άσπρο. </script>
+    <translit> To poukamiso einai aspro. </translit>
+    <ipa> to pu’kamiso ‘ine ‘aspro. </ipa>
+    <morph> the [n, Nom] shirt is [present, 3 Sg] white. </morph>
+    <english> The shirt is white. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3569,11 +3569,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It’s not that new the car that they bought. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι το αμάξι που πήρε είναι νέο; </script>
-    <translit> Einai alitheia oti to amaksi pou pire einai neo? </translit>
-    <ipa> ‘ine a’liθçα ‘oti to a’maksi pu ‘pire ‘ine ‘neo? </ipa>
-    <morph> is [present, 3 Sg] true that the [n, Acc] car that took [past, 3 Sg] is [past, 3 Sg] new? </morph>
-    <english> Is it true that the car that they bought is new? </english>
+    <script> To αμάξι που πήρε είναι νέο; </script>
+    <translit> to amaksi pou pire einai neo? </translit>
+    <ipa> to a’maksi pu ‘pire ‘ine ‘neo? </ipa>
+    <morph> the [n, Acc] car that took [past, 3 Sg] is [past, 3 Sg] new? </morph>
+    <english> Is the car s/he bought new? </english>
  </q>
  <h>
     <script> Το αμάξι που πήρε δεν είναι νέο. </script>
@@ -3600,18 +3600,18 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that he came back home early. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι γύρισε νωρίς στο σπίτι; </script>
-    <translit> Einai alitheia oti gyrise nwris sto spiti? </translit>
-    <ipa> ‘ine a’liθçα ‘oti ‘ʝirise no’ris sto ‘spiti? </ipa>
-    <morph> is [present, 3 Sg] true that turned [past, 3 Sg] early in the [n, Acc] house. </morph>
-    <english> Is it true that he came back home early? </english>
+    <script> Γύρισε νωρίς στο σπίτι; </script>
+    <translit>  gyrise nwris sto spiti? </translit>
+    <ipa> ‘ʝirise no’ris sto ‘spiti? </ipa>
+    <morph> turned [past, 3 Sg] early in the [n, Acc] house. </morph>
+    <english> Did s/he come back home early? </english>
  </q>
  <h>
-    <script> Δεν γύρισε νωρίς στο σπίτι. </script>
-    <translit> Den gyrise nwris sto spiti. </translit>
-    <ipa> ðen ‘ʝirise no’ris sto ‘spiti. </ipa>
-    <morph> not turned [past, 3 Sg] early in the [n, Acc] house. </morph>
-    <english> He didn’t come back home early. </english>
+    <script> Γύρισε νωρίς στο σπίτι. </script>
+    <translit> gyrise nwris sto spiti. </translit>
+    <ipa> ‘ʝirise no’ris sto ‘spiti. </ipa>
+    <morph> turned [past, 3 Sg] early in the [n, Acc] house. </morph>
+    <english> S/he came back home early. </english>
  </h>
  <a> 
     <script> Όχι </script>
@@ -3662,11 +3662,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that Giannis wouldn’t come for a coffee. </english>
  </p>
  <q>>
-    <script> Είναι αλήθεια ότι ο Γιάννης ήρθε για καφέ;  </script>
-    <translit> Einai alitheia oti o Giannis irthe gia kafe? </translit>
-    <ipa> ‘ine a’liθçα ‘oti o ‘ʝanis ‘irθe ʝa ka’fe? </ipa>
-    <morph> is [present, 3 Sg] true that the [m, Nom] Giannis came [past, 3 Sg] for coffee? </morph>
-    <english> Is it true that Giannis came for a coffee? </english>
+    <script> O Γιάννης ήρθε για καφέ;  </script>
+    <translit>  o Giannis irthe gia kafe? </translit>
+    <ipa> o ‘ʝanis ‘irθe ʝa ka’fe? </ipa>
+    <morph> the [m, Nom] Giannis came [past, 3 Sg] for coffee? </morph>
+    <english> Did Giannis come for a coffee? </english>
  </q>
  <h>
     <script> Ο Γιάννης ήρθε για καφέ. </script>
@@ -3693,11 +3693,11 @@ siga "it is doubtful", taxa "supposedly" , kai kala "and well"
     <english> It is doubtful that Nikos hasn’t studied philology. </english>
  </p>
  <q>
-    <script> Είναι αλήθεια ότι ο Νίκος έχει σπουδάσει Φιλολογία. </script>
-    <translit> Einai alitheia oti o Nikos exei spoudasei filologia. </translit>
-    <ipa> ‘ine a’liθçα ‘oti o ‘nikos ‘eçi spu’ðasi filolo’ʝia. </ipa>
-    <morph> is [present, 3 Sg] true that the [m, Nom] Nikos has [present, 3 Sg] studied [past, 3 Sg] philology. </morph>
-    <english> Is it true that Nikos has studied philology? </english>
+    <script> O Νίκος έχει σπουδάσει Φιλολογία; </script>
+    <translit>  o Nikos exei spoudasei filologia? </translit>
+    <ipa>  o ‘nikos ‘eçi spu’ðasi filolo’ʝia. </ipa>
+    <morph> the [m, Nom] Nikos has [present, 3 Sg] studied [past, 3 Sg] philology. </morph>
+    <english> Has Nikos studied philology? </english>
  </q>
  <h>
     <script> Ο Νίκος έχει σπουδάσει Φιλολογία. </script>
